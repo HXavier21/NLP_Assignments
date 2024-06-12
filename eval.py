@@ -1,11 +1,11 @@
 import nltk
 
-anspath = './ans.txt'
+anspath = input('ansPath: ')
 resultpath = './result.txt'
 ansfile = open(anspath, 'r')
 resultfile = open(resultpath, 'r')
 count = 0
-for i in range(1000):
+for i in range(int(input('range:'))):
     ansline = ansfile.readline().split('\t')[1]
     ansset = set(nltk.word_tokenize(ansline))
     resultline = resultfile.readline().split('\t')[1]
@@ -13,7 +13,7 @@ for i in range(1000):
     if ansset == resultset:
         count += 1
     else:
-        print(i+1)
+        print(i + 1)
         print(ansset)
         print(resultset)
         print('DIFF:', ansset - resultset, resultset - ansset)
