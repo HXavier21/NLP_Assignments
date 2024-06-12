@@ -1,12 +1,10 @@
-import re
 import collections
 import nltk
 from nltk.corpus import reuters
 from nltk.util import ngrams
+from tqdm import tqdm
 
-# 下载所需的nltk资源
-nltk.download('reuters')
-nltk.download('punkt')
+num = 0
 
 
 # 加载词汇表
@@ -223,11 +221,12 @@ def correct_sentence(sentence, error_count, trigram_freq, bigram_freq, unigram_f
 
 
 # 仅将结果写入文件
-def correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, output_path):
+def correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, output_path, pbar):
     with open(output_path, 'w') as output_file:
         for sentence_id, error_count, sentence in sentences:
             corrected_sentence = correct_sentence(sentence, error_count, trigram_freq, bigram_freq, unigram_freq, vocab)
             output_file.write(f"{sentence_id}\t{corrected_sentence}\n")
+            pbar.update(1)
 
 
 # 加载数据和词汇表，构建模型
@@ -238,6 +237,6 @@ vocab = load_vocab(vocab_path)
 sentences = load_data(file_path)
 trigram_freq, bigram_freq, unigram_freq = build_language_model()
 
-# 纠正并写入文件
-correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, output_path)
+with tqdm(total=1000) as pbar:
+    correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, output_path, pbar)
 # print(generate_candidates("lnWPM", vocab))
