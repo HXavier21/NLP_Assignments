@@ -1,11 +1,9 @@
 import re
 import collections
 import nltk
-from nltk.corpus import reuters
 from nltk.util import ngrams
 
 # 下载所需的nltk资源
-nltk.download('reuters')
 nltk.download('punkt')
 
 
@@ -39,36 +37,51 @@ def edits1(word):
     transposes = [L + R[1] + R[0] + R[2:] for L, R in splits if len(R) > 1]
     replaces = [L + c + R[1:] for L, R in splits if R for c in letters]
     inserts = [L + c + R for L, R in splits for c in letters]
-    return set(deletes + transposes + replaces + inserts)
+    return_set = set(deletes + transposes + replaces + inserts)
+    for letter in word:
+        if letter.isupper():
+            return [item[0].upper() + item[1:] for item in return_set]
+    return return_set
 
 
-def build_language_model():
-    words = reuters.words()
-    trigrams = ngrams(words, 3)
-    bigrams = ngrams(words, 2)
-    unigrams = words
+def load_ngram_probabilities(file_name):
+    unigram_prob = {}
+    bigram_prob = {}
+    trigram_prob = {}
 
-    trigram_freq = collections.Counter(trigrams)
-    bigram_freq = collections.Counter(bigrams)
-    unigram_freq = collections.Counter(unigrams)
+    with open(file_name, 'r', encoding='utf-8') as infile:
+        current_section = None
+        for line in infile:
+            line = line.strip()
+            if line == "Unigram Probabilities:":
+                current_section = "unigram"
+            elif line == "Bigram Probabilities:":
+                current_section = "bigram"
+            elif line == "Trigram Probabilities:":
+                current_section = "trigram"
+            elif line:
+                ngram, prob = line.rsplit('\t', 1)
+                ngram = tuple(eval(ngram))
+                prob = float(prob)
+                if current_section == "unigram":
+                    unigram_prob[ngram] = prob
+                elif current_section == "bigram":
+                    bigram_prob[ngram] = prob
+                elif current_section == "trigram":
+                    trigram_prob[ngram] = prob
 
-    return trigram_freq, bigram_freq, unigram_freq
+    return trigram_prob, bigram_prob, unigram_prob
 
+trigram_prob, bigram_prob, unigram_prob = load_ngram_probabilities('ngram_probabilities.txt')
 
-def trigram_probability(trigram_freq, bigram_freq, w1, w2, w3):
-    w1_w2_freq = bigram_freq[(w1, w2)]
-    return trigram_freq[(w1, w2, w3)] / w1_w2_freq if w1_w2_freq > 0 else 0
+def trigram_probability(trigram_prob, w1, w2, w3):
+    return trigram_prob.get((w1, w2, w3), 0)
 
+def bigram_probability(bigram_prob, w1, w2):
+    return bigram_prob.get((w1, w2), 0)
 
-def bigram_probability(bigram_freq, w1, w2):
-    w1_freq = sum(freq for (first_word, _), freq in bigram_freq.items() if first_word == w1)
-    return bigram_freq[(w1, w2)] / w1_freq if w1_freq > 0 else 0
-
-
-def unigram_probability(unigram_freq, word):
-    total_words = sum(unigram_freq.values())
-    return unigram_freq[word] / total_words if total_words > 0 else 0
-
+def unigram_probability(unigram_prob, word):
+    return unigram_prob.get((word,), 0)
 
 def generate_candidates(word, vocab):
     # 首先生成第一轮编辑后的候选词
@@ -100,21 +113,28 @@ def generate_candidates(word, vocab):
         return []
 
 
+def check_if_skip(word, check_set):
+    if word in check_set or not word.isalpha() or word == "'s":
+        return True
+    else:
+        return False
+
+
 # 这里假设 edits1 和 check 函数已经被定义
 # edits1 函数用于生成给定单词的编辑候选词
 # check 函数用于检查给定的候选词列表中哪些词在词汇表中
 
 
-def correct_sentence(sentence, error_count, trigram_freq, bigram_freq, unigram_freq, vocab):
+def correct_sentence(sentence, error_count, trigram_prob, bigram_prob, unigram_prob, vocab):
     words = nltk.word_tokenize(sentence)  # 使用NLTK的word_tokenize分词，可以处理标点符号
-    corrected_sentence = []
+    corrected_sentence = words.copy()
     non_word_errors = set()
     count = 0
 
     # First pass: correct non-word errors
     for i, word in enumerate(words):
-        if word in vocab or not word.isalpha():  # 保留标点符号或非字母字符
-            corrected_sentence.append(word)
+        if check_if_skip(word, vocab):  # 保留标点符号或非字母字符
+            continue
         else:
             count += 1
             non_word_errors.add(word)
@@ -122,35 +142,29 @@ def correct_sentence(sentence, error_count, trigram_freq, bigram_freq, unigram_f
 
             if candidate_list:
                 if i > 1:
-                    previous_two_words = corrected_sentence[-2:]
-                    best_candidate = max(candidate_list, key=lambda w: trigram_probability(trigram_freq, bigram_freq,
-                                                                                           previous_two_words[0],
-                                                                                           previous_two_words[1], w))
+                    previous_two_words = corrected_sentence[i-2:i]
+                    best_candidate = max(candidate_list, key=lambda w: trigram_probability(trigram_prob, previous_two_words[0], previous_two_words[1], w))
                 elif i == 1:
-                    previous_word = corrected_sentence[-1]
-                    best_candidate = max(candidate_list,
-                                         key=lambda w: bigram_probability(bigram_freq, previous_word, w))
+                    previous_word = corrected_sentence[i-1]
+                    best_candidate = max(candidate_list, key=lambda w: bigram_probability(bigram_prob, previous_word, w))
                 else:
-                    best_candidate = max(candidate_list, key=lambda w: unigram_probability(unigram_freq, w))
-                corrected_sentence.append(best_candidate)
-            else:
-                corrected_sentence.append(word)
+                    best_candidate = max(candidate_list, key=lambda w: unigram_probability(unigram_prob, w))
+                corrected_sentence[i] = best_candidate
 
     real_word_count = error_count - count
     if real_word_count > 0:
         prob = []
         for i, word in enumerate(words):
-            if word in non_word_errors:
+            if check_if_skip(word, non_word_errors):
                 continue  # Skip words that were already corrected as non-word errors
             if i == 0:
-                probability = unigram_probability(unigram_freq, word)
+                probability = unigram_probability(unigram_prob, word)
             elif i == 1:
                 previous_word = words[0]
-                probability = bigram_probability(bigram_freq, previous_word, word)
+                probability = bigram_probability(bigram_prob, previous_word, word)
             else:
                 previous_two_words = words[i - 2:i]
-                probability = trigram_probability(trigram_freq, bigram_freq, previous_two_words[0],
-                                                  previous_two_words[1], word)
+                probability = trigram_probability(trigram_prob, previous_two_words[0], previous_two_words[1], word)
             prob.append((probability, i, word))
 
         prob.sort()
@@ -161,35 +175,32 @@ def correct_sentence(sentence, error_count, trigram_freq, bigram_freq, unigram_f
             if candidate_list:
                 if i > 1:
                     previous_two_words = corrected_sentence[i - 2:i]
-                    best_candidate = max(candidate_list, key=lambda w: trigram_probability(trigram_freq, bigram_freq,
-                                                                                           previous_two_words[0],
-                                                                                           previous_two_words[1], w))
+                    best_candidate = max(candidate_list, key=lambda w: trigram_probability(trigram_prob, previous_two_words[0], previous_two_words[1], w))
                 elif i == 1:
                     previous_word = corrected_sentence[0]
-                    best_candidate = max(candidate_list,
-                                         key=lambda w: bigram_probability(bigram_freq, previous_word, w))
+                    best_candidate = max(candidate_list, key=lambda w: bigram_probability(bigram_prob, previous_word, w))
                 else:
-                    best_candidate = max(candidate_list, key=lambda w: unigram_probability(unigram_freq, w))
+                    best_candidate = max(candidate_list, key=lambda w: unigram_probability(unigram_prob, w))
                 corrected_sentence[i] = best_candidate
 
     return ' '.join(corrected_sentence)
 
 
 # 仅将结果写入文件
-def correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, output_path):
+def correct_and_save(sentences, trigram_prob, bigram_prob, unigram_prob, vocab, output_path):
     with open(output_path, 'w') as output_file:
         for sentence_id, error_count, sentence in sentences:
-            corrected_sentence = correct_sentence(sentence, error_count, trigram_freq, bigram_freq, unigram_freq, vocab)
+            corrected_sentence = correct_sentence(sentence, error_count, trigram_prob, bigram_prob, unigram_prob, vocab)
             output_file.write(f"{sentence_id}\t{corrected_sentence}\n")
 
 
 # 加载数据和词汇表，构建模型
 vocab_path = 'vocab.txt'
-file_path = 'testdata.txt'
+file_path = input('Enter the path to the test data: ')
 output_path = 'result.txt'
 vocab = load_vocab(vocab_path)
 sentences = load_data(file_path)
-trigram_freq, bigram_freq, unigram_freq = build_language_model()
 
 # 纠正并写入文件
-correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, output_path)
+correct_and_save(sentences, trigram_prob, bigram_prob, unigram_prob, vocab, output_path)
+print('Done! The result has been saved to result.txt')
