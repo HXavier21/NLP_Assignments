@@ -41,8 +41,19 @@ def edits1(word):
     inserts = [L + c + R for L, R in splits for c in letters]
     return_set = set(deletes + transposes + replaces + inserts)
     for letter in word:
-        if letter.isupper():
+        if letter.isupper() and letter == word[0].upper():
             return [item[0].upper() + item[1:] for item in return_set]
+    return return_set
+
+
+def edits1_with_upper_letter(word):
+    letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    splits = [(word[:i], word[i:]) for i in range(len(word) + 1)]
+    deletes = [L + R[1:] for L, R in splits if R]
+    transposes = [L + R[1] + R[0] + R[2:] for L, R in splits if len(R) > 1]
+    replaces = [L + c + R[1:] for L, R in splits if R for c in letters]
+    inserts = [L + c + R for L, R in splits for c in letters]
+    return_set = set(deletes + transposes + replaces + inserts)
     return return_set
 
 
@@ -74,6 +85,24 @@ def unigram_probability(unigram_freq, word):
     return unigram_freq[word] / total_words if total_words > 0 else 0
 
 
+def generate_upper_candidates(word, vocab):
+    upper_candidate_list = edits1_with_upper_letter(word)
+    checked_upper_candidates = check(upper_candidate_list, vocab)
+    if checked_upper_candidates:
+        return checked_upper_candidates
+    else:
+        further_upper_candidates = []
+        for candidate in upper_candidate_list:
+            further_edits = edits1_with_upper_letter(candidate)
+            further_upper_candidates.extend(further_edits)
+        checked_further_upper_candidates = check(further_upper_candidates, vocab)
+        if checked_further_upper_candidates:
+            return checked_further_upper_candidates
+        # 如果两轮都没有找到，返回空列表
+        print('cannot edit: ' + word)
+        return []
+
+
 def generate_candidates(word, vocab):
     # 首先生成第一轮编辑后的候选词
     candidate_list = edits1(word)
@@ -99,9 +128,8 @@ def generate_candidates(word, vocab):
         # 如果在词汇表中找到了候选词，返回这些候选词
         if checked_further_candidates:
             return checked_further_candidates
-        # 如果两轮都没有找到，返回空列表
-        print('cannot edit: ' + word)
-        return []
+        else:
+            generate_upper_candidates(word, vocab)
 
 
 def check_if_skip(word, check_set):
@@ -212,4 +240,4 @@ trigram_freq, bigram_freq, unigram_freq = build_language_model()
 
 # 纠正并写入文件
 correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, output_path)
-# print(generate_candidates("ther", vocab))
+# print(generate_candidates("lnWPM", vocab))

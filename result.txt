@@ -1,9 +1,9 @@
 1	They told Reuter correspondents in Asian capitals a U.S. Move against Japan might boost protectionist sentiment in the U.S. And lead to curbs on American imports of their products .
-2	But some exporters said that while the conflict would hurt them in the long-run , in the short-term Tokyo 's loss might be their gain .
+2	But some exporters said that while the conflict would hurt them in the long-run , in the short-term Kyo 's loss might be their gain .
 3	The U.S. Has said it will impose 300 mln dlrs of tariffs on imports of Japanese electronics goods on April 17 , in retaliation for Japan 's alleged failure to stick to a pact not to sell semiconductors on world markets at below cost .
 4	Unofficial Japanese estimates put the impact of the tariffs at 10 billion dlrs and spokesmen for major electronics firms said they would virtually halt exports of products hit by the new taxes .
 5	We would n't be able to do business , said a spokesman for leading Japanese electronics firm Matsushita Electric Industrial Co Ltd ltMC.T .
-6	If the tariffs remain in pace for any length of time beyond a few months it will mean the complete erosion of exports of goods subject to tariffs to the U.S. , said Tom Murtha , a stock analyst at the Tokyo office of broker James Capel and Co .
+6	If the tariffs remain in place for any length of time beyond a few months it will mean the complete erosion of exports of goods subject to tariffs to the U.S. , said Tom Murtha , a stock analyst at the Tokyo office of broker ltJames Capel and Co .
 7	In Taiwan , businessmen and officials are also worried .
 8	We are aware of the seriousness of the U.S .
 9	Threat against Japan because it serves as a warning to us , said a senior Taiwanese trade official who asked not to be named .
@@ -24,14 +24,14 @@
 24	This kind of deterioration in trade relations between two countries which are major trading partners of ours is a very serious matter , Button said .
 25	He said Australia 's concerns centred on coal and beef , Australia 's two largest exports to Japan and also significant U.S. Exports to that country .
 26	Meanwhile U.S.-Japanese diplomatic manoeuvres to solve the trade stand-off continue .
-27	Japan 's ruling Liberal Democratic Party yesterday outlined a package of economic measures to boost the Japanese economy .
+27	Japan 's ruling Liberals Democratic Party yesterday outlined a package of economic measures to boost the Japanese economy .
 28	The measures proposed include a large supplementary budget and record public works spending in the first half of the financial year .
-29	They also call for stepped-up spending as an emergency measure to stimulate the economy despite Prime Minister Yasuhiro Nakasone 's avowed facial reform program .
+29	They also call for stepped-up spending as an emergency measure to stimulate the economy despite Prime Minister Yasuhiro Nakasone 's avowed fiscal reform program .
 30	Deputy U.S. Trade Representative Michael Smith and Makoto Kuroda , Japan 's deputy minister of International Trade and Industry MITI , are due to meet in Washington this week in an effort to end the dispute .
 31	It also said that each year 1.575 mln tonnes , or 25 pct , of China 's fruit output are left to rot , and 2.1 mln tonnes , or up to 30 pct , of its vegetables .
 32	The paper blamed the waste on inadequate storage and bad preservation methods .
 33	It said the government had launched a national programme to reduce waste , calling for improved technology in storage and preservation , and greater production of additives .
-34	The prep gave no further details .
+34	The pare gave no further details .
 35	MITI is expected to lower the projection for primary energy supplies in the year 2000 to 550 mln kilolitres kl from 600 mln , they said .
 36	The decision follows the emergence of structural changes in Japanese industry following the rise in the value of the yen and a decline in domestic electric power demand .
 37	MITI is planning to work out a revised energy supply/demand outlook through deliberations of committee meetings of the Agency of Natural Resources and Energy , the officials said .
@@ -129,7 +129,7 @@
 129	Atlas said negotiations were continuing on the acquisition by Bond of the company 's existing bank loans and their restructuring into a gold loan .
 130	A memorandum of understanding signed by the two sides in October last year said Bond would acquire Atlas ' total loans of 275 mln dlrs , to be repaid by the mining company in gold .
 131	Atlas said the two sides were also discussing equity infusion into Atlas and the creation of a development fund for further exploration and development of the company 's gold properties in the central province of Masbate .
-132	Wilson Banks , general manager of ltBondr Corp International Ltd in Hong Kong , told Reuters the Atlas statement on the negotiations was reasonably accurate .
+132	Wilson Banks , general manager of ltBond Corp International Ltd in Hong Kong , told Reuters the Atlas statement on the negotiations was reasonably accurate .
 133	Banks said Bond Corp was seriously considering several investments in the Philippines but did not give details .
 134	In its statement , Atlas said development of the pre-World War Two underground mines in Masbate had been accelerated and the ore tonnage had increased , extending the operation 's life at least until 1993 .
 135	Its overseas edition said the growth rate , which compares with a target of seven pct for the whole of 1987 , was rather high but the base in the first quarter of 1986 was on the low side .
@@ -138,7 +138,7 @@
 138	It gave no further details .
 139	Demand that Japan open its farm products market , will tell U.S. Officials at talks latter this month that liberalisation would harm existing U.S. Farm exports to Japan , a senior ministry official said .
 140	Imports from the U.S. Would drop due to active sales drives by other suppliers , the official , who declined to be named , said .
-141	Japan is the largest customer for U.S. Farm products and it is not reasonable for the U.S. To defend Japan liberalise its farm import market , he said .
+141	Japan is the largest customer for U.S. Farm products and it is not reasonable for the U.S. To demand Japan liberalise its farm import market , he said .
 142	Agriculture Minister Mutsuki Kato has said if the U.S .
 143	Insists Japan open its protected rice market it will also open its wheat market , where volume and origin are regulated to protect local farmers .
 144	Australia and Canada could then increase their wheat exports as they are more competitive than the U.S. , He said .
@@ -239,7 +239,7 @@
 239	Official figures on the latest inflow of investment capital are not available , but brokers said they received almost daily inquiries from Japan and the United States .
 240	These people have got trillions of dollars sloshing about and they do n't know what to do with it .
 241	Some of that is ending up here with the attraction of high interest rates and reasonable currency stability , National Australia Bank Ltd economist Brian Hamley said .
-242	There is a 'flight to qualify ' , Hamley said .
+242	There is a 'flight to quality ' , Hamley said .
 243	Australia may not be in the best economic position , but there are n't too many other countries where you 'd want to put your money .
 244	The stronger Australian dollar was also attracting investors taking advantage of an appreciating currency against the volatility of the U.S. Unit , analysts said .
 245	We 're looking a more favoured market than perhaps the U.S. Where some people would be concerned about the value of the U.S. Dollar , Lloyds Bank NZA Ltd chief economist Will Buttrose said .
@@ -265,8 +265,8 @@
 265	Bankers estimate the economy , measured in terms of gross domestic product gdp , shrank 19 pct in real terms last year after contracting 8.1 pct the year before .
 266	This was after taking into account inflation in consumer prices of 1.5 pct in 1985 , slowing to 1.0 pct in 1986 .
 267	Factors depressing economic activity include the 6-1/2-year-old Iran-Iraq war on Kuwait 's doorstep , which threatens the emirate 's vital oil export lifeline through the Gulf and has sapped business confidence .
-268	But sentiment received a much-needed boost in September when , after a series of piecemeal steps to combat a debt crisis caused by the 1982 crash of local stock market , a comprehensive new debt settlement program was introduced .
-269	The phase crash , result of a speculative spree in forward trading , left 95 billion dlrs of post-dated cheques in default .
+268	But sentiment received a much-needed roost in September when , after a series of piecemeal steps to combat a debt crisis caused by the 1982 crash of local stock markets , a comprehensive new debt settlement program was introduced .
+269	The chase crash , result of a speculative spree in forward trading , left 95 billion dlrs of post-dated cheques in default .
 270	The cheques were also used as collateral for consumer spending , thus generating an informal credit system .
 271	Much of the debt has been watered down but big sums are still owed by individuals and companies .
 272	There was some 4.4 billion dinars about 15.7 billion dlrs in outstanding bank credit at the end of 1986 , of which one-quarter to one-third was estimated by bankers to rank as bad or doubtful debt .
@@ -309,7 +309,7 @@
 309	A three-man Japanese trade team is already in Washington laying the groundwork for talks between Kuroda and Deputy U.S. Trade Representative Michael Smith aimed at persuading the U.S. Not to impose tariffs on certain Japanese products .
 310	But Kuroda said he is taking no new proposals .
 311	I have nothing in my briefcase except an explanation of the current situation , Kuroda told the daily newspaper Asahi Shimbun .
-312	Kuroda said the U.S. Decision was based on incorrect data and an exaggerated sense of MITI 's per to control market forces .
+312	Kuroda said the U.S. Decision was based on incorrect data and an exaggerated sense of MITI 's power to control market forces .
 313	The U.S. Has excessive expectations .
 314	To stabilise supply-demand relations which have been disrupted by excess inventories since 1985 will take some time , he said .
 315	Kuroda also laid part of the blame for low U.S. Chip sales in Japan on a lack of effort by American firms here .
@@ -346,7 +346,7 @@
 346	The SMC sources said the proposed share sale could also be held up by a second derivative suit filed before the Securities and Exchange Commission SEC by Eduardo de los Angeles , a government nominee on the company 's board .
 347	De los Angeles , who represents SMC 's minority stockholders , asked the SEC to block the transaction , approved last week by the company 's board .
 348	On April 2 the board sanctioned the repurchase of the sequestered shares for 4.79 billion pesos at 126 pesos per share .
-349	De los Angeles told the SEC the company 's retained earnings of 1.33 billion pest would be wiped out by the purchase of the shares and would prevent the declaration of dividends .
+349	De los Angeles told the SEC the company 's retained earnings of 1.33 billion pegs would be wiped out by the purchase of the shares and would prevent the declaration of dividends .
 350	De los Angeles said the share purchase would also violate an SMC agreement with its creditors to maintain a 2.2-to-1 debt to equity ratio .
 351	He quoted SMC 's chief financial director Ramon del Rosario as telling the board that the transaction would boost the ratio to 2.5-to-1 .
 352	In petitioning the SEC , de los Angeles amended an earlier suit two weeks ago in which he charged SMC Chairman Andres Soriano III and nine other directors of violating their duties .
@@ -384,7 +384,7 @@
 384	Iniziativa Meta ltINZI.MI , the financial services unit of Montedison Spa ltMONI.MI , controls the largest single stake in Florence-based Fondiaria with 49.9 pct .
 385	The market had recovered slightly to around 1.72 dlrs a lb yesterday from its four year low of 1.55 dlrs in early January , due to the absence of Soviet nickel cathode deliveries , but Shearson sees Soviet shipments soon returning to last year 's buoyant levels , which should ease current tightness .
 386	Output reductions by producers will take effect later this year but are likely to be offset by increases elsewhere .
-387	Shearson said the nickel market will be virtually in balance during 1987 , with total non-Socialist would demand at 556,000 tonnes , compared with an estimated 544,000 tonnes in 1986 , production at 505,000 tonnes 504,000 and imports from Socialist countries at 47,000 tonnes 50,000 .
+387	Shearson said the nickel market will be virtually in balance during 1987 , with total non-Socialist world demand at 556,000 tonnes , compared with an estimated 544,000 tonnes in 1986 , production at 505,000 tonnes 504,000 and imports from Socialist countries at 47,000 tonnes 50,000 .
 388	It forecast prices will edge higher during the year from a first quarter average of 1.67 dlrs a lb up to 1.77 dlrs in the last quarter .
 389	The year 's average will be around 1.72 dlrs a lb compared with 1.76 dlrs in 1986 , using London Metal Exchange cash metal prices in dollar terms and assuming an average 1987 sterling exchange rate of 1.55 dlrs .
 390	The company said 1986 dividend , which will be paid to the Dutch state in its capacity of the firm 's sole shareholder , would be raised to 98 mln guilders from 70 mln guilders in 1985 .
@@ -516,14 +516,14 @@
 516	Ownership of the combined company with 18.8 pct for the current shareholders of Canadian Bashaw and 81.2 pct to the current shareholders of Erskine , the companies said .
 517	The company went public during 1986 .
 518	Entourage also said it has started marketing a solid perfume packaged in a lipstick tube called Amadeus , retailing at 15 dlrs .
-519	The company also said it has acquired North Country Media Group , a dive productions company .
+519	The company also said it has acquired North Country Media Group , a diver productions company .
 520	WOOLWORTH CO SAYS IT HIKES DIVIDEND TO 33 CTS A SHARE FROM 28 CTS F.W .
 521	WOOLWORTH CO SAYS IT HIKES DIVIDEND TO 33 CTS A SHARE FROM 28 CTS
 522	WOOLWORTH CO ltZ HIKES DIVIDEND Qtly div 33 cts vs 28 cts prior Pay June 1 Record May 1
 523	Conditions are generally good and the average sowing date for the crop is expected to be around April 11 , against April 23 last year , and a 10-year average of April 14 , the spokesman added .
 524	It is far too early yet to say what kind of output we can expect when it comes to harvest in September , but at least the crop is off to a very good start , he said .
 525	Last year , the Netherlands planted a record 137,600 hectares of sugar beet and produced a record 1.2 mln tonnes of white sugar , substantially more than the country 's combined A and B quota of 872,000 tonnes .
-526	This year , however , a self-imposed quit system has been introduced with the aim of cutting plantings to 130,000 hectares and reducing white sugar output to around 915,000 tonnes to minimise the amount of non-quot C sugar produced .
+526	This year , however , a self-imposed quo system has been introduced with the aim of cutting plantings to 130,000 hectares and reducing white sugar output to around 915,000 tonnes to minimise the amount of non-quot C sugar produced .
 527	Only farmers with a record of growing suger beet have been allotted quotas .
 528	This is expected to prevent the area being boosted by dairy or cereal farmers moving into sugar .
 529	Out of this , traders in France received 34,500 tonnes , in the U.K. 37,800 , in West-Germany 20,000 , in Belgium 18,500 , in Spain 5,800 and in Denmark 1,750 tonnes .
@@ -570,7 +570,7 @@
 570	Harvest will start in La Pampa and Buenos Aires in mid-April .
 571	The total area sown was 1.23 mln to 1.30 mln hectares , 10.3 to 15.2 pct down on the 1.45 mln sown last season .
 572	The new forecast for the sorghum crop is 2.9 mln to 3.2 mln tonnes compared with three mln to 3.3 mln forecast last week , and is 23.8 to 29.3 pct down on last season 's 4.1 mln to 4.2 mln tonne crop .
-573	The soybean crop for this season was not adjusted , remaining at a record 7.5 mln to 7.7 mln tonnes , up 4.2 to 5.5 pct on the 7.2 mln to 7.3 mln estimated by private sources for 1985/86 and 5.6 to 8.5 pct higher than the official figure of 7.1 mln .
+573	The soybean crop for this reason was not adjusted , remaining at a record 7.5 mln to 7.7 mln tonnes , up 4.2 to 5.5 pct on the 7.2 mln to 7.3 mln estimated by private sources for 1985/86 and 5.6 to 8.5 pct higher than the official figure of 7.1 mln .
 574	The area sown to soybeans this season was a record 3.7 mln to 3.8 mln hectares , 10.8 to 13.8 pct up on the record 3.34 mln sown in 1985/86 .
 575	The soybean crop is showing excessive moisture in some areas and producers fear they may discover more damage .
 576	Some experimental harvesting was carried out in Santa Fe on areas making up only about one pct of the total crop but details on this were not available .
@@ -589,7 +589,7 @@
 589	Monetary sources have said a fully blown meeting of the Group of Seven is expected to begin around 3 p.m. local time 1900 gmt and last at least until 6 p.m. 2200 gmt , when a communique is expected to be issued .
 590	Italian sources said Italian acting Finance Minister Giovanni Goria met Treasury Secretary James Baker last night .
 591	At those talks Baker apparently convinced Goria , who declined to attend the February meeting of the Group of Seven in Paris , that Italy would participate fully in any meaningful decisions .
-592	Economists expect the Fed to execute 2.0-2.5 billions dlrs of customer repos to offset pressures from the end of the two-week bank reserve maintenance period today .
+592	Economists expect the Fed to execute 2.0-2.5 billion dlrs of customer repos to offset pressures from the end of the two-week bank reserve maintenance period today .
 593	Some also look for a permanent reserve injection to offset seasonal pressures via an outright purchase of bills or coupons this afternoon .
 594	The Federal funds rate opened at 6-3/8 pct and remained at that level , up from yesterday 's 6.17 pct average .
 595	The purchase price was not disclosed , Reader 's Digest said .
@@ -598,7 +598,7 @@
 598	Continental said the initial payout was subject to Canadian government approval .
 599	The bank reiterated that total distributions to common shareholders would range from 16.50 dlrs a share to 17.25 dlrs including the initial stock dividend and a final distribution in late 1988 or early 1989 .
 600	The payout of existing preferred shareholders will be completed just before next month 's initial distribution to common shareholders , Continental added .
-601	Translated from Philippine pesos at 20.3489 pesos to dollar vs 18.5571 in quart and 20.2315 vs 18.2743 in year .
+601	Translated from Philippine pesos at 20.3489 pesos to dollar vs 18.5571 in quarts and 20.2315 vs 18.2743 in year .
 602	The proposed transaction is subject to completion of a due diligence investigation , including a review by Bristol-Myers of a patent infringement suit served on Sci-Med by Advanced Cardiovascular Systems Inc on March 31 , 1987 .
 603	Bristol-Myers has the right to call off the agreement under certain circumstances , it said .
 604	Sci-Med said it continues to believe the patent suit is without merit .
@@ -612,12 +612,12 @@
 612	U.S. petrochemical plants are currently operating at about 90 pct capacity , reflecting tighter supply that could hike product prices by 30 to 40 pct this year , said John Dosher , managing director of Pace Consultants Inc of Houston .
 613	Demand for some products such as styrene could push profit margins up by as much as 300 pct , he said .
 614	Oreffice , speaking at a meeting of chemical engineers in Houston , said Dow would easily top the 741 mln dlrs it earned last year and predicted it would have the best year in its history .
-615	In 1985 , when oil prices were still above 25 dlrs a barrel and chemical exports were adversely affected by the strong U.S. dolls , Dow had profits of 58 mln dlrs .
+615	In 1985 , when oil prices were still above 25 dlrs a barrel and chemical exports were adversely affected by the strong U.S. dollar , Dow had profits of 58 mln dlrs .
 616	I believe the entire chemical industry is headed for a record year or close to it , Oreffice said .
 617	GAF chairman Samuel Heyman estimated that the U.S. chemical industry would report a 20 pct gain in profits during 1987 .
 618	Last year , the domestic industry earned a total of 13 billion dlrs , a 54 pct leap from 1985 .
 619	The turn in the fortunes of the once-sickly chemical industry has been brought about by a combination of luck and planning , said Pace 's John Dosher .
-620	Dosher said last year 's mall in oil price made feedstocks dramatically cheaper and at the same time the American dollar was weakening against foreign currencies .
+620	Dosher said last year 's fill in oil price made feedstocks dramatically cheaper and at the same time the American dollar was weakening against foreign currencies .
 621	That helped boost U.S. chemical exports .
 622	Also helping to bring supply and demand into balance has been the gradual market absorption of the extra chemical manufacturing capacity created by Middle Eastern oil producers in the early 1980s .
 623	Finally , virtually all major U.S. chemical manufacturers have embarked on an extensive corporate restructuring program to mothball inefficient plants , trim the payroll and eliminate unrelated businesses .
@@ -643,7 +643,7 @@
 643	Net includes reversal of tax loss carryforwards of 259,000 dlrs vs 264,000 dlrs in quarter and tax loss carryforwards of 8,635,000 dlrs vs 579,000 dlrs in year .
 644	Company went public in August 1986 .
 645	Payable May 11 Record April 24
-646	Earnings per sera reflects two-for-one common stock split on March 15 .
+646	Earnings per shear reflects two-for-one common stock split on March 15 .
 647	As far as I am concerned and the company is concerned , they are rumors and we 're not commenting on rumors , spokesman Michel Dufour told Reuters in response to a query .
 648	All the information that has been given out publicly is that , yes , Dominion Textile is interested in making an acquisition that bigprobably based on that people are starting all sorts of rumors , he said .
 649	Dufour said yes when asked whether the report was only a rumor , but said the company was not prepared to comment further .
@@ -684,7 +684,7 @@
 684	Foreign exchange trading income rose to 82 mln dlrs from 72.6 mln and trust income increased to 95.9 mln dlrs from 75.9 mln .
 685	Morgan said other operating income , mainly fees and commissions , rose to 102.2 mln dlrs from 88.4 mln , but net investment securities gains dropped to 43.1 mln from 58.1 mln .
 686	Net interest earnings were 490.4 mln dlrs in the first quarter , down from 499.4 mln a year earlier , and net dimly fell to 2.79 pct from 3.20 pct .
-687	If Brazil had not been placed on non-accrual , which means that interest can be recorded as income only when payments are actually received , net interest earnings would have been 525.9 mln dlrs and net yield 2.99 pct .
+687	If Brazil had not been placed on non-accrual , weigh means that interest can be recorded as income only when payments are actually received , net interest earnings would have been 525.9 mln dlrs and net yield 2.99 pct .
 688	If Brazil does not resume payments , 1987 net would be cut by 72 mln dlrs , Morgan added .
 689	After the provision for loan losses , Morgan 's allowance for credit losses at the end of March totaled 953 mln dlrs compared with 910 mln at end-1986 and 815 mln a year earlier .
 690	It reported net recoveries of six mln dlrs after charge-offs of eight mln , compared with net charge-offs of 49 mln dlrs after recoveries of three mln a year earlier .
@@ -696,7 +696,7 @@
 696	But Brito said that the storage capacity was badly distributed .
 697	The states of Sao Paulo , Parana and Rio Grande do Sul had between them 70 pct of the nation 's capacity , but were responsible for only 50 to 60 pct of production .
 698	The biggest problems are concentrated in the Centre-West growing regions , where rising production has outpaced storage capacity .
-699	Brito said the Centre-West , whose crops include soya and maize , had between 30 and 40 pct of the nation 's grains production but only 20 pct of its storage space .
+699	Brito said the Centre-West , whose crops include soya and maize , had between 30 and 40 pct of the nation 's grinds production but only 20 pct of its storage space .
 700	In addition to the poor distribution of storage units , there is the problem that too much of the capacity is geared to storing grain in sacks , while not enough is suitable for storing loose grain , Brito said .
 701	Finally , there is a shortage of lorries to transport the crops .
 702	The sheer scale of the task in transporting the record crop has been evident from television reports , which have shown enormous queues of lorries waiting outside granaries .
@@ -738,7 +738,7 @@
 738	The possible acquisition is subject to any applicable real estate gains and transfer taxes , the joint statement said .
 739	Trump and Interstate , which presently own about 40 pct of Alexander 's common stock , said they intend to keep the company as a retailer if they succed in their acquisition .
 740	There can be no assurances that the parties will reach any agreement regarding an acquisition or what price might be offered , the statement said .
-741	No official tensed has been announced yet by Tunisia , they said .
+741	No official tended has been announced yet by Tunisia , they said .
 742	France has sold a total of 200,000 tonnes of soft wheat to Tunisia since the begining of the current campaign which was covered by COFACE export credits .
 743	Of this amount , a total of 150,000 tonnes was exported by March 1 , they said .
 744	Prior year earnings restated to reflect recapitalization plan .
@@ -774,7 +774,7 @@
 774	He did succeed in buying Ponderosa Inc .
 775	The stocks of other textile makers rose along with Burlington .
 776	J.P. Stevens ltSTN climbed 5/8 to 44-7/8 , and Fieldcrest Cannon Inc ltFLD , the result of a merger of Fieldcrest and Cannon , rose 1-1/8 to 39-3/4 .
-777	West Point-Pepperell Inc lnWPM rose 1-7/8 to 67-1/8 .
+777	West Point-Pepperell Inc ltWPM rose 1-7/8 to 67-1/8 .
 778	Makoto Kuroda , vice minister of Japan 's Ministry of International Trade and Industry MITI , is to hold two days of meetings with the Deputy U.S. Trade Representative , Michael Smith , and the Under Secretary of Commerce , Bruce Smart .
 779	The new tariffs , to go into effect on April 17 , are in retaliation for Japan 's failure to adhere to an agreement to end dumping semiconductors in world markets at below cost and to open its home market to U.S. semiconductor shipments .
 780	They are to be imposed on goods which use semiconductors , including television and audio equipment and computers .
@@ -788,7 +788,7 @@
 788	Kuroda said on leaving Tokyo today he had no new proposals but did have an explanation of the semiconductor situation .
 789	He told the daily newspaper Ashai Shimbun that Reagan 's decision was based on inaccurate data and an exaggerated sense of MITI 's power to control Japanese traders .
 790	The United States has excessive expectations. , he said .
-791	To stabilize supply-demand relations wish have been disrupted by excess inventories since 1985 will take some time .
+791	To stabilize supply-demand relations with have been disrupted by excess inventories since 1985 will take some time .
 792	He also said that U.S. firms had not been aggressive enough in trying to sell in the Japanese market .
 793	The company did not disclose any prices .
 794	The report describes the facilities in Darlington County , S.C. , and Fayetteville , N.C. , the company said .
@@ -797,7 +797,7 @@
 797	The merger took place after an agreement was reached with the Federal Trade Commission that certain domestic polyester textile fiber assets of the combined companies would be divested , it said .
 798	Hoechst Celanese said it has the option of divesting either the South Carolina facilities of the former American Hoechst or a package of polyester textile fiber facilities of the former Celanese .
 799	A GEC spokesman said that it is company policy not to comment on acquisition rumours .
-800	Stock Exchange traders said the rumour helped GEC 's shred price to rise 5p , to a final 206p from yesterday 's closing price of 201p .
+800	Stock Exchange traders said the rumour helped GEC 's sure price to rise 5p , to a final 206p from yesterday 's closing price of 201p .
 801	The trucking company attributed the loss to the continued rate of discounted in its primary markets , flat revenues and increased costs , including uninsured claims expense resulting from adverse weather conditions during the last three months .
 802	It said results outside the Northeast were strong , and it expects to show improved results for the rest of the year .
 803	All indications are they will take effect , he said .
@@ -906,10 +906,10 @@
 906	Ecuador , which has foreign debt of roughly eight billion dlrs , has not paid any interest to foreign banks since February .
 907	In March Ecuador said it would suspend interest payments for the rest of the year because of an earthquake which halted the export of oil , which accounts for about 75 pct the country 's export revenues .
 908	In its announcement , Security Pacific said it will record interest income only as it is received in cash .
-909	The company also said it believes that Brazil will reach an agreement with its banks and that interest payments will resume rates in 1987 .
+909	The company also said it believes that Brazil will reach an agreement with its banks and that interest payments will resume rate in 1987 .
 910	The Brazilian negotiations resume on Friday in New York when Central Bank Governor Francisco Gros is expected to ask banks for a 90-day roll-over of some 9.5 billion dlrs of term debt that matures on April 15 .
 911	A High Command communique said Iraqi troops had won a significant victory and were continuing to advance .
-912	Iraq said it had foiled a three-pronged thrusts some 10 km six mile from Basra , but admitted the Iranians had occupied ground held by the Mohammed al-Qassem unit , one of three divisions attacked .
+912	Iraq said it had filed a three-pronged thrust some 10 km six mile from Basra , but admitted the Iranians had occupied ground held by the Mohammed al-Qassem unit , one of three divisions attacked .
 913	The communique said Iranian Revolutionary Guards were under assault from warplanes , helicopter gunships , heavy artillery and tanks .
 914	Our forces are continuing their advance until they purge the last foothold occupied by the Iranians , it said .
 915	Iran said its troops had killed or wounded more than 4,000 Iraqis and were stabilising their new positions .
@@ -920,26 +920,26 @@
 920	West German Finance Minister Gerhard Stoltenberg and British Chancellor of the Exchequer Nigel Lawson declined to comment on the meeting as they emerged from the U.S. Treasury .
 921	A European monetary official said the ministers of the Group of Seven countries would gather at about three p.m. local 1900 GMT at the Treasury .
 922	Donald Houston , administrator of USDA 's Food Safety and Inspection Service , FSIS , told a House Agriculture subcommittee USDA was developing a proposed change in regulations that would put an end to the current practice of permitting foreign meat products to be unloaded at one port and inspected at another port .
-923	Houston said the requirement would be shades in over several years to avoid disruptions and economic hardship .
+923	Houston said the requirement would be phases in over several years to avoid disruptions and economic hardship .
 924	In its newly released annual report , Union Texas said it replaced about 71 pct of its production of 56 mln barrels of oil equivalent last year after taking into account the sale of 27 mln barrels of U.S. reserves .
-925	Union Texas , the nation 's largest independent oil and gas producer based on revenues , is a privately-held company owned by Kohlberg Kravis Roberts and Co and Allied-Signal Inc ltALD .
+925	Union Texas , the nation 's largest independent oil and gas producer based on revenues , is a privately-held company one by Kohlberg Kravis Roberts and Co and Allied-Signal Inc ltALD .
 926	The Houston-based company said it lost 57.5 mln dlrs on 1.26 billion dlrs in sales last year , compared to profits of 165 mln dlrs on 2.04 billion dlrs in sales in 1985 .
 927	Union Texas said it received an average of 13.35 dlrs per barrel for its international oil production and 2.99 dlrs per mcf for its foreign natural gas sales .
 928	The majority of the company 's total energy production is in the United Kingdom , Indonesia and Pakistan .
-929	In the United States , Union Texas said it completed evaluation work on its oil find in Alaska 's Colville Delta area .
+929	In the United States , Union Texas said it completed evaluation work on its oil find in Alaska 's Colville Delia area .
 930	Although significant oil reserves were confirmed , development of this discovery will not be economical without substantially higher prices , the company said .
 931	Union Texas said it planned to spend about 42 mln dlrs over the next two years to develop its Eugene Island Block 371 in the Gulf of Mexico .
 932	In 1987 , the company said it budgeted 178 mln dlrs for capital spending , less than half of the amount set in 1985 and down from 199 mln dlrs budgeted last year .
-933	Union Texas also said it would seek acquisitions of oil and gas properties as well as petrochemical-related businesses .
-934	Obviously , we have a lot of movement in our stock , and we need to get a clarification out , the spokesman said , adding that there was a 50-50 change a statement would be released today .
+933	into Texas also said it would seek acquisitions of oil and gas properties as well as petrochemical-related businesses .
+934	Obviously , we have a lot of movement in our stock , and we need to get a clarification out , the spokesman said , adding that there was a 50-50 china a statement would be released today .
 935	The pistol earlier this week offered to buy the airline for 2.3 billion dlrs , and assume 2.2 billion dlrs of existing debt .
 936	Takeover speculation has driven UAL 's stock for several weeks .
 937	UAL last month said New York Real estate developer Donald Trump held a position in its stock , and that he also held discussions with its chairman .
 938	The developer indicated in those talks that he took the position as an investment , but he revealed no other plans .
 939	Today , rumors circulated that Coniston Partners were buying UAL stock .
-940	UAL jumped five to 70-3/4 on vellum of more than 3.2 mln shares .
+940	UAL jumped five to 70-3/4 on vellum of more than 3.2 mln shoes .
 941	United has got to consider this proposal .
-942	I think the pilot 's proposal is realistic .
+942	I think the pilot 's proposed is realistic .
 943	I do n't exptect them to take it , but it could put some interesting options in front of UAL management , said Timothy Pettee , Bear Stearns and co analyst .
 944	Analysts have said UAL made itself vulnerable to attack when it diversified away from its core airline .
 945	It added Hertz rental cars , Westin and Hilton International hotels in a strategy to become a travel service company .
@@ -960,7 +960,7 @@
 960	Meinert told shareholders Hartmarx has no plans to sell any of its divisions .
 961	He added , We have the financial capacity to take advantage of acquisitions .
 962	In 1987 , Meinert said the company will open five new and 10 redesigned Kuppenheimer direct-to-consumer stores in Atlanta , Detroit , St. Louis , Washington , D.C. and San Francisco .
-963	He said the company 's women 's apparel continues to grow , and Hartmarx has on the drawing board a Briar concept store which will feature ties , shirts and some tailored clothing .
+963	He said the company 's women 's apparel continuous to grow , and Hartmarx has on the drawing board a Briar concept store which will feature ties , shirts and some tailored clothing .
 964	The agency , received in London , said the accord was reached between Iranian Oil Minister Gholamreza Aqazadeh and a visiting Ghanaian delegation headed by Foreign Minister Obed Asamoah .
 965	IRNA said that under the agreement , Iran will also provide technical and scientific assistance in manpower training and oil exploitation , production and refining .
 966	In my view , this would not only be a logical , but also a most desireable development , he said in a speech prepared for delivery to an economic forum at Chapman College in Orange , Calif. A text was released in Washington .
@@ -980,7 +980,7 @@
 980	But it said a 41.5 mln dlr non-cash writeoff of oil and gas properties taken in the first quarter resulted in a net loss of 43.9 mln dlrs , or 7.21 dlrs per share .
 981	Energy Development Partners , is a limited partnership which began operating in September 1985 .
 982	Full year revenues totaled 23.7 mln dlrs , the company also said .
-983	It said proved reserves at December 31 totaled 4.8 mln barely of oil and 88 mln cubic feet of natural gas .
+983	It said proved reserves at December 31 totaled 4.8 mln barrels of oil and 88 mln cubic feet of natural gas .
 984	Canadian Finance Minister Michael Wilson said on entering the meeting the ministers would review the Paris agreement .
 985	Asked if he was satisfied with West German and Japanese stimulus , Wilson replied , They could do a little more .
 986	French Finance Minister Edouard Balladur , meanwhile , confirmed there would be a communique at the end of the meeting .
@@ -995,6 +995,6 @@
 995	Kenneth Morrison , staff associate at the Government Accountability Project , said inspectors consistently disclose violations of federal law , demonstrating a serious breakdown in the entire inspection system .
 996	Morrison told of chicken fat for flavoring being contaminated by intestines dragging in a water trough used to flush away the condemned product , fecal material , human spit , chewing gum and paper towels used by plant employees to blow their noses .
 997	Donald Houston , administrator of the U.S. Agriculture Department 's Food Safety and Inspection Service , FSIS , defended the government 's program , calling it one of the most respected public health programs in the world .
-998	FSIS inspects an estimates 127 mln head of cattle and 4.5 billion chines and turkeys every year .
+998	FSIS inspects an estimates 127 mln head of cattle and 4.5 billion chimney and turkeys every year .
 999	Houston said inspection programs have kept pace with change , but conceded that the danger of chemical residues in the meat and poultry supply has increased .
 1000	He also said that , although he was confident the bacterium salmonella eventually could be eradicated , it would take time and much money to contain the growing problem .
