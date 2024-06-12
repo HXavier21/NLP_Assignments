@@ -1,6 +1,6 @@
 import nltk
 
-anspath = './myAns'
+anspath = './ans.txt'
 resultpath = './result.txt'
 ansfile = open(anspath, 'r')
 resultfile = open(resultpath, 'r')

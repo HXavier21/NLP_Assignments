@@ -39,7 +39,11 @@ def edits1(word):
     transposes = [L + R[1] + R[0] + R[2:] for L, R in splits if len(R) > 1]
     replaces = [L + c + R[1:] for L, R in splits if R for c in letters]
     inserts = [L + c + R for L, R in splits for c in letters]
-    return set(deletes + transposes + replaces + inserts)
+    return_set = set(deletes + transposes + replaces + inserts)
+    for letter in word:
+        if letter.isupper():
+            return [item[0].upper() + item[1:] for item in return_set]
+    return return_set
 
 
 def build_language_model():
@@ -100,6 +104,13 @@ def generate_candidates(word, vocab):
         return []
 
 
+def check_if_skip(word, check_set):
+    if word in check_set or not word.isalpha() or word == "'s":
+        return True
+    else:
+        return False
+
+
 # 这里假设 edits1 和 check 函数已经被定义
 # edits1 函数用于生成给定单词的编辑候选词
 # check 函数用于检查给定的候选词列表中哪些词在词汇表中
@@ -113,7 +124,7 @@ def correct_sentence(sentence, error_count, trigram_freq, bigram_freq, unigram_f
 
     # First pass: correct non-word errors
     for i, word in enumerate(words):
-        if word in vocab or not word.isalpha():  # 保留标点符号或非字母字符
+        if check_if_skip(word, vocab):  # 保留标点符号或非字母字符
             corrected_sentence.append(word)
         else:
             count += 1
@@ -140,7 +151,7 @@ def correct_sentence(sentence, error_count, trigram_freq, bigram_freq, unigram_f
     if real_word_count > 0:
         prob = []
         for i, word in enumerate(words):
-            if word in non_word_errors:
+            if check_if_skip(word, non_word_errors):
                 continue  # Skip words that were already corrected as non-word errors
             if i == 0:
                 probability = unigram_probability(unigram_freq, word)
@@ -185,7 +196,7 @@ def correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, 
 
 # 加载数据和词汇表，构建模型
 vocab_path = 'vocab.txt'
-file_path = 'myTestData'
+file_path = input('testData:')
 output_path = 'result.txt'
 vocab = load_vocab(vocab_path)
 sentences = load_data(file_path)
@@ -193,4 +204,4 @@ trigram_freq, bigram_freq, unigram_freq = build_language_model()
 
 # 纠正并写入文件
 correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, output_path)
-#print(generate_candidates("ther", vocab))
+# print(generate_candidates("ther", vocab))
