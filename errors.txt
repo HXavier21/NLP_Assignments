@@ -1,886 +1,656 @@
 5
-{'office', 'of', 'it', 'U.S.', 'broker', 'will', 'in', 'subject', 'a', 'and', 'length', 'mean', 'erosion', 'Co', 'Tom', 'place', 'for', 'any', 'analyst', 'beyond', 'Murtha', 'goods', 'exports', 'the', 'complete', 'stock', 'to', 'tariffs', 'time', 'remain', 'ltJames', 'Capel', 'If', 'few', 'at', 'months', ',', 'said', '.', 'Tokyo'}
-{'pace', 'office', 'of', 'it', 'U.S.', 'broker', 'will', 'in', 'subject', 'a', 'and', 'length', 'mean', 'erosion', 'Co', 'Tom', 'for', 'any', 'analyst', 'beyond', 'Murtha', 'goods', 'exports', 'the', 'complete', 'stock', 'to', 'tariffs', 'time', 'remain', 'ltJames', 'Capel', 'If', 'few', 'at', 'months', ',', 'said', '.', 'Tokyo'}
+{'place', 'time', '.', 'Murtha', 'Tom', 'it', 'at', 'office', ',', 'of', 'ltJames', 'few', 'length', 'complete', 'If', 'remain', 'and', 'U.S.', 'analyst', 'any', 'Co', 'will', 'exports', 'the', 'erosion', 'Capel', 'beyond', 'a', 'goods', 'in', 'to', 'Tokyo', 'said', 'subject', 'broker', 'for', 'tariffs', 'stock', 'months', 'mean'}
+{'time', '.', 'Murtha', 'Tom', 'it', 'at', 'office', ',', 'of', 'ltJames', 'few', 'length', 'complete', 'If', 'remain', 'and', 'U.S.', 'analyst', 'any', 'Co', 'will', 'exports', 'the', 'erosion', 'pace', 'Capel', 'beyond', 'a', 'goods', 'in', 'to', 'Tokyo', 'said', 'subject', 'broker', 'for', 'tariffs', 'stock', 'months', 'mean'}
 DIFF: {'place'} {'pace'}
 
-13
-{'senior', 'also', 'of', 'whose', 'U.S.', 'are', 'those', 'between', 'promotion', 'And', 'chief', 'trade', 'on', 'might', 'lead', 'Korea', 'Japan', 'exports', 'the', 'to', 'dispute', 'South', 'similar', "'s", 'pressure', 'A', ',', 'official', 'said', '.', 'association'}
-{'senior', 'also', 'of', 'U.S.', 'wove', 'are', 'those', 'between', 'promotion', 'And', 'chief', 'trade', 'on', 'might', 'lead', 'Korea', 'Japan', 'exports', 'the', 'to', 'dispute', 'South', 'similar', "'s", 'pressure', 'A', ',', 'official', 'said', '.', 'association'}
-DIFF: {'whose'} {'wove'}
+6
+{',', 'In', 'officials', 'worried', '.', 'also', 'are', 'businessmen', 'Taiwan', 'and'}
+{'Darwin', 'In', ',', 'officials', '.', 'also', 'are', 'businessmen', 'worried', 'and'}
+DIFF: {'Taiwan'} {'Darwin'}
+
+10
+{'dlrs', '.', 'surplus', '53', ',', 'helped', 'Taiwan', 'billion', 'reserves', 'the', "'s", 'largest', 'foreign', 'world', 'exchange', 'swell', 'to', 'The', 'among'}
+{'dlrs', '.', 'surplus', '53', ',', 'helped', 'Taiwan', 'billion', 'reserves', 'the', "'s", 'largest', 'sell', 'foreign', 'world', 'exchange', 'to', 'The', 'among'}
+DIFF: {'swell'} {'sell'}
 
 19
-{'one', 'be', 'is', 'extended', 'If', 'day', 'it', 'sources', 'other', 'the', 'whole', ',', 'to', 'purpose', 'imports', 'prevent', 'will', '.'}
-{'one', 'be', 'is', 'extended', 'If', 'day', 'it', 'sources', 'prevent', 'the', 'other', ',', 'to', 'purpose', 'imports', 'whoe', 'will', '.'}
+{',', 'day', 'to', 'will', 'the', 'be', 'one', 'extended', '.', 'sources', 'purpose', 'imports', 'it', 'If', 'whole', 'prevent', 'other', 'is'}
+{',', 'day', 'to', 'will', 'the', 'be', 'one', 'extended', '.', 'sources', 'purpose', 'whoe', 'imports', 'it', 'If', 'is', 'prevent', 'other'}
 DIFF: {'whole'} {'whoe'}
 
-21
-{'biggest', 'Hong', 'accounting', 'of', 'produced', 'U.S.', 'export', 'Last', 'market', 'for', 'year', 'domestically', 'The', 'exports', 'was', 'over', 'Kong', "'s", '30', ',', 'pct', '.'}
-{'biggest', 'Hong', 'accounting', 'of', 'produced', 'U.S.', 'export', 'Last', 'market', 'for', 'year', 'domestically', 'The', 'was', 'over', 'Kong', 'poets', "'s", '30', ',', 'pct', '.'}
-DIFF: {'exports'} {'poets'}
-
-26
-{'Liberal', 'measures', 'of', 'ruling', 'Party', 'economy', 'Japanese', 'a', 'boost', 'yesterday', 'Democratic', 'Japan', 'the', 'outlined', 'to', 'package', "'s", 'economic', '.'}
-{'measures', 'of', 'ruling', 'Party', 'economy', 'Japanese', 'a', 'boost', 'yesterday', 'Democratic', 'Japan', 'the', 'outlined', 'to', 'package', 'Liberals', "'s", 'economic', '.'}
-DIFF: {'Liberal'} {'Liberals'}
-
 33
-{'The', 'paper', 'gave', 'details', 'further', 'no', '.'}
-{'The', 'gave', 'details', 'further', 'prep', 'no', '.'}
-DIFF: {'paper'} {'prep'}
-
-45
-{'around', 'CIF', 'of', 'delivery', 'are', 'in', 'a', 'and', 'traders', 'now', 'Malaysian', 'for', '332', 'Sumatran', 'Rotterdam', 'tonne', 'Prices', 'dlrs', 'CPO', ',', 'said', '.'}
-{'CIF', 'of', 'delivery', 'are', 'in', 'a', 'and', 'argued', 'traders', 'now', 'Malaysian', 'for', '332', 'Sumatran', 'Rotterdam', 'tonne', 'Prices', 'dlrs', 'CPO', ',', 'said', '.'}
-DIFF: {'around'} {'argued'}
+{'details', 'gave', 'The', '.', 'no', 'further', 'paper'}
+{'details', 'pare', 'gave', 'The', '.', 'no', 'further'}
+DIFF: {'paper'} {'pare'}
 
 47
-{'forced', 'ensure', 'during', 'of', 'has', 'Malaysia', 'supplies', 'import', 'largest', 'producer', 'fasting', 'second', 'the', 'to', 'world', 'Moslem', 'Ramadan', "'s", 'been', 'oil', 'after', ',', 'palm', '.', 'Indonesia', 'month'}
-{'forced', 'ensure', 'during', 'of', 'has', 'Malaysia', 'supplies', 'import', 'largest', 'producer', 'fasting', 'second', 'the', '.', 'to', 'world', 'Moslem', 'Ramadan', "'s", 'been', 'oil', ',', 'palm', 'alter', 'Indonesia', 'month'}
+{'Malaysia', 'fasting', '.', 'ensure', 'month', 'oil', 'Moslem', ',', 'of', 'Ramadan', 'during', 'the', "'s", 'producer', 'has', 'been', 'largest', 'import', 'after', 'palm', 'forced', 'world', 'supplies', 'to', 'Indonesia', 'second'}
+{'Malaysia', 'fasting', '.', 'ensure', 'month', 'oil', 'Moslem', ',', 'of', 'alter', 'Ramadan', 'during', 'the', "'s", 'producer', 'has', 'been', 'largest', 'import', 'palm', 'forced', 'world', 'supplies', 'to', 'Indonesia', 'second'}
 DIFF: {'after'} {'alter'}
 
-51
-{'The', 'of', 'before', 'pay', 'the', 'today', '.', 'Commission', 'went', 'Arbitration', 'hearing', 'dispute', 'a'}
-{'The', 'of', 'before', 'pay', 'the', 'stay', '.', 'Commission', 'went', 'Arbitration', 'hearing', 'dispute', 'a'}
-DIFF: {'today'} {'stay'}
-
-53
-{'changes', 'of', 'protest', 'week', 'and', 'ports', 'workers', 'Labour', 'by', "'", 'industrial', 'Trades', 'The', 'is', 'compensation', 'the', 'action', 'to', 'part', 'Council', 'laws', 'at', 'called', "'s", 'NSW', '.', 'state'}
-{'changes', 'of', 'protest', 'week', 'and', 'ports', 'workers', 'Labour', 'by', "'", 'industrial', 'Trades', 'The', 'is', 'compensation', 'the', 'action', 'to', 'part', 'laws', 'at', 'called', "'s", 'NSW', 'Consul', '.', 'state'}
-DIFF: {'Council'} {'Consul'}
-
 54
-{'of', 'it', 'off', 'in', 'a', 'and', 'various', 'appear', 'be', 'unions', 'start', 'taking', 'for', 'turn', 'then', 'The', 'short', 'sources', 'the', 'to', 'time', 'port', 'walk', 'work', 'each', 'at', 'shift', 'said', '.', 'shipping'}
-{'of', 'it', 'off', 'in', 'a', 'and', 'various', 'appear', 'be', 'start', 'taking', 'for', 'turn', 'then', 'The', 'short', 'sources', 'the', 'to', 'time', 'port', 'walk', 'work', 'each', 'at', 'shift', 'onions', 'said', '.', 'shipping'}
+{'shift', 'time', 'shipping', 'sources', '.', 'it', 'at', 'start', 'appear', 'then', 'of', 'various', 'unions', 'each', 'and', 'walk', 'the', 'short', 'off', 'port', 'a', 'work', 'in', 'turn', 'to', 'be', 'The', 'said', 'for', 'taking'}
+{'shift', 'time', 'shipping', 'sources', '.', 'it', 'at', 'start', 'appear', 'then', 'of', 'various', 'onions', 'each', 'and', 'walk', 'the', 'short', 'off', 'port', 'a', 'work', 'in', 'turn', 'to', 'be', 'The', 'said', 'for', 'taking'}
 DIFF: {'unions'} {'onions'}
 
-58
-{'be', 'or', 'also', 'refined', 'Trading', 'CPO', 'oil', 'introduced', 'may', 'palm', '.', 'in', 'crude', 'either'}
-{'be', 'or', 'also', 'writhed', 'refined', 'Trading', 'CPO', 'oil', 'introduced', 'may', 'palm', '.', 'in', 'crude'}
-DIFF: {'either'} {'writhed'}
-
 64
-{'FOB', 'Rubber', 'up', 'forward', 'traded', 'contracts', ',', 'to', 'are', 'months', '.', 'five'}
-{'FOB', 'Rubber', 'up', 'forward', 'trade', 'contracts', ',', 'to', 'are', 'months', '.', 'five'}
+{'FOB', 'traded', ',', 'to', 'forward', '.', 'are', 'Rubber', 'five', 'contracts', 'months', 'up'}
+{'FOB', ',', 'to', 'forward', 'trade', '.', 'are', 'Rubber', 'five', 'contracts', 'months', 'up'}
 DIFF: {'traded'} {'trade'}
 
-76
-{'Goodall', 'will', 'W.R.', 'a', 'and', 'local', 'be', 'owned', 'Co', 'by', 'WMC', 'The', 'the', 'ltGRA', 'to', 'project', 'Grace', 'as', 'unit', '40', '60', 'known', ',', 'mine', 'pct', '.'}
-{'ltuRA', 'Goodall', 'will', 'W.R.', 'a', 'and', 'local', 'be', 'owned', 'Co', 'by', 'WMC', 'The', 'the', 'to', 'project', 'Grace', 'as', 'unit', '40', '60', 'known', ',', 'mine', 'pct', '.'}
-DIFF: {'ltGRA'} {'ltuRA'}
-
-87
-{'analysts', 'The', 'was', 'the', 'aggressive', 'bank', 'agreed', '.'}
-{'analysts', 'The', 'was', 'the', 'aggressive', 'bank', '.', 'deer'}
-DIFF: {'agreed'} {'deer'}
-
-97
-{'Securities', 'of', 'U.S.', 'Act', 'Article', 'and', 'from', 'separates', 'commercial', 'Japan', 'Exchange', 'the', 'banking', 'version', 'investment', '65', "'s", 'Glass-Steagall', ',', '.'}
-{'Securities', 'of', 'U.S.', 'Act', 'Article', 'and', 'from', 'separates', 'commercial', 'Exchange', 'the', 'banking', 'version', 'aspen', 'investment', '65', "'s", 'Glass-Steagall', ',', '.'}
-DIFF: {'Japan'} {'aspen'}
+66
+{'considering', 'introduction', 'trade', 'one', '.', ',', 'futures', 'of', 'needed', 'rubber', 'was', 'but', 'are', 'study', 'board', 'and', 'ministry', 'the', 'later', 'trading', 'official', 'a', 'exchange', 'first', 'The', 'said', 'for', 'feasibility'}
+{'considering', 'introduction', 'trade', 'one', '.', ',', 'futures', 'of', 'needed', 'was', 'but', 'are', 'study', 'board', 'and', 'ministry', 'the', 'later', 'trading', 'official', 'a', 'exchange', 'first', 'The', 'Buber', 'said', 'for', 'feasibility'}
+DIFF: {'rubber'} {'Buber'}
 
 118
-{'earlier', 'allocation', 'drain', 'today', 'so', 'will', 'a', 'Some', 'market', 'Bundesbank', 'from', 'with', 'expires', 'effectively', 'is', 'withdrawing', 'an', 'the', 'net', '14.9', '8.1', 'pact', 'billion', 'as', "'s", 'marks', ',', '.'}
-{'earlier', 'allocation', 'today', 'so', 'will', 'a', 'Some', 'market', 'Bundesbank', 'from', 'with', 'expires', 'effectively', 'is', 'withdrawing', 'an', 'the', 'net', '14.9', '8.1', 'pact', 'billion', 'train', 'as', "'s", 'marks', ',', '.'}
+{'earlier', '.', 'effectively', 'market', ',', 'Bundesbank', '8.1', 'with', '14.9', 'so', 'expires', 'billion', 'will', 'from', 'withdrawing', 'the', 'drain', "'s", 'allocation', 'as', 'net', 'a', 'today', 'marks', 'is', 'pact', 'Some', 'an'}
+{'train', 'earlier', '.', 'effectively', 'market', ',', 'Bundesbank', '8.1', 'with', '14.9', 'so', 'expires', 'billion', 'will', 'from', 'withdrawing', 'the', "'s", 'allocation', 'as', 'net', 'a', 'today', 'marks', 'is', 'pact', 'Some', 'an'}
 DIFF: {'drain'} {'train'}
 
-119
-{'answer', 'not', 'of', 'tightening', 'spokesman', 'policy', 'funds', 'in', 'a', 'Bundesbank', 'be', 'context', 'withdrawal', 'plentiful', 'credit', 'did', 'the', 'banking', 'to', 'that', 'was', 'liquidity', 'seen', 'system', 'A', 'reflect', ',', 'enquiries', 'but', 'said', '.'}
-{'answer', 'not', 'of', 'tightening', 'spokesman', 'policy', 'funds', 'in', 'a', 'Bundesbank', 'be', 'context', 'withdrawal', 'plentiful', 'erect', 'credit', 'did', 'the', 'banking', 'to', 'that', 'was', 'liquidity', 'seen', 'system', 'A', ',', 'but', 'enquiries', 'said', '.'}
-DIFF: {'reflect'} {'erect'}
-
 123
-{'over', 'pacts', 'further', 'the', 'next', 'Two', 'likely', 'are', 'this', 'weeks', 'two', '.', 'month'}
-{'over', 'pacts', 'further', 'mouth', 'the', 'next', 'Two', 'likely', 'are', 'this', 'weeks', 'two', '.'}
+{'weeks', 'pacts', 'over', 'the', 'two', 'Two', 'likely', '.', 'further', 'are', 'month', 'this', 'next'}
+{'weeks', 'pacts', 'over', 'the', 'two', 'Two', 'likely', '.', 'further', 'are', 'this', 'mouth', 'next'}
 DIFF: {'month'} {'mouth'}
 
 129
-{'of', 'gold', 'would', 'two', 'in', 'Bond', 'total', 'be', 'October', 'understanding', 'signed', 'by', '275', "'", 'year', 'acquire', 'loans', 'mln', 'the', 'sides', 'to', 'mining', 'Atlas', 'last', 'company', 'dlrs', 'A', ',', 'said', '.', 'memorandum', 'repaid'}
-{'of', 'gold', 'would', 'two', 'in', 'Bond', 'total', 'be', 'October', 'understanding', 'signed', 'by', '275', "'", 'year', 'acquire', 'loans', 'retain', 'mln', 'the', 'sides', 'to', 'mining', 'Atlas', 'last', 'company', 'dlrs', 'A', ',', 'said', '.', 'memorandum'}
+{'mln', 'dlrs', 'sides', 'A', '.', 'memorandum', 'repaid', 'by', 'mining', ',', '275', 'signed', 'of', 'loans', 'year', 'acquire', 'last', 'total', 'the', 'two', 'gold', "'", 'company', 'in', 'October', 'to', 'Bond', 'be', 'said', 'Atlas', 'understanding', 'would'}
+{'mln', 'dlrs', 'sides', 'A', '.', 'memorandum', 'by', 'mining', ',', '275', 'signed', 'of', 'loans', 'year', 'acquire', 'last', 'total', 'the', 'two', 'gold', "'", 'company', 'in', 'October', 'to', 'retain', 'Bond', 'be', 'said', 'Atlas', 'understanding', 'would'}
 DIFF: {'repaid'} {'retain'}
 
 138
-{'senior', 'Officials', 'Farm', 'U.S.', 'open', 'existing', 'would', 'will', 'a', 'market', 'its', 'farm', 'Japan', 'exports', 'to', 'liberalisation', 'products', 'later', 'that', 'harm', 'at', 'talks', 'Demands', ',', 'ministry', 'tell', 'this', 'official', 'said', '.', 'month'}
-{'senior', 'Officials', 'Farm', 'U.S.', 'open', 'existing', 'would', 'will', 'a', 'market', 'its', 'farm', 'Japan', 'exports', '.', 'to', 'liberalisation', 'products', 'that', 'harm', 'at', 'talks', 'Demands', ',', 'ministry', 'tell', 'this', 'official', 'said', 'latter', 'month'}
+{'its', 'Demands', 'Farm', '.', 'existing', 'liberalisation', 'market', 'farm', 'month', 'open', 'at', 'Officials', ',', 'products', 'Japan', 'harm', 'U.S.', 'ministry', 'will', 'exports', 'senior', 'tell', 'later', 'official', 'a', 'to', 'said', 'that', 'talks', 'this', 'would'}
+{'its', 'Demands', 'Farm', '.', 'existing', 'liberalisation', 'market', 'farm', 'latter', 'month', 'open', 'at', 'Officials', ',', 'products', 'Japan', 'harm', 'U.S.', 'ministry', 'will', 'exports', 'senior', 'tell', 'official', 'a', 'to', 'said', 'that', 'talks', 'this', 'would'}
 DIFF: {'later'} {'latter'}
 
-140
-{'Farm', 'not', 'it', 'U.S.', 'demand', 'and', 'market', 'its', 'import', 'farm', 'he', 'largest', 'liberalise', 'for', 'said', 'is', 'Japan', 'the', 'products', 'customer', ',', 'To', '.', 'reasonable'}
-{'Farm', 'not', 'it', 'U.S.', 'and', 'market', 'its', 'import', 'farm', 'he', 'largest', 'liberalise', 'for', 'said', 'is', 'Japan', 'the', 'depend', 'products', 'customer', ',', 'To', '.', 'reasonable'}
-DIFF: {'demand'} {'depend'}
-
-144
-{'also', 'buy', 'grain', 'other', 'traders', ',', 'origins', 'would', 'said', '.', 'End-users'}
-{'also', 'buy', 'other', 'traders', ',', 'liars', 'origins', 'would', 'said', '.', 'End-users'}
-DIFF: {'grain'} {'liars'}
-
 146
-{'and', 'remove', 'Suppliers', 'U.S', 'on', '.', 'quotas'}
-{'and', 'remove', 'quest', 'Suppliers', 'U.S', 'on', '.'}
-DIFF: {'quotas'} {'quest'}
+{'U.S', 'on', 'remove', '.', 'Suppliers', 'quotas', 'and'}
+{'U.S', 'on', 'remove', '.', 'quota', 'Suppliers', 'and'}
+DIFF: {'quotas'} {'quota'}
 
 153
-{'came', 'of', 'has', 'Under', 'Daniel', 'one', 'December', 'Position', 'largest', 'Amstutz', 'when', 'Japan', 'U.S', 'the', 'to', 'Secretary', 'last', 'provide', 'boosts', 'Agriculture', 'said', '.', 'potential'}
-{'came', 'of', 'has', 'Under', 'Daniel', 'one', 'December', 'Position', 'boots', 'largest', 'Amstutz', 'when', 'Japan', 'U.S', 'the', 'to', 'Secretary', 'last', 'provide', 'Agriculture', 'said', '.', 'potential'}
+{'one', '.', 'potential', 'Agriculture', 'of', 'came', 'when', 'December', 'Japan', 'last', 'Amstutz', 'provide', 'has', 'the', 'Under', 'largest', 'boosts', 'Daniel', 'Position', 'U.S', 'to', 'Secretary', 'said'}
+{'one', '.', 'potential', 'Agriculture', 'of', 'came', 'when', 'December', 'Japan', 'last', 'Amstutz', 'provide', 'has', 'the', 'Under', 'largest', 'Daniel', 'Position', 'U.S', 'to', 'Secretary', 'said', 'boots'}
 DIFF: {'boosts'} {'boots'}
 
+155
+{'juices', 'Trade', '.', 'also', 'Japanese', 'sauce', 'miscellaneous', 'farm', 'other', ',', 'peanuts', 'prepared', 'controls', 'beans', 'Agreement', 'of', 'products', 'ketchup', 'fruit', 'legality', 'General', 'and', 'Tariffs', 'U.S.', 'pulp', 'tomato', 'Has', 'beef', 'the', 'investigate', 'import', 'juice', 'purees', 'to', 'on', 'including', 'The', 'asked', '12'}
+{'juices', 'Trade', '.', 'also', 'Japanese', 'sauce', 'miscellaneous', 'farm', ',', 'peanuts', 'prepared', 'controls', 'beans', 'Agreement', 'of', 'products', 'ketchup', 'fruit', 'legality', 'General', 'and', 'Tariffs', 'U.S.', 'pulp', 'tomato', 'Has', 'beef', 'the', 'investigate', 'import', 'juice', 'purees', 'to', 'others', 'on', 'including', 'The', 'asked', '12'}
+DIFF: {'other'} {'others'}
+
 157
-{'senior', 'not', 'has', 'issue', 'Kato', 'in', 'a', 'and', 'trade', 'farm', 'ruled', 'out', 'for', 'any', 'industrial', 'become', 'But', 'Minister', 'the', 'scapegoat', 'sector', 'Agriculture', 'should', 'pressure', ',', 'ministry', 'emotional', 'reaction', 'official', 'said', '.'}
-{'senior', 'not', 'has', 'issue', 'rule', 'Kato', 'in', 'a', 'and', 'trade', 'farm', 'out', 'for', 'any', 'industrial', 'become', 'But', 'Minister', 'the', 'scapegoat', 'sector', 'Agriculture', 'should', 'pressure', ',', 'ministry', 'emotional', 'reaction', 'official', 'said', '.'}
+{'trade', '.', 'sector', 'farm', 'issue', 'industrial', 'out', 'Agriculture', ',', 'should', 'become', 'and', 'ministry', 'any', 'has', 'emotional', 'the', 'senior', 'ruled', 'official', 'a', 'pressure', 'in', 'But', 'Minister', 'reaction', 'said', 'scapegoat', 'for', 'Kato', 'not'}
+{'trade', '.', 'sector', 'farm', 'issue', 'industrial', 'out', 'rule', ',', 'Agriculture', 'should', 'become', 'and', 'ministry', 'any', 'has', 'emotional', 'the', 'senior', 'official', 'a', 'pressure', 'in', 'But', 'Minister', 'reaction', 'said', 'scapegoat', 'for', 'Kato', 'not'}
 DIFF: {'ruled'} {'rule'}
 
-166
-{'government', 'foreign', 'of', 'surplus', 'increase', 'speed', 'local', 'a', 'and', 'market', 'its', 'told', 'up', 'imports', 'gradually', 'press', 'conference', 'hold', 'the', 'to', 'proper', 'opening', 'adjust', 'He', 'currency', 'level', 'investment', 'at', ',', 'planned', '.'}
-{'government', 'foreign', 'of', 'surplus', 'increase', 'speed', 'local', 'a', 'and', 'market', 'its', 'told', 'up', 'gradually', 'press', 'conference', 'omits', 'hold', 'the', 'to', 'proper', 'opening', 'adjust', 'He', 'currency', 'level', 'investment', 'at', ',', 'planned', '.'}
-DIFF: {'imports'} {'omits'}
-
 170
-{'U.S.', 'surplus', 'in', '1985', 'its', 'Wants', 'trade', 'from', 'with', 'Korea', '1986', 'the', 'Which', 'to', 'billion', 'South', 'cut', '4.3', 'rose', 'dlrs', '7.4', ',', '.'}
-{'U.S.', 'surplus', 'in', '1985', 'its', 'Wants', 'from', 'with', 'trades', 'Korea', '1986', 'the', 'Which', 'to', 'billion', 'South', 'cut', '4.3', 'rose', 'dlrs', '7.4', ',', '.'}
+{'its', 'dlrs', 'trade', '.', 'surplus', 'Which', 'South', '4.3', ',', '1985', 'with', 'rose', 'billion', 'U.S.', 'from', 'the', '1986', 'in', 'to', 'Wants', 'cut', '7.4', 'Korea'}
+{'its', 'dlrs', '.', 'surplus', 'Which', 'South', '4.3', ',', '1985', 'trades', 'with', 'rose', 'billion', 'U.S.', 'from', 'the', '1986', 'in', 'to', 'Wants', 'cut', '7.4', 'Korea'}
 DIFF: {'trade'} {'trades'}
 
 177
-{'foreign', 'Asia', 'in', '1985', 'from', 'largest', 'still', 'Korea', '46.8', 'is', 'among', '1986', 'the', '.', 'to', 'which', 'billion', 'South', 'fell', '44.5', "'s", 'dlrs', ',', 'debt'}
-{'foreign', 'Asia', 'sill', 'in', '1985', 'from', 'largest', 'Korea', '46.8', 'is', 'among', '1986', 'the', '.', 'to', 'which', 'billion', 'South', 'fell', '44.5', "'s", 'dlrs', ',', 'debt'}
+{'dlrs', '.', 'fell', 'which', 'South', ',', '1985', 'still', 'Asia', '44.5', 'billion', 'from', 'the', "'s", '1986', 'largest', 'foreign', 'is', '46.8', 'in', 'debt', 'to', 'Korea', 'among'}
+{'dlrs', '.', 'fell', 'sill', 'which', 'South', ',', '1985', 'Asia', '44.5', 'billion', 'from', 'the', "'s", '1986', 'largest', 'foreign', 'is', '46.8', 'in', 'debt', 'to', 'Korea', 'among'}
 DIFF: {'still'} {'sill'}
 
-181
-{'Kim', 'surplus', 'partners', 'would', 'in', 'a', 'and', 'rise', 'trade', 'friction', 'cause', 'with', 'lead', 'trading', 'States', 'the', 'to', 'United', 'Seoul', 'particularly', 'inflation', "'s", ',', 'major', 'said', '.', 'sudden'}
-{'Kim', 'surplus', 'partners', 'would', 'in', 'a', 'and', 'rise', 'trade', 'friction', 'cause', 'with', 'lead', 'trading', 'States', 'the', 'to', 'United', 'Seoul', 'particularly', "'s", ',', 'lunation', 'major', 'said', '.', 'sudden'}
-DIFF: {'inflation'} {'lunation'}
-
-187
-{'of', 'MTBE', 'because', 'are', 'would', 'in', 'be', 'gasoline', 'concerns', 'health', 'targeted', 'for', 'Most', 'lead', 'States', 'the', '.', 'United', 'lowered', 'where', 'being', 'statement', ',', 'levels', 'added'}
-{'of', 'MTBE', 'because', 'are', 'would', 'in', 'be', 'gasoline', 'concerns', 'health', 'targeted', 'for', 'Most', 'lead', 'States', 'the', '.', 'United', 'lowered', 'dazed', 'where', 'being', 'statement', ',', 'levels'}
-DIFF: {'added'} {'dazed'}
+179
+{'50', 'pct', '.', 'reduce', 'his', 'plannned', ',', 'of', 'ratio', '20', 'from', 'government', 'the', "'s", '1991', '1986', 'Kim', 'foreign', 'debt', 'in', 'to', 'country', 'GNP', 'said', 'about'}
+{'50', 'pct', '.', 'reduce', 'his', ',', 'of', 'ratio', '20', 'from', 'government', 'the', "'s", '1991', '1986', 'planned', 'Kim', 'foreign', 'debt', 'in', 'to', 'country', 'GNP', 'said', 'about'}
+DIFF: {'plannned'} {'planned'}
 
 193
-{'of', 'it', '44', 'will', 'in', 'a', 'and', 'Whim', 'Creek', 'Mining', 'hold', 'NL', 'the', 'consortium', 'ltAustwhim', 'Resources', 'ltCroesus', '29', 'statement', ',', 'while', 'pct', 'said', '.', '27'}
-{'of', 'it', '44', 'will', 'in', 'a', 'and', 'Whim', 'Mining', 'hold', 'NL', 'the', 'consortium', 'ltAustwhim', 'Resources', 'ltCroesus', '29', 'statement', ',', 'while', 'pct', 'said', '.', 'reek', '27'}
-DIFF: {'Creek'} {'reek'}
+{'pct', 'Whim', '.', 'statement', 'Mining', 'it', 'consortium', ',', 'NL', 'ltAustwhim', 'of', '29', 'Resources', 'and', 'ltCroesus', 'will', 'the', 'Creek', 'hold', 'a', '44', 'in', '27', 'said', 'while'}
+{'pct', 'Whim', '.', 'statement', 'Mining', 'it', 'consortium', 'creek', ',', 'NL', 'ltAustwhim', 'of', '29', 'Resources', 'and', 'ltCroesus', 'will', 'the', 'hold', 'a', '44', 'in', '27', 'said', 'while'}
+DIFF: {'Creek'} {'creek'}
+
+199
+{'to', 'back', '481p', 'The', 'shares', '.', 'later', 'eased'}
+{'to', 'back', '481p', 'The', 'searches', '.', 'later', 'eased'}
+DIFF: {'shares'} {'searches'}
 
 200
-{'reported', 'stg', '1985', '32.4', 'mln', 'Bowater', '.', 'in', 'profit', 'a'}
-{'reported', 'stg', '1985', '32.4', 'mln', 'proof', 'Bowater', '.', 'in', 'a'}
-DIFF: {'profit'} {'proof'}
+{'in', 'mln', '1985', 'profit', '.', 'Bowater', 'stg', '32.4', 'a', 'reported'}
+{'in', 'mln', '1985', 'protein', '.', 'Bowater', 'stg', '32.4', 'a', 'reported'}
+DIFF: {'profit'} {'protein'}
 
-208
-{'around', 'of', '18', 'because', 'barrel', 'price', 'Sejerstad', 'likely', 'in', 'lost', 'steadier', 'a', 'and', '1985', 'Norway', '490,000', 'by', 'year', 'better', 'crowns', 'liberalisation', 'performance', 'profit', 'was', 'Citibank', 'dlrs', 'helped', 'oil', ',', 'but', 'planned', 'this', 'economic', 'said', '.'}
-{'around', 'of', '18', 'because', 'price', 'Sejerstad', 'likely', 'in', 'lost', 'steadier', 'a', 'and', '1985', 'Norway', '490,000', 'barber', 'by', 'year', 'better', 'crowns', 'liberalisation', 'performance', 'profit', 'was', 'Citibank', 'dlrs', 'helped', 'oil', ',', 'but', 'planned', 'this', 'economic', 'said', '.'}
-DIFF: {'barrel'} {'barber'}
+241
+{',', 'to', 'There', 'quality', '.', "'flight", 'said', "'", 'Hamley', 'a', 'is'}
+{',', 'to', 'There', 'qualify', '.', "'flight", 'said', "'", 'Hamley', 'a', 'is'}
+DIFF: {'quality'} {'qualify'}
 
-219
-{'not', 'problems', 'wish', 'of', 'areas', 'political', 'moment', 'obvious', 'are', 'attention', 'those', 'do', 'in', 'exist', 'and', 'trade', 'we', 'from', 'on', 'he', 'cooperation', 'divert', 'continue', 'issues', 'the', 'security', 'to', 'important', 'area', 'There', 'that', 'at', ',', 'but', 'said', '.'}
-{'not', 'problems', 'wish', 'of', 'areas', 'political', 'moment', 'obvious', 'are', 'attention', 'those', 'do', 'in', 'exist', 'and', 'trade', 'we', 'from', 'on', 'he', 'cooperation', 'divert', 'continue', 'issues', 'the', 'security', 'to', 'important', 'area', 'that', 'at', ',', 'but', 'said', '.', 'Thee'}
-DIFF: {'There'} {'Thee'}
-
-223
-{'during', 'of', 'quarter', 'a', 'ingots', 'zinc', 'tonnes', 'from', 'ago', 'year', 'the', '4,842', '14,937', 'first', 'Thailand', ',', 'exported', '.', 'down'}
-{'during', 'of', 'quarter', 'exporter', 'a', 'ingots', 'zinc', 'tonnes', 'from', 'ago', 'year', 'the', '4,842', '14,937', 'first', 'Thailand', ',', '.', 'down'}
-DIFF: {'exported'} {'exporter'}
-
-229
-{'per', 'Bond', '150', 'share', 'had', 'Corp', 'brewer', 'Australian', 'for', 'pesos', 'Diaz', 'Alan', 'B', 'the', 'offered', 'shares', 'Holdings', "'s", 'Ltd', 'said', '.'}
-{'per', 'sharers', 'Bond', '150', 'share', 'had', 'Corp', 'brewer', 'Australian', 'for', 'pesos', 'Diaz', 'Alan', 'B', 'the', 'offered', 'Holdings', "'s", 'Ltd', 'said', '.'}
-DIFF: {'shares'} {'sharers'}
-
-233
-{'Hong', 'bid', 'subsidiary', 'Brewery', 'ltSan', '150', 'a', 'owned', 'listed', 'Corp', 'by', 'year', 'is', 'Anheuser-Busch', 'mln', 'ltNeptunia', 'to', 'Miguel', 'which', 'last', 'made', 'company', 'buy', 'Kong', 'San', ',', 'Ltd', 'pct', '69.65', 'dlr', '.'}
-{'Hong', 'bid', 'subsidiary', 'Brewery', 'chick', 'ltSan', '150', 'a', 'owned', 'listed', 'Corp', 'by', 'year', 'is', 'Anheuser-Busch', 'mln', 'ltNeptunia', 'to', 'Miguel', 'last', 'made', 'company', 'buy', 'Kong', 'San', ',', 'Ltd', 'pct', '69.65', 'dlr', '.'}
-DIFF: {'which'} {'chick'}
-
-255
-{'of', '103', 'yen', 'dollar', 'in', 'Reserve', 'range', 'within', 'had', 'Bank', 'recent', 'Australian', 'they', 'Analysts', 'keep', 'the', 'to', 'worked', 'believed', 'successfully', 'months', 'said', '.', '100'}
-{'of', '103', 'yen', 'dollar', 'in', 'Reserve', 'range', 'had', 'Bank', 'recent', 'Australian', 'they', 'Analysts', 'keep', 'the', 'to', 'worked', 'believed', 'successfully', 'months', 'witch', 'said', '.', '100'}
-DIFF: {'within'} {'witch'}
+249
+{'will', 'It', '.', 'very', 'money', 'edgy', 'remain'}
+{'will', 'It', 'moneyed', '.', 'very', 'edgy', 'remain'}
+DIFF: {'money'} {'moneyed'}
 
 265
-{'of', 'in', '1985', 'prices', 'slowing', 'account', 'taking', '1.5', 'This', '1986', 'to', '1.0', 'into', 'was', 'inflation', 'after', ',', 'consumer', 'pct', '.'}
-{'of', 'in', '1985', 'prices', 'slowing', 'account', 'taking', '1.5', 'This', '1986', 'to', 'consume', '1.0', 'into', 'was', 'inflation', 'after', ',', 'pct', '.'}
+{'pct', '.', '1.5', 'account', ',', '1985', 'of', '1.0', 'was', 'This', 'slowing', '1986', 'after', 'prices', 'in', 'to', 'inflation', 'consumer', 'taking', 'into'}
+{'pct', '.', '1.5', 'account', ',', '1985', 'of', '1.0', 'consume', 'was', 'This', 'slowing', '1986', 'after', 'prices', 'in', 'to', 'inflation', 'taking', 'into'}
 DIFF: {'consumer'} {'consume'}
 
 267
-{'crisis', 'new', 'piecemeal', 'of', 'caused', 'comprehensive', 'in', 'a', 'local', 'market', 'crash', 'introduced', 'by', 'boost', 'received', 'sentiment', 'But', 'when', 'the', 'stock', '.', 'to', 'September', 'program', 'much-needed', 'combat', 'was', 'settlement', '1982', 'after', ',', 'series', 'debt', 'steps'}
-{'crisis', 'new', 'piecemeal', 'of', 'caused', 'comprehensive', 'in', 'a', 'local', 'crash', 'markets', 'introduced', 'by', 'boost', 'received', 'sentiment', 'But', 'when', 'the', 'stock', '.', 'to', 'September', 'program', 'much-needed', 'combat', 'was', 'settlement', '1982', 'after', ',', 'series', 'debt', 'steps'}
+{'combat', 'September', '.', 'crash', 'market', 'by', 'series', '1982', 'crisis', ',', 'new', 'local', 'of', 'when', 'introduced', 'was', 'boost', 'piecemeal', 'the', 'settlement', 'after', 'a', 'received', 'debt', 'in', 'But', 'comprehensive', 'to', 'caused', 'much-needed', 'program', 'steps', 'sentiment', 'stock'}
+{'combat', 'September', '.', 'crash', 'by', 'series', '1982', 'crisis', ',', 'new', 'local', 'of', 'when', 'introduced', 'was', 'boost', 'piecemeal', 'the', 'settlement', 'after', 'markets', 'a', 'received', 'debt', 'in', 'But', 'comprehensive', 'to', 'caused', 'much-needed', 'program', 'steps', 'sentiment', 'stock'}
 DIFF: {'market'} {'markets'}
 
 268
-{'default', 'of', 'in', 'result', 'post-dated', 'a', 'share', 'crash', 'cheques', 'left', 'The', 'trading', 'spree', 'forward', 'billion', 'speculative', 'dlrs', ',', '.', '95'}
-{'default', 'of', 'in', 'result', 'post-dated', 'a', 'crash', 'cheques', 'left', 'phase', 'The', 'trading', 'spree', 'forward', 'billion', 'speculative', 'dlrs', ',', '.', '95'}
+{'dlrs', 'left', '.', 'crash', 'default', 'share', ',', 'forward', 'of', 'post-dated', 'billion', 'trading', 'speculative', 'a', 'in', 'spree', 'The', 'cheques', 'result', '95'}
+{'dlrs', 'left', '.', 'crash', 'default', ',', 'forward', 'of', 'phase', 'post-dated', 'billion', 'trading', 'speculative', 'a', 'in', 'spree', 'The', 'cheques', 'result', '95'}
 DIFF: {'share'} {'phase'}
 
-269
-{'as', 'The', 'also', 'spending', 'informal', 'an', 'generating', 'cheques', 'credit', 'used', 'system', 'thus', ',', '.', 'were', 'consumer', 'collateral', 'for'}
-{'as', 'The', 'also', 'spending', 'informal', 'an', 'generating', 'cheques', 'used', 'system', 'thus', ',', '.', 'creed', 'were', 'consumer', 'collateral', 'for'}
-DIFF: {'credit'} {'creed'}
+274
+{'mln', 'vital', '.', 'rights', 'sector', 'by', 'oil', 'biggest', 'of', '1.7', '--', 'and', 'depositors', 'will', 'edict', 'government', 'the', 'financial', 'Banks', 'after', "'", 'where', 'their', 'have', 'a', 'is', 'in', 'country', 'significance', 'people', 'shareholders', 'an', 'guaranteed', 'only'}
+{'mln', 'vital', '.', 'rights', 'sector', 'by', 'oil', 'biggest', 'of', '1.7', '--', 'and', 'will', 'edict', 'government', 'the', 'financial', 'Banks', 'after', "'", 'deposits', 'where', 'their', 'have', 'a', 'is', 'in', 'country', 'significance', 'people', 'shareholders', 'an', 'guaranteed', 'only'}
+DIFF: {'depositors'} {'deposits'}
 
-280
-{'bottoming', 'government', 'of', 'years', 'are', 'will', 'in', 'steady', 'a', 'and', 'productive', 'on', 'out', 'Other', 'imports', 'recent', 'domestic', 'low', 'the', 'fall', 'signs', 'remain', 'spending', 'inflation', ',', '.', 'sectors', 'reasons'}
-{'bottoming', 'government', 'of', 'years', 'are', 'will', 'in', 'steady', 'a', 'and', 'productive', 'on', 'out', 'imports', 'recent', 'domestic', 'low', 'the', 'fall', 'signs', 'remain', 'Over', 'spending', 'inflation', ',', '.', 'sectors', 'reasons'}
-DIFF: {'Other'} {'Over'}
-
-290
-{'bankers', 'are', 'spelled', 'no', 'in', 'be', 'expected', 'June', 'possibly', 'out', 'these', 'the', 'to', 'budget', 'say', '1987/88', 'He', 'gave', 'details', ',', 'but', '.'}
-{'bankers', 'are', 'spelled', 'no', 'in', 'be', 'expected', 'June', 'possibly', 'out', 'the', 'to', 'budget', 'say', 'else', '1987/88', 'He', 'gave', 'details', ',', 'but', '.'}
-DIFF: {'these'} {'else'}
-
-291
-{'around', 'of', 'because', '1987', 'drought', 'fertiliser', 'in', '4.5', 'and', 'expected', 'tonnes', 'from', 'overstressed', 'low', 'they', 'is', 'mln', '1986', 'to', 'use', 'Output', 'unchanged', ',', 'palms', 'said', '.', 'reach'}
-{'around', 'of', 'because', '1987', 'drought', 'fertiliser', 'in', '4.5', 'and', 'expected', 'tonnes', 'beard', 'from', 'overstressed', 'low', 'they', 'is', 'mln', '1986', 'to', 'use', 'Output', 'unchanged', ',', 'palms', 'said', '.'}
-DIFF: {'reach'} {'beard'}
+292
+{'Malaysia', '.', 'report', 'newsletter', 'oil', 'likely', 'Oil', 'year', 'drop', 'World', 'sharply', 'this', "'s", 'palm', 'were', 'their', 'is', 'to', 'The', 'asked', 'reaction', 'an', 'that', 'for', 'output', 'growers'}
+{'Malaysia', '.', 'report', 'newsletter', 'oil', 'likely', 'Oil', 'year', 'drop', 'World', 'sharply', "'s", 'palm', 'were', 'grocers', 'their', 'is', 'to', 'The', 'asked', 'reaction', 'an', 'that', 'for', 'output', 'this'}
+DIFF: {'growers'} {'grocers'}
 
 294
-{'some', 'total', 'tonnes', 'about', 'now', 'stocks', 'The', 'against', 'the', 'last', '500,000', 'growers', 'March', "'s", 'oil', 'country', ',', 'palm', '800,000', 'said', '.'}
-{'some', 'stacks', 'total', 'tonnes', 'about', 'now', 'The', 'against', 'the', 'last', '500,000', 'growers', 'March', "'s", 'oil', 'country', ',', 'palm', '800,000', 'said', '.'}
+{'.', 'oil', '500,000', '800,000', ',', 'stocks', 'now', 'March', 'last', 'against', 'total', 'tonnes', 'the', "'s", 'palm', 'some', 'country', 'The', 'said', 'growers', 'about'}
+{'.', 'stacks', 'oil', '500,000', '800,000', ',', 'now', 'March', 'last', 'against', 'total', 'tonnes', 'the', "'s", 'palm', 'some', 'country', 'The', 'said', 'growers', 'about'}
 DIFF: {'stocks'} {'stacks'}
 
-311
-{'MITI', 'control', 'based', 'exaggerated', 'of', 'U.S.', 'and', 'market', 'Decision', 'on', 'data', 'forces', 'power', 'sense', 'incorrect', 'an', 'the', 'to', 'Kuroda', 'was', "'s", 'said', '.'}
-{'MITI', 'control', 'based', 'exaggerated', 'of', 'U.S.', 'and', 'market', 'Decision', 'on', 'data', 'forces', 'sense', 'incorrect', 'an', 'the', 'to', 'Kuroda', 'was', 'pour', "'s", 'said', '.'}
-DIFF: {'power'} {'pour'}
-
-313
-{'some', 'stabilise', 'will', '1985', 'he', 'by', 'supply-demand', 'said', 'excess', 'take', 'time', 'which', 'relations', 'disrupted', 'have', 'since', 'inventories', 'been', ',', 'To', '.'}
-{'some', 'stabilise', 'will', '1985', 'he', 'by', 'supply-demand', 'said', 'take', 'time', 'which', 'chess', 'relations', 'disrupted', 'have', 'since', 'inventories', 'been', ',', 'To', '.'}
-DIFF: {'excess'} {'chess'}
-
-314
-{'also', 'here', 'of', 'blame', 'U.S.', 'laid', 'in', 'a', 'sales', 'effort', 'Chip', 'on', 'by', 'for', 'low', 'Japan', 'the', 'Kuroda', 'part', 'lack', 'firms', 'American', '.'}
-{'also', 'here', 'of', 'U.S.', 'laid', 'in', 'a', 'sales', 'effort', 'Chip', 'on', 'by', 'gleam', 'for', 'low', 'Japan', 'the', 'Kuroda', 'part', 'lack', 'firms', 'American', '.'}
-DIFF: {'blame'} {'gleam'}
-
-315
-{'further', 'fails', 'U.S.', 'will', 'in', 'and', 'he', 'with', 'forestall', 'if', 'sanctions', 'tomorrow', 'Yeutter', 'to', 'Friday', 'He', 'Clayton', 'Trade', 'seek', 'talks', ',', 'said', '.', 'Representative'}
-{'further', 'U.S.', 'will', 'in', 'and', 'he', 'with', 'fella', 'forestall', 'if', 'sanctions', 'tomorrow', 'Yeutter', 'to', 'Friday', 'He', 'Clayton', 'Trade', 'seek', 'talks', ',', 'said', '.', 'Representative'}
-DIFF: {'fails'} {'fella'}
+296
+{'.', 'Soybean', 'output'}
+{'.', 'outputs', 'Soybean'}
+DIFF: {'output'} {'outputs'}
 
 317
-{'Securities', 'brokers', 'Warburg', 'what', 'in', 'its', 'told', 'Bell', 'from', 'headquarters', 'one-sentence', 'yesterday', 'The', 'confirmed', 'Reuters', "'s", 'statement', 'London', '.'}
-{'Securities', 'brokers', 'Warburg', 'what', 'in', 'western', 'its', 'told', 'Bell', 'from', 'headquarters', 'one-sentence', 'yesterday', 'The', 'confirmed', "'s", 'statement', 'London', '.'}
-DIFF: {'Reuters'} {'western'}
+{'its', '.', 'statement', 'Reuters', 'London', 'Bell', 'one-sentence', 'yesterday', 'brokers', 'Warburg', 'told', 'what', 'from', 'Securities', "'s", 'in', 'headquarters', 'confirmed', 'The'}
+{'its', '.', 'statement', 'London', 'Bell', 'one-sentence', 'yesterday', 'brokers', 'Warburg', 'told', 'what', 'from', 'Securities', "'s", 'in', 'headquarters', 'confirmed', 'The', 'Bester'}
+DIFF: {'Reuters'} {'Bester'}
+
+332
+{'early', 'its', 'could', 'whether', 'figures', 'around', '.', 'Japanese', 'domestic', 'open', 'at', 'Affairs', 'press', 'economy', 'too', 'turned', ',', 'Not', 'probably', 'demonstrate', 'State', 'of', 'described', 'was', 'Japan', 'Armacost', 'boost', 'and', 'U.S.', 'replied', 'situation', 'It', 'persuade', "'s", 'the', 'has', 'Under', 'Political', 'markets', 'moves', 'a', 'have', 'permit', 'impose', 'is', 'conference', 'Michael', 'to', 'on', 'asked', 'you', 'Secretary', 'imports', 'said', 'result', 'that', 'for', 'tariffs'}
+{'early', 'its', 'could', 'whether', 'figures', 'around', '.', 'Japanese', 'domestic', 'open', 'at', 'Affairs', 'press', 'economy', 'too', 'turned', ',', 'Not', 'probably', 'demonstrate', 'State', 'of', 'described', 'was', 'Armacost', 'boost', 'and', 'U.S.', 'replied', 'situation', 'It', 'persuade', "'s", 'the', 'has', 'Under', 'Political', 'Jagan', 'markets', 'moves', 'a', 'have', 'permit', 'impose', 'is', 'conference', 'Michael', 'to', 'on', 'asked', 'you', 'Secretary', 'imports', 'said', 'result', 'that', 'for', 'tariffs'}
+DIFF: {'Japan'} {'Jagan'}
 
 333
-{'remove', 'U.S.', 'will', 'economy', 'and', 'its', 'outstanding', 'on', 'trade', 'imports', 'domestic', 'issues', 'take', 'lift', 'Japan', 'exports', 'the', 'Armacost', 'to', 'settle', 'reduce', 'dependence', ',', 'Hopes', 'said', '.', 'barriers', 'steps'}
-{'remove', 'U.S.', 'will', 'economy', 'and', 'its', 'outstanding', 'on', 'trade', 'imports', 'domestic', 'issues', 'take', 'lift', 'Japan', 'exports', 'the', 'Armacost', 'to', 'settle', 'reduce', 'dependence', ',', 'Hope', 'said', '.', 'barriers', 'steps'}
+{'issues', 'its', 'Hopes', 'trade', '.', 'reduce', 'dependence', 'domestic', 'economy', 'barriers', ',', 'Japan', 'settle', 'Armacost', 'and', 'U.S.', 'lift', 'will', 'exports', 'the', 'take', 'to', 'on', 'remove', 'steps', 'imports', 'said', 'outstanding'}
+{'issues', 'its', 'Hope', 'trade', '.', 'reduce', 'dependence', 'domestic', 'economy', 'barriers', ',', 'Japan', 'settle', 'Armacost', 'and', 'U.S.', 'lift', 'will', 'exports', 'the', 'take', 'to', 'on', 'remove', 'steps', 'imports', 'said', 'outstanding'}
 DIFF: {'Hopes'} {'Hope'}
 
-348
-{'purchase', 'of', 'dividends', 'would', 'and', 'Angeles', 'be', 'retained', 'told', '1.33', 'by', 'out', 'pesos', 'the', 'prevent', 'SEC', 'shares', 'billion', 'earnings', 'los', 'De', "'s", 'declaration', 'wiped', 'company', '.'}
-{'purchase', 'of', 'dividends', 'would', 'and', 'Angeles', 'be', 'retained', 'told', '1.33', 'by', 'out', 'peso', 'the', 'prevent', 'SEC', 'shares', 'billion', 'earnings', 'los', 'De', "'s", 'declaration', 'wiped', 'company', '.'}
-DIFF: {'pesos'} {'peso'}
+350
+{'chief', '.', 'transaction', 'Rosario', 'ratio', 'He', 'board', 'boost', 'Ramon', 'financial', "'s", 'the', 'director', '2.5-to-1', 'as', 'quoted', 'to', 'SMC', 'del', 'telling', 'that', 'would'}
+{'chief', '.', 'transaction', 'Rosario', 'ratio', 'He', 'board', 'Ramon', 'oboist', 'financial', "'s", 'the', 'director', '2.5-to-1', 'as', 'quoted', 'to', 'SMC', 'del', 'telling', 'that', 'would'}
+DIFF: {'boost'} {'oboist'}
 
-354
-{'ownership', '15', 'issue', 'its', 'expected', 'submit', 'set', 'up', 'by', 'President', 'is', 'report', 'Aquino', 'the', 'to', 'An', 'resolve', 'Corazon', 'panel', 'arbitration', 'April', '.'}
-{'ownership', '15', 'issue', 'its', 'expected', 'submit', 'set', 'up', 'by', 'President', 'is', 'Aquino', 'the', 'to', 'ropers', 'An', 'resolve', 'Corazon', 'panel', 'arbitration', 'April', '.'}
-DIFF: {'report'} {'ropers'}
+353
+{"'s", 'The', 'again', 'ratified', 'week', 'board', 'assumption', 'meeting', '.', 'loan', 'was', 'by', 'last'}
+{"'s", 'The', 'ratified', 'week', 'board', '.', 'assumption', 'meeting', 'loan', 'was', 'agin', 'by', 'last'}
+DIFF: {'again'} {'agin'}
 
 356
-{'government', 'of', 'it', '15', 'does', 'reached', 'price', 'expressed', 'in', 'Coming', 'and', 'direct', 'Corp', 'on', 'by', 'contravention', 'is', 'when', 'an', 'controversy', 'amicable', 'the', 'to', 'Miguel', 'shares', 'desire', 'payment', 'as', 'UCPB', 'April', 'agreement', 'method', 'have', 'settlement', "'s", 'statement', 'San', ',', 'this', 'added', '.', 'suit', 'reach'}
-{'government', 'of', 'it', '15', 'does', 'price', 'expressed', 'in', 'Coming', 'and', 'direct', 'Corp', 'on', 'by', 'contravention', 'is', 'when', 'an', 'controversy', 'amicable', 'the', 'to', 'reacted', 'Miguel', 'shares', 'desire', 'payment', 'as', 'UCPB', 'April', 'agreement', 'method', 'have', 'settlement', "'s", 'statement', 'San', ',', 'this', 'added', '.', 'suit', 'reach'}
+{'reached', 'San', '.', 'statement', 'by', 'amicable', 'it', 'added', 'Miguel', ',', 'of', 'when', 'UCPB', 'Coming', 'desire', 'and', 'direct', 'price', 'the', 'Corp', 'government', "'s", 'settlement', 'April', 'agreement', 'as', 'does', 'have', 'is', 'in', 'to', 'suit', 'on', 'contravention', 'shares', 'controversy', 'an', 'payment', '15', 'reach', 'this', 'method', 'expressed'}
+{'San', '.', 'statement', 'by', 'amicable', 'it', 'added', 'Miguel', ',', 'of', 'when', 'UCPB', 'Coming', 'desire', 'and', 'direct', 'price', 'the', 'Corp', 'government', "'s", 'settlement', 'April', 'agreement', 'as', 'does', 'have', 'reacted', 'is', 'in', 'to', 'suit', 'on', 'contravention', 'shares', 'controversy', 'an', 'payment', '15', 'reach', 'this', 'method', 'expressed'}
 DIFF: {'reached'} {'reacted'}
 
-360
-{'Soriano', 'was', 'not', 'buyers', 'among', 'sources', 'prospective', 'personally', 'said', '.', 'SMC'}
-{'Soriano', 'was', 'not', 'buyers', 'sources', 'prospective', 'personally', 'amino', 'said', '.', 'SMC'}
-DIFF: {'among'} {'amino'}
-
 364
-{'lives', '..', 'U.S', 'the', 'self-imposed', 'exile', 'in', 'Cojuangco'}
-{'lives', 'aojuCngco', '..', 'U.S', 'the', 'self-imposed', 'exile', 'in'}
-DIFF: {'Cojuangco'} {'aojuCngco'}
+{'in', 'exile', 'U.S', 'the', '..', 'Cojuangco', 'self-imposed', 'lives'}
+{'in', 'exile', 'U.S', 'the', '.', 'Cojuangco', 'self-imposed', 'lives'}
+DIFF: {'..'} {'.'}
 
 366
-{'Diaz', 'We', 'Soriano', 'buying', 'told', 'B', 'have', 'shares', 'the', ',', 'to', 'no', '.', 'objection', 'Reuters'}
-{'Diaz', 'We', 'Soriano', 'buying', 'told', 'desert', 'B', 'have', 'shares', 'the', ',', 'to', 'no', '.', 'objection'}
-DIFF: {'Reuters'} {'desert'}
+{',', 'to', 'We', 'the', 'Soriano', 'Diaz', 'objection', 'buying', 'shares', '.', 'told', 'Reuters', 'no', 'have', 'B'}
+{',', 'to', 'We', 'the', 'Soriano', 'Diaz', 'Desert', 'objection', 'buying', 'shares', '.', 'told', 'no', 'have', 'B'}
+DIFF: {'Reuters'} {'Desert'}
 
 368
-{'meeting', 'not', 'spokesman', 'before', 'would', 'be', 'he', 'May', "'", 'know', 'for', 'said', 'annual', 'The', 'if', 'controversy', 'scheduled', 'did', 'the', 'resolved', 'stockholders', "'s", '14', ',', 'company', '.', 'SMC'}
-{'meeting', 'not', 'spokesman', 'before', 'would', 'be', 'he', 'May', "'", 'know', 'for', 'said', 'annual', 'The', 'if', 'controversy', 'scheduled', 'did', 'the', 'stockholder', 'resolved', "'s", '14', ',', 'company', '.', 'SMC'}
+{'he', '.', 'scheduled', ',', 'if', 'spokesman', 'the', "'s", 'know', 'meeting', '14', "'", 'company', 'did', 'be', 'resolved', 'The', 'annual', 'SMC', 'controversy', 'before', 'said', 'for', 'stockholders', 'May', 'not', 'would'}
+{'he', '.', 'scheduled', ',', 'stockholder', 'if', 'spokesman', 'the', "'s", 'know', 'meeting', '14', "'", 'company', 'did', 'be', 'resolved', 'The', 'annual', 'SMC', 'controversy', 'before', 'said', 'for', 'May', 'not', 'would'}
 DIFF: {'stockholders'} {'stockholder'}
 
-372
-{'growth', 'rains', 'spokesman', 'are', 'putting', 'in', 'and', 'Brisbane', 'on', 'from', 'crops', 'began', 'their', 'look', 'beginning', 'the', 'greener', '.', 'to', 'area', 'healthy', 'that', 'have', 'since', 'been', ',', 'reporting', 'said', 'Mills'}
-{'growth', 'trait', 'rains', 'spokesman', 'are', 'putting', 'in', 'and', 'Brisbane', 'on', 'from', 'crops', 'began', 'look', 'beginning', 'the', 'greener', '.', 'to', 'area', 'healthy', 'that', 'have', 'since', 'been', ',', 'reporting', 'said', 'Mills'}
-DIFF: {'their'} {'trait'}
-
-379
-{'substantial', 'of', 'in', 'week', 'and', 'tonnes', 'traders', 'hard', 'intervention', '785,000', 'outcome', 'the', 'to', 'Earlier', 'award', 'placing', 'into', 'last', 'very', 'sugar', 'was', 'London', "'s", 'tender', 'after', ',', 'said', '.', 'predict'}
-{'substantial', 'of', 'in', 'week', 'and', 'tonnes', 'traders', 'hard', 'intervention', '785,000', 'pacing', 'outcome', 'the', 'to', 'Earlier', 'award', 'into', 'last', 'very', 'sugar', 'was', 'London', "'s", 'tender', 'after', ',', 'said', '.', 'predict'}
-DIFF: {'placing'} {'pacing'}
-
 380
-{'they', 'around', 'tonnage', 'be', '60,000', 'give', 'They', 'the', 'figure', 'believed', '.', 'but', 'to', 'rebate', 'would', 'said', 'declined', 'a'}
-{'they', 'around', 'tonnage', 'be', '60,000', 'give', 'They', 'loud', 'the', 'figure', 'believed', '.', 'but', 'to', 'rebate', 'said', 'declined', 'a'}
+{'would', 'to', 'They', 'the', 'be', 'give', 'rebate', 'around', '60,000', 'they', '.', 'said', 'declined', 'figure', 'but', 'a', 'tonnage', 'believed'}
+{'rebate', 'to', 'They', 'the', 'be', 'give', 'around', '60,000', 'they', '.', 'said', 'declined', 'figure', 'but', 'a', 'loud', 'tonnage', 'believed'}
 DIFF: {'would'} {'loud'}
 
-386
-{'556,000', 'nickel', 'during', '1987', 'non-Socialist', 'Shearson', 'will', 'in', 'demand', 'balance', 'virtually', '50,000', 'total', 'and', 'market', 'be', 'Socialist', 'tonnes', 'compared', 'from', '544,000', 'imports', 'with', '504,000', 'an', '1986', 'the', '505,000', 'countries', '47,000', 'world', 'production', 'at', 'estimated', ',', 'said', '.'}
-{'556,000', 'nickel', 'during', '1987', 'non-Socialist', 'Shearson', 'would', 'will', 'in', 'demand', 'balance', 'virtually', '50,000', 'total', 'and', 'market', 'be', 'Socialist', 'tonnes', 'compared', 'from', '544,000', 'imports', 'with', '504,000', 'an', '1986', 'the', '505,000', 'countries', '47,000', 'production', 'at', 'estimated', ',', 'said', '.'}
-DIFF: {'world'} {'would'}
-
-389
-{'dividend', 'of', 'firm', 'would', 'guilders', 'will', 'in', '1985', 'be', 'its', 'from', 'raised', 'said', 'The', 'mln', 'shareholder', '1986', 'paid', 'the', '.', 'to', 'which', '70', '98', 'Dutch', 'sole', "'s", ',', 'company', 'capacity', 'state'}
-{'dividend', 'of', 'doubt', 'firm', 'guilders', 'will', 'in', '1985', 'be', 'its', 'from', 'raised', 'said', 'The', 'mln', 'shareholder', '1986', 'paid', 'the', '.', 'to', 'which', '70', '98', 'Dutch', 'sole', "'s", ',', 'company', 'capacity', 'state'}
-DIFF: {'would'} {'doubt'}
-
 391
-{'substantial', 'here', 'of', 'further', 'value', 'policy', 'would', 'correct', 'dollar', 'Affairs', 'in', 'It', 'a', 'be', 'In', 'deficit', 'trade', 'speech', 'extremely', 'for', 'aim', 'Contempory', 'an', 'decline', 'risky', 'the', 'to', 'Poehl', 'German', 'Institute', ',', 'said', '.'}
-{'substantial', 'here', 'of', 'further', 'Institut', 'value', 'policy', 'would', 'correct', 'dollar', 'Affairs', 'in', 'It', 'a', 'be', 'In', 'deficit', 'trade', 'speech', 'extremely', 'for', 'aim', 'Contempory', 'an', 'decline', 'risky', 'the', 'to', 'Poehl', 'German', ',', 'said', '.'}
+{'Contempory', 'trade', '.', 'Poehl', 'Affairs', ',', 'value', 'of', 'deficit', 'German', 'further', 'In', 'dollar', 'It', 'the', 'risky', 'Institute', 'decline', 'extremely', 'a', 'substantial', 'aim', 'in', 'correct', 'policy', 'to', 'speech', 'be', 'here', 'said', 'an', 'for', 'would'}
+{'Contempory', 'trade', '.', 'Poehl', 'Affairs', ',', 'value', 'of', 'deficit', 'German', 'further', 'Institut', 'In', 'dollar', 'It', 'the', 'risky', 'decline', 'extremely', 'a', 'substantial', 'aim', 'in', 'correct', 'policy', 'to', 'speech', 'be', 'here', 'said', 'an', 'for', 'would'}
 DIFF: {'Institute'} {'Institut'}
 
+392
+{'States', 'could', '.', 'face', 'it', 'route', ',', 'vicious', 'took', 'of', 'circle', 'if', 'He', 'and', 'more', 'the', 'depreciation', 'a', 'United', 'inflation', 'said', 'that'}
+{'States', 'could', '.', 'face', 'brute', 'it', ',', 'vicious', 'took', 'of', 'circle', 'if', 'He', 'and', 'more', 'the', 'depreciation', 'a', 'United', 'inflation', 'said', 'that'}
+DIFF: {'route'} {'brute'}
+
 397
-{'national', 'increasing', 'substantial', 'not', 'of', 'home', 'so', 'demand', 'a', 'be', 'its', 'product', 'erosion', 'markets', 'one-third', 'on', 'about', 'gross', 'by', 'offset', 'for', 'Germany', 'exports', 'West', 'could', 'Poehl', 'at', ',', 'relied', 'export', 'said', '.'}
-{'national', 'increasing', 'Plea', 'substantial', 'not', 'of', 'home', 'so', 'demand', 'a', 'be', 'its', 'product', 'erosion', 'markets', 'one-third', 'on', 'about', 'gross', 'by', 'offset', 'for', 'Germany', 'exports', 'West', 'could', 'at', ',', 'relied', 'export', 'said', '.'}
-DIFF: {'Poehl'} {'Plea'}
+{'its', 'Germany', 'could', '.', 'Poehl', 'product', 'by', 'at', ',', 'demand', 'of', 'so', 'relied', 'national', 'West', 'export', 'gross', 'exports', 'erosion', 'markets', 'substantial', 'a', 'one-third', 'offset', 'home', 'be', 'on', 'said', 'for', 'increasing', 'not', 'about'}
+{'its', 'Germany', 'could', '.', 'product', 'by', 'at', ',', 'demand', 'of', 'so', 'relied', 'national', 'West', 'export', 'gross', 'exports', 'erosion', 'markets', 'substantial', 'a', 'Piero', 'one-third', 'offset', 'home', 'be', 'on', 'said', 'for', 'increasing', 'not', 'about'}
+DIFF: {'Poehl'} {'Piero'}
 
 407
-{'of', 'in', 'remarkable', 'a', 'attitude', 'our', 'on', 'he', 'especially', 'change', 'This', 'colleagues', 'the', 'part', 'was', ',', 'American', 'said', '.'}
-{'of', 'in', 'remarkable', 'a', 'attitude', 'our', 'on', 'he', 'especially', 'change', 'This', 'colleagues', 'the', 'part', 'was', 'numerical', ',', 'said', '.'}
+{'he', '.', 'change', 'American', 'especially', ',', 'of', 'colleagues', 'was', 'This', 'attitude', 'the', 'a', 'our', 'part', 'in', 'on', 'remarkable', 'said'}
+{'he', '.', 'change', 'especially', ',', 'numerical', 'of', 'colleagues', 'was', 'This', 'attitude', 'the', 'a', 'our', 'part', 'in', 'on', 'remarkable', 'said'}
 DIFF: {'American'} {'numerical'}
 
 410
-{'voting', 'board', 'of', 'has', 'price', 'fully', 'a', 'and', 'be', 'diluted', 'on', 'by', 'Auxton', 'The', 'is', 'the', 'stock', 'to', 'which', 'receipt', 'merger', 'followed', 'conditioned', 'basis', 'at', 'been', "'s", 'approved', 'same', 'offer', ',', '.', 'majority'}
-{'voting', 'of', 'has', 'price', 'fully', 'a', 'and', 'be', 'diluted', 'on', 'by', 'aboard', 'Auxton', 'The', 'is', 'the', 'stock', 'to', 'which', 'receipt', 'merger', 'followed', 'conditioned', 'basis', 'at', 'been', "'s", 'approved', 'same', 'offer', ',', '.', 'majority'}
+{'conditioned', 'approved', '.', 'by', 'at', 'which', 'diluted', ',', 'majority', 'basis', 'of', 'voting', 'board', 'followed', 'and', 'same', 'price', 'has', 'the', "'s", 'been', 'offer', 'fully', 'Auxton', 'a', 'is', 'to', 'be', 'on', 'receipt', 'The', 'stock', 'merger'}
+{'conditioned', 'approved', '.', 'by', 'at', 'which', 'diluted', ',', 'majority', 'basis', 'of', 'voting', 'followed', 'aboard', 'and', 'same', 'price', 'has', 'the', "'s", 'been', 'offer', 'fully', 'Auxton', 'a', 'is', 'to', 'be', 'on', 'receipt', 'The', 'stock', 'merger'}
 DIFF: {'board'} {'aboard'}
 
-411
-{'increased', 'it', 'research', 'are', 'tries', 'a', 'and', 'its', 'expected', 'ago', 'year', 'above', 'running', 'said', 'for', 'possible', 'continue', 'The', 'is', 'quarters', 'several', 'to', 'commercialize', 'products', 'expenditures', 'as', 'spending', 'quickly', '60', '50', 'more', ',', 'pct', 'company', '.'}
-{'increased', 'it', 'research', 'are', 'a', 'and', 'its', 'expected', 'rites', 'ago', 'year', 'above', 'running', 'said', 'for', 'possible', 'continue', 'The', 'is', 'quarters', 'several', 'to', 'commercialize', 'products', 'expenditures', 'as', 'spending', 'quickly', '60', '50', 'more', ',', 'pct', 'company', '.'}
-DIFF: {'tries'} {'rites'}
+419
+{',', 'tennis', 'businesses', 'to', 'be', "'s", 'footwear', 'of', 'he', '.', 'likely', 'also', 'Chesebrough', 'are', 'added', 'disposed', 'and', 'racket'}
+{',', 'tennis', 'businesses', 'to', 'rake', "'s", 'be', 'footwear', 'of', 'he', '.', 'likely', 'also', 'Chesebrough', 'are', 'added', 'disposed', 'and'}
+DIFF: {'racket'} {'rake'}
 
-434
-{'The', 'of', 'before', 'pay', 'the', 'today', '.', 'Commission', 'went', 'Arbitration', 'hearing', 'dispute', 'a'}
-{'The', 'of', 'before', 'pay', 'the', 'today', 'Commission', 'despite', 'went', 'Arbitration', 'hearing', '.', 'a'}
-DIFF: {'dispute'} {'despite'}
+428
+{'mln', '1.16', 'dlrs', '.', '7.8', 'profits', 'share', ',', 'of', 'For', 'the', '1986', 'a', 'company', 'or', 'on', 'sales', '153.9', 'reported'}
+{'mln', '1.16', 'dlrs', '.', '7.8', 'profits', ',', 'of', 'For', 'the', '1986', 'a', 'company', 'or', 'on', 'sales', 'shaker', '153.9', 'reported'}
+DIFF: {'share'} {'shaker'}
 
 435
-{'of', 'today', 'disruption', 'Kembla', 'in', 'cargo', 'Sydney', 'and', 'ports', 'Meanwhile', 'handling', 'began', 'Newcastle', 'they', 'the', 'to', ',', 'Port', 'said', '.'}
-{'of', 'today', 'disruption', 'Kembla', 'in', 'cargo', 'Sydney', 'and', 'ports', 'bean', 'Meanwhile', 'handling', 'Newcastle', 'they', 'the', 'to', ',', 'Port', 'said', '.'}
+{'.', 'Meanwhile', 'cargo', 'handling', 'Sydney', ',', 'of', 'they', 'and', 'the', 'Newcastle', 'ports', 'today', 'began', 'in', 'Kembla', 'to', 'disruption', 'said', 'Port'}
+{'.', 'Meanwhile', 'cargo', 'handling', 'Sydney', ',', 'of', 'they', 'bean', 'and', 'the', 'Newcastle', 'ports', 'today', 'in', 'Kembla', 'to', 'disruption', 'said', 'Port'}
 DIFF: {'began'} {'bean'}
 
-451
-{'of', '8.3', 'cts', 'quarter', 'sales', 'share', 'and', 'a', 'Compaq', 'for', 'or', 'mln', '1986', 'the', 'reported', 'earnings', 'first', '144', 'dlrs', '30', ',', '.'}
-{'of', '8.3', 'cts', 'quarter', 'sales', 'share', 'and', 'a', 'Compaq', 'for', 'or', 'mln', '1986', 'the', 'rift', 'reported', 'earnings', '144', 'dlrs', '30', ',', '.'}
-DIFF: {'first'} {'rift'}
-
-452
-{'286', 'new', '386', 'COMPAQ', 'increase', 'will', 'demand', 'sales', 'and', 'its', 'for', 'said', 'The', 'DESKPRO', 'PORTABLE', 'the', 'to', 'III', ',', 'contribute', 'company', '.'}
-{'286', 'new', '386', 'COMPAQ', 'increase', 'will', 'demand', 'and', 'its', 'for', 'said', 'The', 'lass', 'DESKPRO', 'PORTABLE', 'the', 'to', 'III', ',', 'contribute', 'company', '.'}
-DIFF: {'sales'} {'lass'}
-
-455
-{'UNITS', 'TO', 'INSURANCE', 'I.U', 'INTERNATIONAL', '.', 'ltIU', 'SELL'}
-{'UNITS', 'TO', 'INSURANCE', 'I.U', '.', 'ltIU', 'INTERNATsONAL', 'SELL'}
-DIFF: {'INTERNATIONAL'} {'INTERNATsONAL'}
-
 471
-{'meet', 'would', 'Reserve', 'allow', 'bill', 'his', 'for', 'failure', 'private', 'Federal', 'margin', 'suits', 'the', 'to', 'damages', 'He', 'requirements', "'s", '50', 'pct', 'said', '.'}
-{'wold', 'meet', 'Reserve', 'allow', 'bill', 'his', 'for', 'failure', 'private', 'Federal', 'margin', 'suits', 'the', 'to', 'damages', 'He', 'requirements', "'s", '50', 'pct', 'said', '.'}
+{'50', 'pct', '.', 'his', 'private', 'He', 'suits', 'the', "'s", 'Federal', 'requirements', 'damages', 'bill', 'to', 'failure', 'margin', 'allow', 'Reserve', 'said', 'meet', 'for', 'would'}
+{'50', 'pct', '.', 'his', 'wold', 'private', 'He', 'suits', 'the', "'s", 'Federal', 'requirements', 'damages', 'bill', 'to', 'failure', 'margin', 'allow', 'Reserve', 'said', 'meet', 'for'}
 DIFF: {'would'} {'wold'}
 
-483
-{'EC', 'ECUS', '46.496', 'BD', 'SAYS', 'INTERVENTION', 'SOLD', 'AT', '118,350', 'UK', 'REBATE', '.', 'WHITE', 'SUGAR', 'TONNES'}
-{'EC', 'ECUS', '46.496', 'BD', 'SAYS', 'INTERVENTION', 'SOLD', 'AT', '118,350', 'UK', 'SA', 'REBATE', '.', 'WHITE', 'TONNES'}
-DIFF: {'SUGAR'} {'SA'}
+481
+{'payments', 'Brazil', 'its', '.', 'assumes', 'negotiations', 'lead', 'it', 'Trust', 'of', 'and', 'will', 'commercial', 'the', 'lenders', 'between', 'bank', 'Bankers', 'debt', 'to', 'said', 'interest', 'that', 'resumption'}
+{'payments', 'Brazil', 'its', '.', 'assumes', 'negotiations', 'lead', 'it', 'of', 'and', 'will', 'commercial', 'the', 'rust', 'lenders', 'between', 'bank', 'Bankers', 'debt', 'to', 'said', 'interest', 'that', 'resumption'}
+DIFF: {'Trust'} {'rust'}
 
 488
-{'is', 'of', 'accord', 'he', 'weakness', 'the', ',', '.', 'no', 'Paris', 'fundamental', 'said', 'There'}
-{'is', 'of', 'basis', 'accord', 'he', 'weakness', 'the', ',', '.', 'no', 'fundamental', 'said', 'There'}
-DIFF: {'Paris'} {'basis'}
+{',', 'There', 'the', 'of', 'accord', 'he', '.', 'said', 'no', 'Paris', 'fundamental', 'is', 'weakness'}
+{',', 'There', 'the', 'Iraqis', 'of', 'accord', 'he', '.', 'said', 'no', 'fundamental', 'is', 'weakness'}
+DIFF: {'Paris'} {'Iraqis'}
 
 493
-{'growth', 'of', 'bargain', 'cuts', 'in', 'a', 'be', 'its', 'had', 'up', 'stimulating', 'by', 'tax', 'for', 'Germany', 'preparing', 'the', 'West', 'to', 'Paris', 'accelerated', 'as', 'Poehl', 'side', 'lived', 'way', 'said', '.'}
-{'growth', 'of', 'bargain', 'cuts', 'in', 'a', 'be', 'its', 'had', 'up', 'stimulating', 'by', 'tax', 'for', 'preparing', 'the', 'West', 'to', 'Paris', 'accelerated', 'as', 'Poehl', 'German', 'side', 'lived', 'way', 'said', '.'}
+{'its', 'Germany', 'accelerated', 'stimulating', '.', 'Poehl', 'by', 'cuts', 'growth', 'of', 'had', 'Paris', 'lived', 'way', 'West', 'the', 'bargain', 'as', 'tax', 'a', 'preparing', 'up', 'in', 'to', 'be', 'said', 'side', 'for'}
+{'its', 'accelerated', 'stimulating', '.', 'Poehl', 'by', 'cuts', 'growth', 'of', 'German', 'had', 'Paris', 'lived', 'way', 'West', 'the', 'bargain', 'as', 'tax', 'a', 'preparing', 'up', 'in', 'to', 'be', 'said', 'side', 'for'}
 DIFF: {'Germany'} {'German'}
 
+494
+{',', 'its', '.', 'Poehl', 'economic', 'said', 'that', 'Japan', 'had', 'yet', 'fulfilled', 'pledges', 'for', 'however', 'not', 'stimulation'}
+{',', 'its', '.', 'Poehl', 'economic', 'said', 'Jagan', 'that', 'had', 'yet', 'fulfilled', 'pledges', 'for', 'however', 'not', 'stimulation'}
+DIFF: {'Japan'} {'Jagan'}
+
 497
-{'unnoticed', 'not', 'an', 'go', 'can', '.', 'You', 'to', 'in', 'expect', 'that', 'economy'}
-{'unnoticed', 'not', 'an', 'go', 'can', 'except', 'You', 'to', '.', 'in', 'that', 'economy'}
+{'in', 'to', 'go', 'expect', 'can', '.', 'You', 'an', 'unnoticed', 'that', 'economy', 'not'}
+{'in', 'to', 'except', 'go', 'can', '.', 'You', 'an', 'unnoticed', 'that', 'economy', 'not'}
 DIFF: {'expect'} {'except'}
 
-499
-{'of', 'U.K', 'today', 'per', 'Units', 'export', 'total', 'EC', 'a', 'DETAILS', 'BOARD', 'tonnes', 'maximum', '118,350', 'Currency', 'rebates', 'received', 'white', 'European', 'INTERVENTION', 'kilos', 'Community', 'the', 'SUGAR', 'sugar', 'Ecus', 'SALES', '46.496', 'current', 'at', "'s", 'tender', 'A', ',', 'series', '.', '100'}
-{'of', 'U.K', 'today', 'per', 'Units', 'export', 'total', 'EC', 'a', 'DETAILS', 'BOARD', 'tonnes', 'maximum', '118,350', 'Currency', 'rebates', 'received', 'white', 'European', 'kilos', 'Community', 'the', 'INTERVNTION', 'SUGAR', 'sugar', 'Ecus', 'SALES', '46.496', 'current', 'at', "'s", 'tender', 'A', ',', 'series', '.', '100'}
-DIFF: {'INTERVENTION'} {'INTERVNTION'}
+500
+{'Intervention', '.', 'said', 'Board'}
+{'Intervention', '.', 'said', 'Coward'}
+DIFF: {'Board'} {'Coward'}
 
-503
-{'projected', 'some', 'around', 'view', 'of', 'today', 'would', 'a', 'total', '60,000', 'be', 'had', 'awards', 'tonnes', 'on', 'traders', 'declined', 'subsidy', 'tonnage', 'the', 'although', 'to', 'Earlier', 'level', 'give', 'London', ',', 'said', '.'}
-{'projected', 'some', 'around', 'view', 'of', 'today', 'would', 'a', 'total', '60,000', 'be', 'had', 'awards', 'on', 'traders', 'declined', 'subsidy', 'tonnage', 'tones', 'the', 'although', 'to', 'Earlier', 'level', 'give', 'London', ',', 'said', '.'}
-DIFF: {'tonnes'} {'tones'}
+506
+{'100', '.', 'authorised', 'at', 'licences', 'end-Sep', 'of', 'Ecus', 'Units', 'whites', 'export', 'tonnes', 'rebate', 'the', '102,350', 'under', 'ever', 'Currency', 'kilos', 'to', 'Last', 'week', '46.864', 'higest', 'for', 'per', 'saw', 'European'}
+{'100', 'Cites', '.', 'authorised', 'at', 'licences', 'end-Sep', 'of', 'Ecus', 'Units', 'export', 'tonnes', 'rebate', 'the', '102,350', 'under', 'ever', 'Currency', 'kilos', 'to', 'Last', 'week', '46.864', 'higest', 'for', 'per', 'saw', 'European'}
+DIFF: {'whites'} {'Cites'}
 
 513
-{'of', 'quarter', 'versus', 'unbleached', 'strong', 'sales', 'its', 'up', 'paperboard', '13', 'Mead', 'coated', '1986', 'the', 'was', 'particularly', 'first', ',', 'pct', 'said', '.'}
-{'of', 'quarter', 'versus', 'unbleached', 'strong', 'sales', 'its', 'up', 'paperboard', '13', 'Mead', 'acted', '1986', 'the', 'was', 'particularly', 'first', ',', 'pct', 'said', '.'}
+{'its', 'Mead', 'particularly', 'pct', '.', 'coated', 'paperboard', 'strong', ',', 'unbleached', 'of', 'was', 'the', '1986', '13', 'quarter', 'versus', 'up', 'first', 'sales', 'said'}
+{'its', 'Mead', 'particularly', 'pct', '.', 'paperboard', 'strong', ',', 'unbleached', 'of', 'acted', 'was', 'the', '1986', '13', 'quarter', 'versus', 'up', 'first', 'sales', 'said'}
 DIFF: {'coated'} {'acted'}
 
 518
-{'The', 'also', 'North', 'Media', 'it', 'Country', 'has', 'Group', ',', 'video', 'productions', 'company', '.', 'acquired', 'said', 'a'}
-{'The', 'also', 'North', 'Media', 'it', 'Country', 'has', 'Group', 'diver', ',', 'productions', 'company', '.', 'acquired', 'said', 'a'}
-DIFF: {'video'} {'diver'}
-
-519
-{'FROM', 'WOOLWORTH', 'F.W', 'TO', '28', 'CO', 'HIKES', 'SAYS', 'CTS', 'DIVIDEND', 'SHARE', '33', 'A', '.', 'IT'}
-{'FROM', 'F.W', 'TO', '28', 'CO', 'HIKES', 'SAYS', 'CTS', 'DIVIDEND', 'SHARE', '33', 'A', '.', 'WOLWORTH', 'IT'}
-DIFF: {'WOOLWORTH'} {'WOLWORTH'}
-
-520
-{'FROM', 'WOOLWORTH', 'TO', '28', 'CO', 'HIKES', 'SAYS', 'CTS', 'DIVIDEND', 'SHARE', '33', 'A', 'IT'}
-{'FROM', 'WOOLWORTH', 'TO', '28', 'CO', 'CTS', 'SAYS', 'SHARE', 'DIVIDEND', '33', 'A', 'IT', 'HKES'}
-DIFF: {'HIKES'} {'HKES'}
-
-525
-{'around', 'hectares', 'of', 'produced', 'however', 'quota', 'has', 'a', 'and', 'reducing', 'non-quota', 'tonnes', 'introduced', 'minimise', 'with', 'year', 'aim', 'white', 'This', 'the', 'to', 'output', '130,000', 'sugar', 'amount', 'C', 'been', 'plantings', 'system', 'cutting', ',', 'self-imposed', '915,000', '.'}
-{'around', 'hectares', 'of', 'produced', 'however', 'quota', 'has', 'a', 'and', 'non-quot', 'reducing', 'tonnes', 'introduced', 'minimise', 'with', 'year', 'aim', 'white', 'This', 'the', 'to', 'output', '130,000', 'sugar', 'amount', 'C', 'been', 'plantings', 'system', 'cutting', ',', 'self-imposed', '915,000', '.'}
-DIFF: {'non-quota'} {'non-quot'}
+{',', 'productions', 'has', 'Country', 'Media', 'The', '.', 'North', 'also', 'video', 'said', 'Group', 'a', 'it', 'acquired', 'company'}
+{',', 'productions', 'has', 'Country', 'Media', 'The', '.', 'North', 'also', 'said', 'Group', 'a', 'it', 'acquired', 'dive', 'company'}
+DIFF: {'video'} {'dive'}
 
 534
-{'be', 'new', '11', 'dividend', 'of', 'proposed', "'s", 'the', 'A', 'marks', 'would', 'preference', 'company', '.', 'for', 'shares'}
-{'be', 'new', '11', 'of', 'divided', 'proposed', "'s", 'the', 'A', 'marks', 'would', 'preference', 'company', '.', 'for', 'shares'}
+{'new', 'be', 'the', "'s", 'of', 'preference', 'A', '11', 'shares', '.', 'dividend', 'company', 'for', 'proposed', 'marks', 'would'}
+{'divided', 'new', 'be', 'the', "'s", 'of', 'preference', 'A', '11', 'shares', '.', 'company', 'for', 'proposed', 'marks', 'would'}
 DIFF: {'dividend'} {'divided'}
 
 538
-{'around', 'reserves', 'end-1985', 'stood', 'three', 'at', 'Parent', 'marks', 'company', '.', 'billion'}
-{'around', 'reserves', 'end-1985', 'stood', 'at', 'Parent', 'tree', 'marks', 'company', '.', 'billion'}
+{'reserves', 'around', 'three', 'billion', 'marks', '.', 'stood', 'end-1985', 'at', 'Parent', 'company'}
+{'reserves', 'tree', 'around', 'marks', 'billion', '.', 'stood', 'end-1985', 'at', 'Parent', 'company'}
 DIFF: {'three'} {'tree'}
 
-542
-{'also', 'of', 'it', 'value', 'As', 'result', 'a', 'one', 'split', 'number', 'dlr', 'capital', 'from', 'having', '20.9', 'Hanover', 'mln', 'the', 'stock', 'to', 'authorized', 'shares', '10.4', 'increases', 'par', ',', 'said', '.'}
-{'also', 'of', 'it', 'capita', 'value', 'As', 'result', 'a', 'one', 'split', 'number', 'dlr', 'from', 'having', '20.9', 'Hanover', 'mln', 'the', 'stock', 'to', 'authorized', 'shares', '10.4', 'increases', 'par', ',', 'said', '.'}
-DIFF: {'capital'} {'capita'}
-
-544
-{'service', 'it', 'guard', 'companies', 'said', '.', 'acquired', 'It', 'C.S.C'}
-{'it', 'guard', '.', 'companies', 'said', 'derive', 'acquired', 'It', 'C.S.C'}
-DIFF: {'service'} {'derive'}
+550
+{'to', 'There', 'the', 'raise', 'levels', 'of', '.', 'subsidy', 'no', 'but', 'meal', 'is', 'way', 'out'}
+{'to', 'There', 'the', 'raise', 'of', 'sleeves', '.', 'subsidy', 'no', 'but', 'meal', 'is', 'way', 'out'}
+DIFF: {'levels'} {'sleeves'}
 
 553
-{'brings', 'cts', 'price', 'Sun', 'contract', 'heating', 'a', '0.50', 'said', 'cent', 'The', 'the', 'barge', 'reduction', 'to', 'gallon', "'s", 'oil', '50', ',', 'company', '.'}
-{'brings', 'cts', 'price', 'Sun', 'contract', 'heating', 'a', 'bare', '0.50', 'said', 'cent', 'The', 'the', 'reduction', 'to', 'gallon', "'s", 'oil', '50', ',', 'company', '.'}
+{'50', 'brings', '.', 'heating', 'oil', ',', 'contract', 'barge', 'cts', 'cent', 'price', 'Sun', "'s", 'the', 'a', 'company', 'to', '0.50', 'The', 'gallon', 'said', 'reduction'}
+{'50', 'brings', '.', 'heating', 'oil', ',', 'contract', 'cts', 'cent', 'price', 'Sun', "'s", 'the', 'bare', 'a', 'company', 'to', '0.50', 'The', 'gallon', 'said', 'reduction'}
 DIFF: {'barge'} {'bare'}
 
 556
-{'Chaco', 'of', 'mm', 'Entre', '35', 'Corrientes', 'Rios', 'reached', 'Santa', '41', 'Buenos', 'in', 'week', 'middle', 'and', 'Aires', 'Formosa', '83', 'Fe', 'average', 'eight', 'an', 'Misiones', 'the', '.', 'province', 'last', 'millimetres', 'parts', '50', ',', '27', 'Cordoba', 'Rains', '95'}
-{'Chaco', 'of', 'mm', 'Entre', '35', 'Corrientes', 'Rios', 'reached', 'suenoB', 'Santa', '41', 'in', 'week', 'middle', 'and', 'Aires', 'Formosa', '83', 'Fe', 'average', 'eight', 'an', 'Misiones', 'the', '.', 'province', 'last', 'millimetres', 'parts', '50', ',', '27', 'Cordoba', 'Rains', '95'}
-DIFF: {'Buenos'} {'suenoB'}
+{'83', '50', 'reached', '.', 'average', 'Rios', 'Formosa', ',', 'of', 'Corrientes', 'Misiones', 'last', 'and', 'eight', 'the', 'Santa', 'Chaco', 'parts', 'Rains', 'mm', 'province', 'middle', 'Fe', 'millimetres', 'Entre', 'in', '35', 'week', '41', '27', 'an', 'Cordoba', 'Aires', '95', 'Buenos'}
+{'83', '50', 'reached', '.', 'average', 'Rios', 'Formosa', ',', 'of', 'Corrientes', 'Misiones', 'last', 'and', 'eight', 'the', 'Santa', 'Chaco', 'parts', 'Rains', 'Bueno', 'mm', 'province', 'middle', 'Fe', 'millimetres', 'Entre', 'in', '35', 'week', '41', '27', 'an', 'Cordoba', 'Aires', '95'}
+DIFF: {'Buenos'} {'Bueno'}
 
-581
-{'of', 'because', 'spokesman', 'unadjusted', 'delaying', 'in', 'a', 'figures', 'smaller', 'year', 'for', 'showed', 'than', 'usual', 'the', 'cold', 'seasonal', 'time', 'industry', 'work', 'particularly', 'weather', 'A', 'ministry', ',', 'building', 'decrease', 'said', '.'}
-{'of', 'because', 'spokesman', 'unadjusted', 'delaying', 'in', 'a', 'smaller', 'year', 'for', 'showed', 'figured', 'than', 'usual', 'the', 'cold', 'seasonal', 'time', 'industry', 'work', 'particularly', 'weather', 'A', 'ministry', ',', 'building', 'decrease', 'said', '.'}
-DIFF: {'figures'} {'figured'}
+589
+{'Giovanni', 'James', 'acting', '.', 'sources', 'Minister', 'Italian', 'Goria', 'said', 'Secretary', 'Baker', 'Finance', 'last', 'met', 'night', 'Treasury'}
+{'Giovanni', 'James', 'acting', '.', 'sources', 'Minister', 'Italian', 'Goria', 'said', 'Secretary', 'Finance', 'last', 'met', 'night', 'Treasury', 'Bake'}
+DIFF: {'Baker'} {'Bake'}
 
-584
-{'earlier', 'was', 'figure', 'the', 'A', '28,763', '.', 'year'}
-{'earlier', 'was', 'the', 'A', '28,763', '.', 'year', 'fixers'}
-DIFF: {'figure'} {'fixers'}
+601
+{'Sci-Med', 'Systems', '.', 'Bristol-Myers', 'by', 'patent', ',', 'served', 'Inc', 'of', 'infringement', 'transaction', 'March', 'proposed', 'investigation', 'Cardiovascular', '1987', 'completion', 'due', 'a', 'is', 'diligence', 'to', 'suit', 'on', 'including', 'The', 'subject', 'review', '31', 'Advanced'}
+{'Sci-Med', 'Systems', '.', 'Bristol-Myers', 'by', 'patent', 'severed', ',', 'Inc', 'of', 'infringement', 'transaction', 'March', 'proposed', 'investigation', 'Cardiovascular', '1987', 'completion', 'due', 'a', 'is', 'diligence', 'to', 'suit', 'on', 'including', 'The', 'subject', 'review', '31', 'Advanced'}
+DIFF: {'served'} {'severed'}
 
-614
-{'of', 'adversely', 'Dow', 'barrel', 'U.S.', 'dollar', 'strong', 'a', 'and', '1985', 'chemical', 'prices', 'In', 'had', '25', 'by', 'still', 'above', '58', 'when', 'mln', 'exports', 'the', '.', 'profits', 'dlrs', 'oil', ',', 'were', 'affected'}
-{'of', 'adversely', 'Dow', 'barrel', 'U.S.', 'strong', 'a', 'and', '1985', 'chemical', 'prices', 'In', 'had', '25', 'dolls', 'by', 'still', 'above', '58', 'when', 'mln', 'exports', 'the', '.', 'profits', 'dlrs', 'oil', ',', 'were', 'affected'}
-DIFF: {'dollar'} {'dolls'}
+607
+{'.', 'also', 'oil', ',', 'businesses', 'Inc', 'Oil', 'such', 'are', 'and', 'Ashland', 'the', 'money-making', 'as', 'shopping', 'petrochemical', 'companies', 'to', 'refiner', 'buy', 'ltASH', 'Kentucky-based', 'for', 'marketer'}
+{'.', 'also', 'market', 'oil', ',', 'businesses', 'Inc', 'Oil', 'such', 'are', 'and', 'Ashland', 'the', 'money-making', 'as', 'shopping', 'petrochemical', 'companies', 'to', 'refiner', 'buy', 'ltASH', 'Kentucky-based', 'for'}
+DIFF: {'marketer'} {'market'}
 
 619
-{'weakening', 'foreign', 'dollar', 'in', 'and', 'prices', 'year', 'currencies', 'feedstocks', 'against', 'the', 'fall', 'time', 'last', 'cheaper', 'made', 'was', 'at', "'s", 'Dosher', 'oil', 'same', 'dramatically', 'American', 'said', '.'}
-{'weakening', 'foreign', 'price', 'dollar', 'in', 'and', 'year', 'currencies', 'feedstocks', 'against', 'the', 'fall', 'time', 'last', 'cheaper', 'made', 'was', 'at', "'s", 'Dosher', 'oil', 'same', 'dramatically', 'American', 'said', '.'}
+{'dramatically', 'time', '.', 'American', 'at', 'oil', 'Dosher', 'year', 'was', 'last', 'against', 'and', 'same', 'made', 'dollar', 'the', "'s", 'weakening', 'foreign', 'prices', 'fall', 'in', 'feedstocks', 'cheaper', 'said', 'currencies'}
+{'dramatically', 'time', '.', 'American', 'at', 'oil', 'Dosher', 'year', 'was', 'last', 'against', 'and', 'same', 'made', 'dollar', 'price', 'the', "'s", 'weakening', 'foreign', 'fall', 'in', 'feedstocks', 'cheaper', 'said', 'currencies'}
 DIFF: {'prices'} {'price'}
 
 620
-{'chemical', 'exports', 'U.S.', 'helped', '.', 'boost', 'That'}
-{'chemical', 'boosts', 'exports', 'U.S.', 'helped', '.', 'That'}
+{'That', 'exports', 'helped', 'chemical', '.', 'boost', 'U.S.'}
+{'That', 'exports', 'helped', 'chemical', '.', 'boosts', 'U.S.'}
 DIFF: {'boost'} {'boosts'}
 
-623
-{'and', 'takeover', 'The', 'of', 'hostile', 'friendly', 'off', 'restructuring', 'touched', 'attempts', 'flurry', '.', 'a'}
-{'and', 'structuring', 'takeover', 'The', 'of', 'hostile', 'friendly', 'off', 'touched', 'attempts', 'flurry', '.', 'a'}
-DIFF: {'restructuring'} {'structuring'}
-
-629
-{'share', 'Some', 'chemical', 'executives', 'the', '.', 'top', 'concern'}
-{'share', 'Some', 'chemical', 'executives', 'the', 'top', '.', 'nonce'}
-DIFF: {'concern'} {'nonce'}
-
 635
-{'only', 'The', 'basic', 'petrochemicals', 'products', 'of', 'specialty', 'produce', 'blocks', 'the', 'plants', 'building', 'are', '.', 'commodity', 'that'}
-{'only', 'The', 'basic', 'product', 'petrochemicals', 'of', 'products', 'specialty', 'blocks', 'the', 'plants', 'building', 'are', '.', 'commodity', 'that'}
+{'plants', 'petrochemicals', 'the', 'The', 'blocks', 'of', 'products', '.', 'basic', 'produce', 'commodity', 'that', 'are', 'specialty', 'only', 'building'}
+{'plants', 'petrochemicals', 'the', 'The', 'blocks', 'of', 'products', '.', 'product', 'basic', 'commodity', 'that', 'are', 'specialty', 'only', 'building'}
 DIFF: {'produce'} {'product'}
 
 643
-{'August', '1986', 'public', 'Company', '.', 'went', 'in'}
-{'1986', 'public', 'Company', '.', 'went', 'in', 'august'}
+{'in', 'August', '1986', '.', 'went', 'Company', 'public'}
+{'in', 'august', '1986', '.', 'went', 'Company', 'public'}
 DIFF: {'August'} {'august'}
 
-645
-{'share', 'split', 'two-for-one', 'Earnings', 'March', '15', 'on', 'reflects', 'per', 'stock', 'common', '.'}
-{'split', 'two-for-one', 'Earnings', 'March', '15', 'on', 'reflects', 'per', 'shea', 'stock', 'common', '.'}
-DIFF: {'share'} {'shea'}
+646
+{'.', 'Reuters', 'I', 'response', ',', 'we', 'Michel', "'re", 'they', 'told', 'concerned', 'are', 'As', 'spokesman', 'and', 'the', 'am', 'as', 'query', 'far', 'a', 'company', 'is', 'in', 'to', 'on', 'commenting', 'Dufour', 'rumors', 'not'}
+{'.', 'I', 'response', 'reporters', ',', 'we', 'Michel', "'re", 'they', 'told', 'concerned', 'are', 'As', 'spokesman', 'and', 'the', 'am', 'as', 'query', 'far', 'a', 'company', 'is', 'in', 'to', 'on', 'commenting', 'Dufour', 'rumors', 'not'}
+DIFF: {'Reuters'} {'reporters'}
 
-664
-{'pre-set', 'a', 'range', 'and', 'rise', 'prices', 'within', 'by', 'selling', 'aims', 'they', 'buying', 'The', 'buffer', 'when', 'keep', 'stock', 'fall', 'to', '.'}
-{'pre-set', 'a', 'range', 'and', 'rise', 'prices', 'within', 'by', 'aims', 'they', 'buying', 'The', 'buffer', 'when', 'keep', 'stock', 'fall', 'to', 'saline', '.'}
-DIFF: {'selling'} {'saline'}
-
-666
-{'much', 'of', '1986/87', 'sold', 'Another', 'source', 'in', 'sales', 'next', 'concerns', 'with', 'near', 'year', 'harvest', 'term', 'cocoa', 'the', 'October-September', 'crop', 'world', 'that', 'limiting', "'s", ',', 'essentially', 'said', '.'}
-{'much', 'of', '1986/87', 'sea', 'sold', 'Another', 'source', 'in', 'next', 'concerns', 'with', 'near', 'year', 'harvest', 'term', 'cocoa', 'the', 'October-September', 'crop', 'world', 'that', 'limiting', "'s", ',', 'essentially', 'said', '.'}
-DIFF: {'sales'} {'sea'}
+662
+{'.', 'London', 'market', 'rules', 'month', 'at', 'soon', 'cocoa', 'operation', 'last', 'and', 'manager', 'the', 'Major', 'meeting', 'enter', 'consuming', 'a', 'is', 'nations', 'in', 'buffer', 'to', 'producing', 'for', 'agreed', 'expected', 'stock'}
+{'.', 'market', 'rules', 'month', 'at', 'soon', 'cocoa', 'operation', 'last', 'and', 'Hondo', 'manager', 'the', 'Major', 'meeting', 'enter', 'consuming', 'a', 'is', 'nations', 'in', 'buffer', 'to', 'producing', 'for', 'agreed', 'expected', 'stock'}
+DIFF: {'London'} {'Hondo'}
 
 677
-{'are', 'will', 'valid', 'until', 'agent', 'and', 'EDT', '1550', '13', 'by', 'Offers', 'hrs', '1000', 'the', 'due', 'remain', 'April', '14', ',', 'said', '.'}
-{'are', 'will', 'valid', 'until', 'agent', 'and', 'EDT', '1550', '13', 'Office', 'by', 'hrs', '1000', 'the', 'due', 'remain', 'April', '14', ',', 'said', '.'}
-DIFF: {'Offers'} {'Office'}
+{'1550', '.', 'by', 'hrs', ',', 'Offers', 'are', 'remain', 'and', 'will', 'April', 'EDT', 'the', '14', '13', 'due', 'valid', 'until', 'said', 'agent', '1000'}
+{'1550', '.', 'by', 'hrs', ',', 'are', 'remain', 'and', 'will', 'April', 'Offshore', 'EDT', 'the', '14', '13', 'due', 'valid', 'until', 'said', 'agent', '1000'}
+DIFF: {'Offers'} {'Offshore'}
 
 681
-{'some', 'of', 'quarter', 'price', 'notes', 'in', 'a', 'suffering', 'heavy', 'floating', 'Euromarket', 'whether', 'with', 'Morgan', 'losses', 'Conditions', 'trading', 'falls', 'the', 'restricted', 'spokeswoman', 'to', 'difficult', 'last', 'say', 'rate', 'was', 'unable', "'s", ',', 'but', 'were', '.', 'sectors', 'remained'}
-{'some', 'of', 'quarter', 'price', 'notes', 'in', 'a', 'suffering', 'heavy', 'floating', 'Euromarket', 'whether', 'with', 'Morgan', 'losses', 'Conditions', 'trading', 'falls', 'the', 'restricted', 'spokeswoman', 'to', 'difficult', 'last', 'say', 'rate', 'was', 'unable', 'vectors', "'s", ',', 'but', 'were', '.', 'remained'}
+{'Conditions', 'whether', '.', 'difficult', 'spokeswoman', ',', 'of', 'with', 'heavy', 'was', 'but', 'suffering', 'sectors', 'last', 'falls', 'restricted', 'remained', 'price', 'the', 'say', "'s", 'trading', 'were', 'quarter', 'a', 'losses', 'in', 'some', 'to', 'Morgan', 'unable', 'rate', 'notes', 'floating', 'Euromarket'}
+{'Conditions', 'whether', '.', 'difficult', 'vectors', 'spokeswoman', ',', 'of', 'with', 'heavy', 'was', 'but', 'suffering', 'last', 'falls', 'restricted', 'remained', 'price', 'the', 'say', "'s", 'trading', 'were', 'quarter', 'a', 'losses', 'in', 'some', 'to', 'Morgan', 'unable', 'rate', 'notes', 'floating', 'Euromarket'}
 DIFF: {'sectors'} {'vectors'}
 
 684
-{'102.2', '88.4', 'dropped', 'and', 'income', 'mainly', 'from', 'gains', '43.1', 'fees', 'Morgan', 'mln', 'other', 'to', 'net', 'operating', 'commissions', 'investment', 'securities', 'rose', 'dlrs', ',', 'but', '58.1', 'said', '.'}
-{'102.2', '88.4', 'dropped', 'manly', 'and', 'income', 'from', 'gains', '43.1', 'fees', 'Morgan', 'mln', 'other', 'to', 'net', 'operating', 'commissions', 'investment', 'securities', 'rose', 'dlrs', ',', 'but', '58.1', 'said', '.'}
+{'mln', 'dlrs', '43.1', '.', 'fees', 'operating', 'gains', '102.2', 'other', ',', 'securities', 'rose', 'income', 'mainly', 'but', 'and', 'from', '88.4', 'net', 'commissions', 'to', 'Morgan', 'investment', '58.1', 'said', 'dropped'}
+{'mln', 'dlrs', '43.1', '.', 'fees', 'operating', 'manly', 'gains', '102.2', 'other', ',', 'securities', 'rose', 'income', 'but', 'and', 'from', '88.4', 'net', 'commissions', 'to', 'Morgan', 'investment', '58.1', 'said', 'dropped'}
 DIFF: {'mainly'} {'manly'}
 
 685
-{'earlier', 'quarter', 'in', 'a', 'and', 'interest', '499.4', 'from', '2.79', 'year', 'Net', 'mln', 'the', 'to', 'net', '490.4', 'earnings', 'fell', 'first', 'dlrs', '3.20', ',', 'were', 'pct', '.', 'down', 'yield'}
-{'earlier', 'quarter', 'in', 'a', 'and', 'interest', 'diety', '499.4', 'from', '2.79', 'year', 'Net', 'mln', 'the', 'to', 'net', '490.4', 'earnings', 'fell', 'first', 'dlrs', '3.20', ',', 'were', 'pct', '.', 'down'}
+{'mln', '490.4', 'earlier', 'dlrs', 'pct', '3.20', '.', 'Net', 'fell', ',', '499.4', 'year', 'down', 'and', 'yield', 'from', 'the', 'net', 'were', 'a', 'quarter', '2.79', 'in', 'to', 'first', 'earnings', 'interest'}
+{'mln', '490.4', 'earlier', 'dlrs', 'pct', '3.20', '.', 'Net', 'fell', ',', 'diety', '499.4', 'year', 'down', 'and', 'from', 'the', 'net', 'were', 'a', 'quarter', '2.79', 'in', 'to', 'first', 'earnings', 'interest'}
 DIFF: {'yield'} {'diety'}
 
-686
-{'not', 'recorded', 'are', 'would', 'and', 'interest', 'be', 'only', 'income', 'had', 'on', 'placed', 'can', 'actually', 'received', 'when', 'means', 'mln', 'non-accrual', 'net', 'which', 'Brazil', '2.99', 'that', 'as', '525.9', 'If', 'earnings', 'have', 'been', 'dlrs', ',', 'payments', 'pct', '.', 'yield'}
-{'not', 'recorded', 'are', 'would', 'and', 'interest', 'be', 'only', 'income', 'weigh', 'had', 'on', 'placed', 'can', 'actually', 'received', 'when', 'means', 'mln', 'non-accrual', 'net', '2.99', 'Brazil', 'that', 'as', '525.9', 'If', 'earnings', 'have', 'been', 'dlrs', ',', 'payments', 'pct', '.', 'yield'}
-DIFF: {'which'} {'weigh'}
-
 687
-{'not', '72', '1987', 'does', 'would', 'be', 'by', 'Morgan', 'mln', 'resume', 'net', 'Brazil', 'cut', 'If', 'dlrs', ',', 'payments', '.', 'added'}
-{'not', '72', '1987', 'does', 'would', 'be', 'brazil', 'by', 'Morgan', 'mln', 'resume', 'net', 'cut', 'If', 'dlrs', ',', 'payments', '.', 'added'}
+{'payments', 'mln', 'Brazil', 'dlrs', '.', 'by', 'added', 'resume', '72', ',', 'If', '1987', 'net', 'does', 'be', 'Morgan', 'cut', 'not', 'would'}
+{'payments', 'mln', 'dlrs', '.', 'by', 'added', 'resume', '72', 'brazil', ',', 'If', '1987', 'net', 'does', 'be', 'Morgan', 'cut', 'not', 'would'}
 DIFF: {'Brazil'} {'brazil'}
 
-688
-{'earlier', 'of', '815', 'After', 'a', 'and', 'totaled', 'end', 'compared', 'with', 'allowance', 'for', 'year', 'Morgan', '910', 'losses', 'credit', 'mln', 'the', 'end-1986', 'provision', 'at', 'March', "'s", 'dlrs', ',', 'loan', '.', '953'}
-{'earlier', 'of', '815', 'a', 'and', 'totaled', 'end', 'fer', 'compared', 'with', 'allowance', 'for', 'year', 'Morgan', '910', 'losses', 'credit', 'mln', 'the', 'end-1986', 'provision', 'at', 'March', "'s", 'dlrs', ',', 'loan', '.', '953'}
-DIFF: {'After'} {'fer'}
+701
+{'television', 'outside', '.', 'crop', 'which', ',', 'of', 'sheer', 'evident', 'scale', 'record', 'from', 'shown', 'the', 'has', 'lorries', 'been', 'have', 'enormous', 'task', 'in', 'waiting', 'The', 'granaries', 'transporting', 'reports', 'queues'}
+{'television', 'outside', '.', 'crop', 'Musee', 'which', ',', 'of', 'sheer', 'evident', 'scale', 'record', 'from', 'shown', 'the', 'has', 'lorries', 'been', 'have', 'enormous', 'task', 'in', 'waiting', 'The', 'granaries', 'transporting', 'reports'}
+DIFF: {'queues'} {'Musee'}
 
-689
-{'earlier', 'of', 'It', 'a', 'charge-offs', 'compared', 'with', 'six', '49', 'year', 'eight', 'three', 'mln', 'net', 'recoveries', 'reported', 'dlrs', 'after', ',', '.'}
-{'earlier', 'of', 'It', 'a', 'charge-offs', 'secret', 'compared', 'with', 'six', '49', 'year', 'eight', 'mln', 'net', 'recoveries', 'reported', 'dlrs', 'after', ',', '.'}
-DIFF: {'three'} {'secret'}
+713
+{'Earnings', 'to', '47', '19.4p', 'pct', '.', 'ordinary', 'per', 'were', 'share', 'up'}
+{'Earnings', 'to', '47', '19.4p', 'pct', '.', 'shaker', 'ordinary', 'per', 'were', 'up'}
+DIFF: {'share'} {'shaker'}
 
-698
-{'Brito', 'of', 'whose', '20', 'between', 'and', 'only', 'its', 'had', 'crops', 'include', 'soya', 'the', 'storage', 'Centre-West', 'grains', 'production', 'space', 'maize', "'s", '40', '30', ',', 'nation', 'but', 'pct', 'said', '.'}
-{'Brito', 'of', 'whose', '20', 'between', 'and', 'only', 'grins', 'its', 'had', 'crops', 'include', 'soya', 'the', 'storage', 'Centre-West', 'production', 'space', 'maize', "'s", '40', '30', ',', 'nation', 'but', 'pct', 'said', '.'}
-DIFF: {'grains'} {'grins'}
+715
+{'disclosed', '.', 'Terms', 'were', 'not'}
+{'.', 'Terms', 'were', 'not', 'discussed'}
+DIFF: {'disclosed'} {'discussed'}
 
-718
-{'and', 'Tuesday', 'was', '4,776', 'francs', 'set', 'at', "'s", '4,790', 'kilos', 'price', 'per', 'Today', '.', '100'}
-{'and', 'was', '4,776', 'francs', 'set', 'at', "'s", '4,790', 'kilos', 'price', 'per', 'yuesdaT', 'Today', '.', '100'}
-DIFF: {'Tuesday'} {'yuesdaT'}
+719
+{'Chamber', '.', 'London', 'stopped', ',', '1985', 'Metal', 'of', '24', 'International', 'price', 'the', 'LME', 'trading', 'after', 'a', 'Exchange', 'October', 'Commerce', 'publishing', 'on', 'The', 'tin'}
+{'Chamber', '.', 'Meta', 'London', 'stopped', ',', '1985', 'of', '24', 'International', 'price', 'the', 'LME', 'trading', 'after', 'a', 'Exchange', 'October', 'Commerce', 'publishing', 'on', 'The', 'tin'}
+DIFF: {'Metal'} {'Meta'}
 
 740
-{'they', 'Tunisia', 'yet', 'been', 'has', 'No', 'tender', 'by', ',', 'official', 'said', '.', 'announced'}
-{'they', 'tensed', 'Tunisia', 'yet', 'has', 'been', 'No', 'by', ',', 'official', 'said', '.', 'announced'}
-DIFF: {'tender'} {'tensed'}
+{',', 'Tunisia', 'has', 'been', '.', 'they', 'official', 'No', 'said', 'yet', 'tender', 'by', 'announced'}
+{',', 'Tunisia', 'has', 'been', '.', 'they', 'official', 'No', 'tended', 'said', 'yet', 'by', 'announced'}
+DIFF: {'tender'} {'tended'}
 
 748
-{'Textiles', 'of', 'Canada', 'today', 'and', 'takeover', 'on', 'Inc', 'stake', 'Burlington', 'spotlight', 'The', 'an', 'to', 'Dominion', 'speculation', 'Asher', 'bought', '52-7/8', 'which', 'almost', 'that', '4-7/8', 'fell', 'Edelman', 'investor', 'rose', ',', 'pct', '.', 'five'}
-{'Textiles', 'of', 'Canada', 'and', 'takeover', 'tansy', 'on', 'Inc', 'stake', 'Burlington', 'spotlight', 'The', 'an', 'to', 'Dominion', 'speculation', 'Asher', 'bought', '52-7/8', 'which', 'almost', 'that', '4-7/8', 'fell', 'Edelman', 'investor', 'rose', ',', 'pct', '.', 'five'}
-DIFF: {'today'} {'tansy'}
+{'pct', '.', 'Dominion', 'fell', 'which', 'takeover', ',', '4-7/8', 'Inc', 'of', 'almost', 'rose', 'stake', 'and', 'investor', 'bought', 'Edelman', 'Asher', 'speculation', 'five', 'today', '52-7/8', 'Burlington', 'to', 'spotlight', 'on', 'The', 'an', 'that', 'Textiles', 'Canada'}
+{'pct', '.', 'Dominion', 'fell', 'which', 'takeover', ',', '4-7/8', 'Inc', 'of', 'almost', 'rose', 'stake', 'and', 'investor', 'bought', 'Edelman', 'Asher', 'speculation', 'five', '52-7/8', 'Burlington', 'to', 'spotlight', 'on', 'The', 'an', 'that', 'Textiles', 'Canada', 'badly'}
+DIFF: {'today'} {'badly'}
 
-765
-{'share', 'earnings', 'of', 'up', 'estimated', '1987', 'dlrs', 'from', '2.50', 'per', ',', '2.01', '.', 'She'}
-{'share', 'of', 'up', 'estimated', '1987', 'dlrs', 'from', '2.50', 'per', ',', '2.01', 'She', '.', 'endings'}
-DIFF: {'earnings'} {'endings'}
+759
+{'its', 'focused', '.', 'also', 'by', ',', 'businesses', 'management', 'competition', 'and', 'It', 'has', 'Gormley', 'operations', 'reorganized', 'foreign', 'be', 'on', 'affected', 'said', 'that', 'less', 'would'}
+{'its', '.', 'also', 'by', ',', 'businesses', 'management', 'competition', 'and', 'It', 'has', 'Gormley', 'operations', 'focuses', 'reorganized', 'foreign', 'be', 'on', 'affected', 'said', 'that', 'less', 'would'}
+DIFF: {'focused'} {'focuses'}
 
 768
-{'46', 'a', 'and', 'takeover', 'only', 'he', 'on', 'about', 'worth', 'is', 'an', 'the', 'stock', 'believes', 'He', 'earnings', 'basis', 'dlrs', '50', 'said', '.'}
-{'46', 'a', 'and', 'takeover', 'only', 'he', 'on', 'about', 'worth', 'is', 'an', 'the', 'stock', 'believes', 'He', 'basis', 'dlrs', '50', 'earning', 'said', '.'}
+{'50', 'dlrs', 'stock', 'he', '.', 'takeover', 'believes', 'basis', '46', 'He', 'worth', 'and', 'the', 'a', 'is', 'on', 'earnings', 'said', 'an', 'only', 'about'}
+{'50', 'dlrs', 'stock', 'he', '.', 'takeover', 'believes', 'basis', '46', 'He', 'worth', 'and', 'the', 'earning', 'a', 'is', 'on', 'said', 'an', 'only', 'about'}
 DIFF: {'earnings'} {'earning'}
 
 769
-{'of', 'however', 'per', 'share', 'Some', 'takeover', 'on', 'placed', 'said', 'the', 'to', 'arbitragers', 'values', 'have', '65', 'been', 'dlrs', '60', ',', 'company', '.'}
-{'of', 'however', 'valued', 'per', 'share', 'Some', 'takeover', 'on', 'placed', 'said', 'the', 'to', 'arbitragers', 'have', '65', 'been', 'dlrs', '60', ',', 'company', '.'}
-DIFF: {'values'} {'valued'}
+{'dlrs', '.', 'share', 'takeover', ',', '65', 'values', 'of', '60', 'arbitragers', 'the', 'been', 'have', 'however', 'company', 'to', 'on', 'placed', 'Some', 'said', 'per'}
+{'dlrs', '.', 'share', 'takeover', ',', '65', 'value', 'of', '60', 'arbitragers', 'the', 'been', 'have', 'however', 'company', 'to', 'on', 'placed', 'Some', 'said', 'per'}
+DIFF: {'values'} {'value'}
+
+779
+{',', 'to', 'They', 'be', 'on', 'semiconductors', 'including', 'television', '.', 'use', 'imposed', 'equipment', 'audio', 'computers', 'are', 'which', 'goods', 'and'}
+{',', 'to', 'They', 'be', 'on', 'which', 'semiconductors', 'including', 'television', '.', 'use', 'equipment', 'audio', 'computers', 'are', 'impose', 'goods', 'and'}
+DIFF: {'imposed'} {'impose'}
 
 783
-{'Congress', 'much', 'has', 'U.S.', 'semiconductor', 'presidential', 'are', 'trade', 'on', 'about', 'his', 'aimed', 'analysts', 'complained', 'issues', 'Japan', 'practices', 'the', 'to', 'which', 'as', 'was', 'industry', 'Trade', 'at', 'have', "'s", 'injured', ',', 'timidity', 'said', '.', 'move'}
-{'Congress', 'much', 'has', 'U.S.', 'semiconductor', 'presidential', 'are', 'trade', 'on', 'about', 'his', 'aimed', 'analysts', 'complained', 'issues', 'Japan', 'practices', 'the', 'inured', 'to', 'which', 'as', 'was', 'industry', 'Trade', 'at', 'have', "'s", ',', 'timidity', 'said', '.', 'move'}
+{'issues', 'trade', 'Trade', '.', 'Congress', 'his', 'much', 'move', 'at', 'which', ',', 'practices', 'was', 'Japan', 'are', 'U.S.', 'analysts', 'the', "'s", 'has', 'timidity', 'as', 'injured', 'have', 'complained', 'to', 'on', 'aimed', 'semiconductor', 'industry', 'said', 'presidential', 'about'}
+{'issues', 'trade', 'Trade', '.', 'Congress', 'his', 'much', 'move', 'at', 'which', 'inured', ',', 'practices', 'was', 'Japan', 'are', 'U.S.', 'analysts', 'the', "'s", 'has', 'timidity', 'as', 'have', 'complained', 'to', 'on', 'aimed', 'semiconductor', 'industry', 'said', 'presidential', 'about'}
 DIFF: {'injured'} {'inured'}
 
 789
-{'excessive', 'The', 'States', 'has', 'he', ',', 'United', 'expectations.', 'said', '.'}
-{'excessive', 'The', 'States', 'has', 'he', 'expectations', ',', 'United', 'said', '.'}
+{',', 'excessive', 'has', 'States', 'The', 'he', '.', 'said', 'expectations.', 'United'}
+{',', 'excessive', 'has', 'States', 'The', 'he', '.', 'expectations', 'said', 'United'}
 DIFF: {'expectations.'} {'expectations'}
 
-790
-{'1985', 'some', 'excess', 'take', 'have', 'since', 'inventories', 'been', 'will', 'which', 'by', '.', 'time', 'supply-demand', 'To', 'stabilize', 'relations', 'disrupted'}
-{'1985', 'bich', 'excess', 'take', 'some', 'have', 'since', 'inventories', 'been', 'will', 'by', '.', 'time', 'supply-demand', 'To', 'stabilize', 'relations', 'disrupted'}
-DIFF: {'which'} {'bich'}
-
 793
-{'and', 'N.C.', 'company', 'The', 'County', 'Fayetteville', 'report', 'Darlington', 'S.C.', 'the', ',', '.', 'describes', 'facilities', 'said', 'in'}
-{'and', 'N.C.', 'company', 'The', 'County', 'Fayetteville', 'report', 'Darlington', 'S.C.', 'the', ',', '.', 'describe', 'facilities', 'said', 'in'}
-DIFF: {'describes'} {'describe'}
-
-799
-{'of', 'closing', 'price', 'a', 'share', 'rise', '5p', '201p', 'rumour', 'from', 'traders', 'final', 'GEC', 'Stock', 'yesterday', 'Exchange', 'the', 'to', '206p', "'s", 'helped', ',', 'said', '.'}
-{'of', 'closing', 'price', 'a', 'rise', '5p', '201p', 'rumour', 'from', 'traders', 'final', 'GEC', 'Stock', 'yesterday', 'sore', 'Exchange', 'the', 'to', '206p', "'s", 'helped', ',', 'said', '.'}
-DIFF: {'share'} {'sore'}
+{'in', ',', 'Darlington', 'S.C.', 'the', 'Fayetteville', 'The', 'County', '.', 'describes', 'report', 'said', 'company', 'facilities', 'and', 'N.C.'}
+{'in', ',', 'Darlington', 'S.C.', 'the', 'Fayetteville', 'The', 'County', '.', 'report', 'said', 'described', 'company', 'facilities', 'and', 'N.C.'}
+DIFF: {'describes'} {'described'}
 
 801
-{'of', 'it', 'show', 'strong', 'It', 'expects', 'and', 'rest', 'improved', 'year', 'for', 'Northeast', 'the', 'results', 'to', ',', 'outside', 'were', 'said', '.'}
-{'improve', 'of', 'it', 'show', 'strong', 'It', 'expects', 'and', 'rest', 'year', 'for', 'Northeast', 'the', 'results', 'to', ',', 'outside', 'were', 'said', '.'}
+{'outside', '.', 'improved', 'it', 'Northeast', 'strong', ',', 'results', 'of', 'year', 'expects', 'and', 'It', 'the', 'show', 'were', 'rest', 'to', 'said', 'for'}
+{'outside', '.', 'it', 'Northeast', 'strong', ',', 'results', 'of', 'year', 'expects', 'and', 'It', 'the', 'show', 'were', 'rest', 'to', 'said', 'for', 'improve'}
 DIFF: {'improved'} {'improve'}
 
+804
+{'in', ',', 'forward', 'They', 'reporters', 'of', 'feet', '.', 'both', 'told', 'certainly', 'are', 'terms', 'their', 'putting', 'explaining', 'Fitzwater', 'position'}
+{'in', ',', 'forward', 'They', 'reporters', 'expanding', 'of', 'feet', '.', 'both', 'told', 'certainly', 'are', 'terms', 'their', 'putting', 'Fitzwater', 'position'}
+DIFF: {'explaining'} {'expanding'}
+
+809
+{',', 'to', 'more', 'the', 'The', 'he', '.', 'likely', 'business', 'said', 'market', 'were', 'cuts', 'attract'}
+{',', 'to', 'more', 'the', 'The', 'he', '.', 'likely', 'business', 'said', 'markets', 'were', 'cuts', 'attract'}
+DIFF: {'market'} {'markets'}
+
 813
-{'dividend', 'of', 'per', 'in', 'a', 'share', 'June', 'on', 'reflects', 'B', '1986', 'stock', 'the', 'common', 'class', 'Earnings', '30', '50', 'form', ',', 'pct', '.', 'distribution'}
-{'dividend', 'of', 'per', 'in', 'a', 'June', 'on', 'reflects', 'B', '1986', 'stock', 'the', 'common', 'class', 'Earnings', '30', '50', 'form', ',', 'shore', 'pct', '.', 'distribution'}
+{'50', 'pct', '.', 'common', 'share', 'reflects', '30', 'Earnings', ',', 'of', 'form', 'class', 'distribution', 'B', 'the', '1986', 'dividend', 'a', 'in', 'on', 'June', 'per', 'stock'}
+{'50', 'pct', '.', 'common', 'shore', 'reflects', '30', 'Earnings', ',', 'of', 'form', 'class', 'distribution', 'B', 'the', '1986', 'dividend', 'a', 'in', 'on', 'June', 'per', 'stock'}
 DIFF: {'share'} {'shore'}
 
+817
+{'pct', '.', '6.7', 'by', 'guilder', ',', 'guilders', '4.4', 'weaker', 'rose', 'billion', 'Turnover', 'due', 'foreign', 'losses', 'in', 'to', 'despite', 'currencies', 'terms'}
+{'pct', '.', '6.7', 'by', 'guilder', ',', 'guilders', '4.4', 'weaker', 'rose', 'billion', 'Turnover', 'due', 'foreign', 'in', 'to', 'despite', 'currencies', 'terms', 'loses'}
+DIFF: {'losses'} {'loses'}
+
 819
-{'invest', 'guilders', 'in', 'and', 'still', 'year', 'said', 'The', 'mln', '700', 'marketing', 'Heineken', 'to', 'restructuring', ',', 'planned', 'this', 'company', '.'}
-{'invest', 'guilders', 'in', 'and', 'year', 'said', 'The', 'mln', 'marketing', 'stall', 'Heineken', 'to', 'company', 'restructuring', ',', 'planned', 'this', '700', '.'}
+{'mln', 'Heineken', '.', 'restructuring', 'invest', ',', 'guilders', 'still', 'year', '700', 'marketing', 'and', 'planned', 'company', 'in', 'to', 'The', 'said', 'this'}
+{'mln', 'stall', 'Heineken', '.', 'restructuring', 'invest', ',', 'guilders', 'year', '700', 'marketing', 'and', 'planned', 'company', 'in', 'to', 'The', 'said', 'this'}
 DIFF: {'still'} {'stall'}
 
 829
-{'beer', 'new', 'of', 'malt', 'sold', 'balance', 'a', 'market', 'Coebergh', 'had', 'on', 'said', 'costs', 'launched', 'the', 'Heinken', 'which', 'made', 'sorghum', '50', 'Nigerian', ',', 'successfully', 'imported', 'pct', 'To', '.'}
-{'beer', 'new', 'of', 'malt', 'sold', 'balance', 'a', 'market', 'Coebergh', 'had', 'on', 'said', 'launched', 'the', 'Heinken', 'which', 'castor', 'made', 'sorghum', '50', 'Nigerian', ',', 'successfully', 'imported', 'pct', 'To', '.'}
-DIFF: {'costs'} {'castor'}
+{'launched', '50', 'pct', '.', 'market', 'successfully', 'which', 'To', 'Coebergh', ',', 'new', 'of', 'had', 'made', 'the', 'beer', 'imported', 'a', 'on', 'costs', 'malt', 'Heinken', 'said', 'Nigerian', 'balance', 'sorghum', 'sold'}
+{'launched', '50', 'pct', '.', 'market', 'successfully', 'cost', 'which', 'To', 'Coebergh', ',', 'new', 'of', 'had', 'made', 'the', 'beer', 'imported', 'a', 'on', 'malt', 'Heinken', 'said', 'Nigerian', 'balance', 'sorghum', 'sold'}
+DIFF: {'costs'} {'cost'}
 
 832
-{'some', 'of', 'contract', 'in', 'week', 'restrictions', 'a', 'market', 'had', 'year', 'said', 'faced', 'they', 'Soviet', 'efforts', 'penetrate', 'Chairman', 'the', 'Heineken', 'to', 'seven', 'finally', 'that', 'relaxed', "'s", 'resulted', 'this', 'company', '.'}
-{'some', 'of', 'contract', 'in', 'week', 'restrictions', 'a', 'market', 'had', 'year', 'said', 'faced', 'they', 'Soviet', 'efforts', 'penetrate', 'Chairman', 'the', 'Heineken', 'to', 'finally', 'that', 'relaxed', "'s", 'seen', 'resulted', 'this', 'company', '.'}
+{'Heineken', '.', 'market', 'relaxed', 'restrictions', 'seven', 'contract', 'of', 'they', 'year', 'had', 'Chairman', 'penetrate', 'efforts', 'the', "'s", 'Soviet', 'resulted', 'a', 'company', 'in', 'some', 'to', 'week', 'said', 'faced', 'that', 'finally', 'this'}
+{'seen', 'Heineken', '.', 'market', 'relaxed', 'restrictions', 'contract', 'of', 'they', 'year', 'had', 'Chairman', 'penetrate', 'efforts', 'the', "'s", 'Soviet', 'resulted', 'a', 'company', 'in', 'some', 'to', 'week', 'said', 'faced', 'that', 'finally', 'this'}
+DIFF: {'seven'} {'seen'}
+
+834
+{'enjoying', 'Heineken', '.', 'good', 'money', 'seven', ',', 'now', 'but', 'are', 'has', 'the', 'western', 'accept', 'in', 'sales', 'that', 'Moscow', 'only', 'bars'}
+{'enjoying', 'seen', 'Heineken', '.', 'good', 'money', ',', 'now', 'but', 'are', 'has', 'the', 'western', 'accept', 'in', 'sales', 'that', 'Moscow', 'only', 'bars'}
 DIFF: {'seven'} {'seen'}
 
 843
-{'Athens', 'Turkish', 'Prime', 'sent', 'today', 'Ozal', 'meet', 'in', 'week', 'a', 'Turkey', 'Greek', 'by', 'for', 'ambassador', 'Akiman', 'Turgut', 'Minister', 'the', 'reply', 'to', 'Papandreou', 'due', 'last', 'Andreas', 'was', "'s", 'Nazmi', 'message', ',', '.'}
-{'Athens', 'Andres', 'Turkish', 'Prime', 'sent', 'today', 'Ozal', 'meet', 'in', 'week', 'a', 'Turkey', 'Greek', 'by', 'for', 'ambassador', 'Akiman', 'Turgut', 'Minister', 'the', 'reply', 'to', 'Papandreou', 'due', 'last', 'was', "'s", 'Nazmi', 'message', ',', '.'}
+{'sent', 'Andreas', '.', 'by', 'Nazmi', 'Greek', ',', 'Ozal', 'Turkish', 'was', 'Prime', 'last', 'reply', 'message', 'the', "'s", 'Turkey', 'Papandreou', 'due', 'a', 'Akiman', 'Athens', 'today', 'ambassador', 'in', 'to', 'week', 'Minister', 'meet', 'for', 'Turgut'}
+{'sent', '.', 'by', 'Nazmi', 'Greek', ',', 'Ozal', 'Andres', 'Turkish', 'was', 'Prime', 'last', 'reply', 'message', 'the', "'s", 'Turkey', 'Papandreou', 'due', 'a', 'Akiman', 'Athens', 'today', 'ambassador', 'in', 'to', 'week', 'Minister', 'meet', 'for', 'Turgut'}
 DIFF: {'Andreas'} {'Andres'}
 
-852
-{'Committee', 'before', 'Tomorrow', 'meet', 'and', 'Subcommittee', 'Richard', 'Ways', 'Means', 'Lyng', 'House', 'is', 'the', 'visiting', '.', 'to', 'Secretary', 'Zeeuw', 'Finance', 'Trade', 'De', 'Agriculture', ',', 'Senate'}
-{'before', 'Tomorrow', 'meet', 'Committees', 'and', 'Subcommittee', 'Richard', 'Ways', 'Means', 'Lyng', 'House', 'is', 'the', 'visiting', '.', 'to', 'Secretary', 'Zeeuw', 'Finance', 'Trade', 'De', 'Agriculture', ',', 'Senate'}
-DIFF: {'Committee'} {'Committees'}
-
-853
-{'Canada', 'week', 'De', '.', 'to', 'this', 'goes', 'Zeeuw', 'later'}
-{'week', 'De', 'aanCda', '.', 'to', 'this', 'goes', 'Zeeuw', 'later'}
-DIFF: {'Canada'} {'aanCda'}
-
-854
-{'of', 'policy', 'meet', 'in', 'leaders', 'member', 'trip', 'farm', 'his', 'key', 'is', 'North', 'attempt', 'the', 'to', 'part', 'GATT', 'America', 'states', 'His', '.'}
-{'of', 'policy', 'meet', 'in', 'leaders', 'member', 'trip', 'farm', 'his', 'key', 'is', 'North', 'attempt', 'the', 'to', 'part', 'GATT', 'emArica', 'states', 'His', '.'}
-DIFF: {'America'} {'emArica'}
+858
+{',', 'in', 'name', 'first', 'corrects', 'paragraph', 'GGHF', 'company'}
+{',', 'in', 'name', 'first', 'paragraph', 'GGHF', 'company', 'Corrects'}
+DIFF: {'corrects'} {'Corrects'}
 
 860
-{'not', 'of', 'much', 'collapse', 'higher', 'dollar', 'a', 'rates', 'hand', 'he', 'did', 'other', 'the', 'going', 'On', 'barring', 'that', ',', 'said', '.', 'see'}
-{'not', 'of', 'much', 'collapse', 'higher', 'dollar', 'a', 'rates', 'hand', 'he', 'goin', 'did', 'other', 'the', 'On', 'barring', 'that', ',', 'said', '.', 'see'}
+{'he', '.', 'barring', 'much', 'collapse', 'other', ',', 'of', 'On', 'higher', 'rates', 'dollar', 'the', 'see', 'a', 'did', 'going', 'hand', 'said', 'that', 'not'}
+{'he', '.', 'barring', 'much', 'collapse', 'other', ',', 'of', 'On', 'higher', 'rates', 'dollar', 'the', 'see', 'goin', 'a', 'did', 'hand', 'said', 'that', 'not'}
 DIFF: {'going'} {'goin'}
 
-864
-{'meeting', 'here', 'of', 'it', '1987', 'will', 'a', 'share', 'sales', 'on', '500', 'about', 'year', 'for', 'said', 'analysts', 'or', 'an', 'mln', '5.15-5.35', 'the', '73', 'that', 'earn', 'April', 'ending', 'dlrs', '30', ',', 'At', 'company', '.'}
-{'meeting', 'here', 'of', 'it', '1987', 'will', 'a', 'share', 'sales', 'command', 'on', '500', 'about', 'year', 'for', 'analysts', 'or', 'an', 'mln', '5.15-5.35', 'the', '73', 'that', 'earn', 'April', 'ending', 'dlrs', '30', ',', 'At', 'said', '.'}
-DIFF: {'company'} {'command'}
+866
+{'its', 'pacemakers', '.', 'therapeutic', 'Medtronic', 'product', 'market', 'share', 'expand', ',', 'Winston', 'cardiac', 'and', 'will', 'the', 'chairman', '1988', 'Wallin', 'company', 'line', 'cardiovascular', 'in', 'said', 'fiscal', 'improve'}
+{'its', 'pacemakers', '.', 'therapeutic', 'Medtronic', 'product', 'market', 'share', 'expand', ',', 'Winston', 'cardiac', 'and', 'will', 'the', 'Fallen', 'chairman', '1988', 'company', 'line', 'cardiovascular', 'in', 'said', 'fiscal', 'improve'}
+DIFF: {'Wallin'} {'Fallen'}
 
 869
-{'rather', 'off', 'dividends', 'are', 'in', 'reinvest', 'share', 'we', 'he', 'or', 'repurchases', 'if', 'better', 'than', 'the', 'Shareholders', 'business', ',', 'said', '.', 'grow'}
-{'father', 'off', 'dividends', 'are', 'in', 'reinvest', 'share', 'we', 'he', 'or', 'repurchases', 'if', 'better', 'than', 'the', 'Shareholders', 'business', ',', 'said', '.', 'grow'}
+{'grow', 'he', '.', 'reinvest', 'share', ',', 'we', 'if', 'are', 'than', 'the', 'Shareholders', 'rather', 'off', 'dividends', 'repurchases', 'or', 'in', 'better', 'business', 'said'}
+{'grow', 'he', '.', 'reinvest', 'share', ',', 'we', 'if', 'are', 'than', 'the', 'Shareholders', 'off', 'dividends', 'repurchases', 'or', 'in', 'better', 'father', 'business', 'said'}
 DIFF: {'rather'} {'father'}
 
-871
-{'valued', '1990', '2.5', 'will', 'and', 'double', 'market', 'be', 'catheters', 'about', 'by', 'for', 'includes', 'the', 'cardiovascualr', 'which', 'products', 'worldwide', 'billion', 'that', 'He', 'pacemakers', 'at', 'therapeutic', 'dlrs', '1995', ',', 'lasers', 'valves', 'said', '.'}
-{'valued', '1990', '2.5', 'will', 'and', 'double', 'market', 'be', 'catheters', 'hitch', 'about', 'by', 'for', 'includes', 'the', 'cardiovascualr', 'products', 'worldwide', 'billion', 'that', 'He', 'pacemakers', 'at', 'therapeutic', 'dlrs', '1995', ',', 'lasers', 'valves', 'said', '.'}
-DIFF: {'which'} {'hitch'}
-
 875
-{'We', 'pacemakers', 'or', 'Wallin', 'of', 'knowledge', 'have', 'problems', 'our', ',', '.', 'leads', 'no', 'major', 'said', 'in', 'any'}
-{'We', 'pacemakers', 'or', 'Wallin', 'of', 'knowledge', 'have', 'mayor', 'problems', 'our', ',', '.', 'leads', 'no', 'said', 'in', 'any'}
+{'any', 'in', ',', 'We', 'of', 'pacemakers', 'knowledge', 'problems', '.', 'said', 'no', 'major', 'leads', 'have', 'Wallin', 'our', 'or'}
+{'any', 'in', ',', 'We', 'mayor', 'of', 'pacemakers', 'knowledge', 'problems', '.', 'said', 'no', 'leads', 'have', 'Wallin', 'our', 'or'}
 DIFF: {'major'} {'mayor'}
 
-886
-{'extended', 'not', 'of', 'it', 'years', 'delegate', 'two', 'in', 'position', 'be', 'number', 'up', 'decided', 'on', 'June', 'whether', 'their', 'final', 'producer', 'expires', 'for', 'or', 'sources', 'the', 'to', 'according', 'have', 'wound', 'governments', '30', 'ITA', 'particular', 'should', 'A', 'after', ',', '.', 'down'}
-{'extended', 'not', 'of', 'it', 'years', 'delegate', 'two', 'in', 'position', 'be', 'number', 'up', 'shod', 'decided', 'on', 'June', 'whether', 'their', 'final', 'producer', 'expires', 'for', 'or', 'sources', 'the', 'to', 'according', 'have', 'wound', 'governments', '30', 'ITA', 'particular', 'after', 'A', ',', '.', 'down'}
-DIFF: {'should'} {'shod'}
-
 901
-{'earlier', 'hotel', 'during', 'completed', 'quarter', 'test', 'in', 'week', 'a', 'and', 'its', 'regular', 'third', 'on', 'began', 'gaming', 'the', 'opened', 'last', 'was', 'basis', 'Thursday', 'after', 'Showboat', '.'}
-{'earlier', 'hotel', 'during', 'quarter', 'test', 'in', 'week', 'a', 'and', 'its', 'regular', 'third', 'on', 'began', 'gaming', 'the', 'opened', 'complete', 'last', 'was', 'basis', 'Thursday', 'after', 'Showboat', '.'}
+{'its', 'earlier', '.', 'basis', 'Showboat', 'opened', 'was', 'last', 'third', 'and', 'during', 'the', 'Thursday', 'after', 'regular', 'a', 'quarter', 'test', 'began', 'in', 'on', 'week', 'hotel', 'completed', 'gaming'}
+{'its', 'earlier', '.', 'basis', 'Showboat', 'opened', 'was', 'complete', 'last', 'third', 'and', 'during', 'the', 'Thursday', 'after', 'regular', 'a', 'quarter', 'test', 'began', 'in', 'on', 'week', 'hotel', 'gaming'}
 DIFF: {'completed'} {'complete'}
 
 903
-{'401', 'of', 'bank', 'and', 'affects', 'holding', 'said', 'loans', 'The', 'mln', 'the', 'action', 'to', '73', 'Brazil', 'Ecuador', 'dlrs', 'company', '.'}
-{'401', 'of', 'bank', 'and', 'affects', 'holding', 'said', 'loans', 'The', 'frail', 'mln', 'the', 'action', 'to', '73', 'Ecuador', 'dlrs', 'company', '.'}
-DIFF: {'Brazil'} {'frail'}
+{'mln', '401', 'Brazil', 'dlrs', 'affects', '.', 'action', 'Ecuador', '73', 'of', 'loans', 'holding', 'and', 'the', 'bank', 'company', 'to', 'The', 'said'}
+{'mln', '401', 'dlrs', 'affects', '.', 'action', 'Ecuador', '73', 'brazil', 'of', 'loans', 'holding', 'and', 'the', 'bank', 'company', 'to', 'The', 'said'}
+DIFF: {'Brazil'} {'brazil'}
 
-907
-{'it', 'Pacific', 'will', 'in', 'cash', 'interest', 'only', 'its', 'income', 'In', 'received', 'is', 'Security', 'as', ',', 'record', 'announcement', 'said', '.'}
-{'it', 'Pacific', 'will', 'in', 'cash', 'only', 'its', 'income', 'entrust', 'In', 'received', 'is', 'Security', 'as', ',', 'record', 'announcement', 'said', '.'}
-DIFF: {'interest'} {'entrust'}
+906
+{'payments', 'pct', '.', 'it', 'Ecuador', 'which', 'oil', ',', '75', 'of', 'year', 'March', 'accounts', 'export', 'In', 'suspend', 'the', "'s", 'halted', 'about', 'rest', 'country', 'earthquake', 'because', 'said', 'interest', 'an', 'for', 'revenues', 'would'}
+{'payments', 'pct', '.', 'it', 'Ecuador', 'which', 'oil', ',', '75', 'of', 'year', 'accounts', 'export', 'In', 'Birch', 'suspend', 'the', "'s", 'halted', 'about', 'rest', 'country', 'earthquake', 'because', 'said', 'interest', 'an', 'for', 'revenues', 'would'}
+DIFF: {'March'} {'Birch'}
 
 908
-{'also', 'it', '1987', 'will', 'in', 'banks', 'and', 'interest', 'its', 'with', 'said', 'The', 'an', 'believes', 'Brazil', 'that', 'later', 'agreement', 'payments', 'company', '.', 'resume', 'reach'}
-{'also', 'it', '1987', 'will', 'in', 'banks', 'and', 'interest', 'its', 'rates', 'with', 'said', 'The', 'an', 'believes', 'Brazil', 'that', 'agreement', 'payments', 'company', '.', 'resume', 'reach'}
+{'payments', 'Brazil', 'its', 'banks', '.', 'also', 'it', 'resume', 'believes', 'with', 'and', '1987', 'will', 'agreement', 'later', 'company', 'in', 'The', 'said', 'an', 'interest', 'that', 'reach'}
+{'payments', 'Brazil', 'its', 'banks', '.', 'also', 'it', 'resume', 'believes', 'with', 'and', '1987', 'rates', 'will', 'agreement', 'company', 'in', 'The', 'said', 'an', 'interest', 'that', 'reach'}
 DIFF: {'later'} {'rates'}
 
 911
-{'some', 'admitted', 'of', 'ground', 'it', 'miles', 'Iranians', 'a', 'divisions', 'one', 'had', 'from', 'Basra', 'by', 'six', 'three', 'held', 'the', '10', '.', 'thrust', 'foiled', 'unit', 'Iraq', 'three-pronged', 'occupied', 'al-Qassem', ',', 'but', 'Mohammed', 'km', 'said', 'attacked'}
-{'some', 'admitted', 'of', 'ground', 'it', 'mile', 'Iranians', 'a', 'divisions', 'one', 'had', 'from', 'Basra', 'by', 'six', 'three', 'held', 'the', '10', '.', 'thrust', 'foiled', 'unit', 'Iraq', 'three-pronged', 'occupied', 'al-Qassem', ',', 'but', 'Mohammed', 'km', 'said', 'attacked'}
+{'one', '.', 'km', 'by', 'three-pronged', 'it', 'Basra', ',', 'of', 'divisions', 'three', 'admitted', 'occupied', 'six', 'had', 'but', 'ground', 'thrust', 'unit', 'from', 'the', '10', 'attacked', 'held', 'miles', 'a', 'foiled', 'some', 'Mohammed', 'al-Qassem', 'Iraq', 'Iranians', 'said'}
+{'one', '.', 'mile', 'km', 'by', 'three-pronged', 'it', 'Basra', ',', 'of', 'divisions', 'three', 'admitted', 'occupied', 'six', 'had', 'but', 'ground', 'thrust', 'unit', 'from', 'the', '10', 'attacked', 'held', 'a', 'foiled', 'some', 'Mohammed', 'al-Qassem', 'Iraq', 'Iranians', 'said'}
 DIFF: {'miles'} {'mile'}
 
 913
-{'it', 'foothold', 'Iranians', 'are', 'until', 'purge', 'by', 'forces', 'their', 'they', 'continuing', 'the', 'Our', 'last', 'occupied', 'advance', ',', 'said', '.'}
-{'it', 'foothold', 'are', 'until', 'purge', 'nraIians', 'by', 'forces', 'their', 'they', 'continuing', 'the', 'Our', 'last', 'occupied', 'advance', ',', 'said', '.'}
-DIFF: {'Iranians'} {'nraIians'}
+{'.', 'by', 'it', 'continuing', ',', 'they', 'Our', 'occupied', 'are', 'last', 'the', 'foothold', 'their', 'until', 'advance', 'Iranians', 'purge', 'said', 'forces'}
+{'.', 'by', 'Arabians', 'it', 'continuing', ',', 'they', 'Our', 'occupied', 'are', 'last', 'the', 'foothold', 'their', 'until', 'advance', 'purge', 'said', 'forces'}
+DIFF: {'Iranians'} {'Arabians'}
 
-917
-{'battle', 'reported', 'also', 'northern', 'of', 'at', 'Iraq', 'naval', 'the', 'tip', 'Gulf', '.', 'a'}
-{'battle', 'reported', 'also', 'northern', 'of', 'at', 'Iraq', 'the', 'tip', 'Gulf', 'banal', '.', 'a'}
-DIFF: {'naval'} {'banal'}
+920
+{'A', '.', 'at', 'Treasury', 'p.m.', 'local', 'of', 'ministers', 'three', 'monetary', 'would', 'Seven', 'the', '1900', 'official', 'Group', 'gather', 'countries', 'said', 'GMT', 'European', 'about'}
+{'A', '.', 'at', 'Treasury', 'p.m.', 'local', 'of', 'ministers', 'three', 'monetary', 'would', 'the', '1900', 'official', 'Group', 'gather', 'countries', 'Levin', 'said', 'GMT', 'European', 'about'}
+DIFF: {'Seven'} {'Levin'}
 
 922
-{'and', 'be', 'over', 'years', 'avoid', 'hardship', 'disruptions', 'the', 'several', 'requirement', 'to', 'economic', 'would', '.', 'Houston', 'phased', 'said', 'in'}
-{'and', 'be', 'over', 'years', 'avoid', 'hardship', 'disruptions', 'the', 'several', 'requirement', 'to', 'economic', 'would', 'phases', '.', 'Houston', 'in', 'said'}
-DIFF: {'phased'} {'phases'}
-
-924
-{'based', 'Texas', 'Roberts', 'a', 'and', 'Allied-Signal', 'owned', 'on', 'Co', 'Inc', 'by', 'largest', 'producer', 'is', 'ltALD', 'the', 'Kohlberg', 'Kravis', 'independent', "'s", 'revenues', 'Union', 'oil', ',', 'nation', 'privately-held', 'gas', 'company', '.'}
-{'Texas', 'Roberts', 'a', 'and', 'Allied-Signal', 'owned', 'on', 'Co', 'Inc', 'by', 'largest', 'producer', 'is', 'ltALD', 'the', 'vases', 'Kohlberg', 'Kravis', 'independent', "'s", 'revenues', 'Union', 'oil', ',', 'nation', 'privately-held', 'gas', 'company', '.'}
-DIFF: {'based'} {'vases'}
+{'in', 'years', 'to', 'requirement', 'the', 'Houston', 'be', 'over', 'several', 'disruptions', 'hardship', '.', 'avoid', 'economic', 'said', 'phased', 'and', 'would'}
+{'in', 'years', 'to', 'requirement', 'the', 'Houston', 'be', 'over', 'several', 'disruptions', 'and', 'hardship', 'avoid', 'economic', 'said', '.', 'Shades', 'would'}
+DIFF: {'phased'} {'Shades'}
 
 928
-{'completed', 'it', 'Delta', 'Texas', 'in', 'its', 'In', 'on', 'States', 'the', 'find', 'United', 'Alaska', 'area', 'work', "'s", 'Colville', 'Union', 'evaluation', ',', 'oil', 'said', '.'}
-{'completed', 'it', 'Texas', 'in', 'its', 'Delia', 'In', 'on', 'States', 'the', 'find', 'United', 'Alaska', 'area', 'work', "'s", 'Colville', 'Union', 'evaluation', ',', 'oil', 'said', '.'}
+{'find', 'its', 'evaluation', 'States', '.', 'Union', 'it', 'oil', ',', 'Colville', 'Texas', 'area', 'In', 'the', "'s", 'Alaska', 'Delta', 'work', 'United', 'in', 'on', 'said', 'completed'}
+{'find', 'its', 'evaluation', 'States', '.', 'Union', 'it', 'oil', ',', 'Colville', 'Texas', 'Delia', 'area', 'In', 'the', "'s", 'Alaska', 'work', 'United', 'in', 'on', 'said', 'completed'}
 DIFF: {'Delta'} {'Delia'}
 
-930
-{'Block', 'of', 'it', 'years', 'two', 'Texas', 'Gulf', 'in', 'spend', 'its', 'Eugene', 'develop', 'next', 'about', 'Island', 'mln', '371', 'Mexico', 'the', 'to', 'over', 'dlrs', 'Union', '42', 'planned', 'said', '.'}
-{'Block', 'of', 'it', 'years', 'two', 'Texas', 'Gulf', 'in', 'spend', 'its', 'Eugene', 'develop', 'next', 'about', 'Island', 'mln', '371', 'Mexico', 'the', 'to', 'paneled', 'over', 'dlrs', 'Union', '42', 'said', '.'}
-DIFF: {'planned'} {'paneled'}
-
 931
-{'of', 'it', '1987', 'in', 'and', '1985', 'capital', 'In', 'from', '199', 'for', 'year', 'said', 'mln', '178', 'than', 'the', 'last', 'amount', 'company', 'spent', 'spending', 'dlrs', ',', 'half', 'budgeted', '.', 'down', 'less'}
-{'of', 'sent', 'it', '1987', 'spinning', 'in', 'and', '1985', 'capital', 'In', 'from', '199', 'for', 'year', 'said', 'mln', '178', 'than', 'the', 'last', 'amount', 'company', 'dlrs', ',', 'half', 'budgeted', '.', 'down', 'less'}
-DIFF: {'spent', 'spending'} {'sent', 'spinning'}
+{'mln', 'dlrs', '.', 'it', 'amount', ',', '178', '1985', 'of', 'year', 'last', 'down', 'and', 'budgeted', '1987', 'than', 'In', 'from', 'half', 'the', 'spending', 'capital', 'company', 'in', 'spent', 'said', 'less', 'for', '199'}
+{'mln', 'sent', 'dlrs', '.', 'it', 'amount', ',', '178', '1985', 'of', 'year', 'last', 'down', 'and', 'budgeted', '1987', 'than', 'In', 'from', 'half', 'the', 'spending', 'capital', 'company', 'in', 'said', 'less', 'for', '199'}
+DIFF: {'spent'} {'sent'}
 
 932
-{'and', 'acquisitions', 'also', 'as', 'businesses', 'of', 'seek', 'it', 'properties', 'well', 'Union', 'oil', 'gas', 'would', 'Texas', 'said', '.', 'petrochemical-related'}
-{'and', 'as', 'also', 'businesses', 'of', 'seek', 'it', 'iron', 'properties', 'well', 'oil', 'gas', 'acquisition', 'would', 'Texas', 'said', '.', 'petrochemical-related'}
-DIFF: {'Union', 'acquisitions'} {'iron', 'acquisition'}
-
-933
-{'chance', 'of', 'spokesman', 'today', 'would', 'in', 'a', 'and', 'be', 'our', 'need', 'there', 'we', 'out', 'Obviously', 'movement', 'get', 'stock', 'the', 'to', 'adding', 'that', 'lot', '50-50', 'was', 'have', 'statement', ',', 'clarification', 'said', '.', 'released'}
-{'of', 'spokesman', 'today', 'would', 'in', 'a', 'and', 'be', 'our', 'need', 'there', 'we', 'china', 'out', 'Obviously', 'movement', 'get', 'stock', 'the', 'to', 'adding', 'that', 'lot', '50-50', 'was', 'have', 'statement', ',', 'clarification', 'said', '.', 'released'}
-DIFF: {'chance'} {'china'}
+{'businesses', 'properties', 'seek', 'acquisitions', 'of', 'well', 'Union', 'also', 'gas', 'as', 'Texas', 'said', '.', 'it', 'petrochemical-related', 'oil', 'and', 'would'}
+{'would', 'businesses', 'properties', 'seek', 'of', 'well', '.', 'also', 'acquisition', 'gas', 'Texas', 'said', 'as', 'it', 'petrochemical-related', 'oil', 'and', 'Hinton'}
+DIFF: {'acquisitions', 'Union'} {'acquisition', 'Hinton'}
 
 934
-{'earlier', 'of', 'existing', 'week', 'and', '2.2', 'assume', 'for', 'The', 'the', '2.3', '.', 'pilots', 'to', 'offered', 'billion', 'buy', 'airline', 'dlrs', ',', 'this', 'debt'}
-{'earlier', 'of', 'pistol', 'existing', 'week', 'and', '2.2', 'assume', 'for', 'The', 'the', '2.3', '.', 'to', 'offered', 'billion', 'buy', 'airline', 'dlrs', ',', 'this', 'debt'}
-DIFF: {'pilots'} {'pistol'}
+{'pilots', 'earlier', 'dlrs', '.', 'existing', 'airline', '2.2', ',', 'of', 'offered', 'billion', 'and', 'the', 'debt', 'to', 'buy', 'The', 'week', 'assume', 'for', '2.3', 'this'}
+{'earlier', 'dlrs', '.', 'existing', 'airline', '2.2', ',', 'of', 'pilot', 'offered', 'billion', 'and', 'the', 'debt', 'to', 'buy', 'The', 'week', 'assume', 'for', '2.3', 'this'}
+DIFF: {'pilots'} {'pilot'}
 
-939
-{'five', 'of', 'mln', 'than', 'on', 'more', 'jumped', 'to', '70-3/4', 'volume', '.', 'shares', 'UAL', '3.2'}
-{'five', 'of', 'mln', 'than', 'on', 'more', 'jumped', 'to', 'shades', '70-3/4', 'volume', '.', 'UAL', '3.2'}
-DIFF: {'shares'} {'shades'}
-
-940
-{'got', 'has', 'to', 'this', 'United', 'consider', '.', 'proposal'}
-{'got', 'has', 'to', 'Units', 'this', 'consider', '.', 'proposal'}
-DIFF: {'United'} {'Units'}
-
-941
-{'is', 'pilot', 'I', "'s", 'the', 'realistic', 'think', '.', 'proposal'}
-{'is', 'propose', 'pilot', 'I', "'s", 'the', 'realistic', 'think', '.'}
-DIFF: {'proposal'} {'propose'}
+935
+{'UAL', 'weeks', 'has', "'s", 'several', '.', 'Takeover', 'speculation', 'driven', 'for', 'stock'}
+{'UAL', 'has', "'s", 'several', 'week', '.', 'Takeover', 'speculation', 'driven', 'for', 'stock'}
+DIFF: {'weeks'} {'week'}
 
 945
-{'focussing', 'not', 'attention', 'in', 'a', 'and', 'concerned', 'its', 'on', 'left', 'The', 'stock', 'the', 'pilots', 'that', 'union', 'was', 'airline', 'enough', 'slump', 'company', '.', 'strategy'}
-{'focussing', 'not', 'attention', 'in', 'a', 'and', 'concerned', 'its', 'on', 'left', 'sock', 'The', 'the', 'pilots', 'that', 'union', 'was', 'airline', 'enough', 'slump', 'company', '.', 'strategy'}
+{'pilots', 'its', 'left', '.', 'airline', 'union', 'concerned', 'attention', 'was', 'and', 'slump', 'the', 'strategy', 'a', 'company', 'in', 'on', 'The', 'that', 'enough', 'stock', 'not', 'focussing'}
+{'pilots', 'its', 'left', '.', 'airline', 'union', 'concerned', 'attention', 'was', 'and', 'slump', 'the', 'strategy', 'a', 'company', 'in', 'sock', 'on', 'The', 'that', 'enough', 'not', 'focussing'}
 DIFF: {'stock'} {'sock'}
 
 949
-{'institutions', 'Traders', 'big', 'today', 'in', 'play', 'believe', 'widespread', 'described', 'UAL', 'buying', 'them', 'is', 'indicative', 'the', 'stock', 'to', 'that', 'as', ',', '.'}
-{'institutions', 'Traders', 'big', 'today', 'in', 'play', 'believe', 'widespread', 'described', 'UAL', 'them', 'is', 'indicative', 'the', 'stock', 'to', 'that', 'as', 'tubing', ',', '.'}
+{'.', 'institutions', 'widespread', ',', 'believe', 'described', 'play', 'indicative', 'the', 'buying', 'as', 'them', 'today', 'is', 'in', 'UAL', 'to', 'Traders', 'big', 'that', 'stock'}
+{'.', 'institutions', 'widespread', ',', 'believe', 'described', 'tubing', 'play', 'indicative', 'the', 'as', 'them', 'today', 'is', 'in', 'UAL', 'to', 'Traders', 'big', 'that', 'stock'}
 DIFF: {'buying'} {'tubing'}
 
-952
-{'second', 'is', 'domino', 'the', '.', 'union'}
-{'is', 'domino', 'the', 'sedans', '.', 'union'}
-DIFF: {'second'} {'sedans'}
+950
+{'pilots', 'proposal', 'buyer', '.', 'sources', 'another', 'throwing', 'Trump', ',', 'new', 'attracted', 'of', 'although', 'acted', 'attention', 'perhaps', 'and', 'kicking', 'the', 'as', 'speculation', 'off', 'a', 'have', 'company', 'hands', 'Market', 'to', 'round', 'catalyst', 'said', 'that', 'stock', 'into'}
+{'pilots', 'proposal', 'buyer', '.', 'sources', 'another', 'throwing', 'Trump', ',', 'new', 'attracted', 'of', 'although', 'acted', 'attention', 'perhaps', 'and', 'kicking', 'the', 'as', 'speculation', 'off', 'a', 'have', 'company', 'hands', 'Market', 'sock', 'to', 'round', 'catalyst', 'said', 'that', 'into'}
+DIFF: {'stock'} {'sock'}
 
 954
-{'values', 'is', 'What', 'there', "'s", 'interesting', 'the', 'are', '.'}
-{'values', 'is', 'What', "'s", 'interesting', 'the', 'are', '.', 'ther'}
+{'values', 'What', 'the', "'s", 'there', 'interesting', '.', 'are', 'is'}
+{'values', 'What', 'the', "'s", 'ther', 'interesting', '.', 'are', 'is'}
 DIFF: {'there'} {'ther'}
 
 955
-{'something', "'s", 'he', ',', '.', 'everybody', 'said', 'There', 'for'}
-{'something', "'s", 'he', ',', 'everybody', 'said', '.', 'for', 'Thee'}
+{'everybody', ',', 'There', "'s", 'he', '.', 'said', 'for', 'something'}
+{'everybody', ',', "'s", 'he', '.', 'said', 'for', 'Thee', 'something'}
 DIFF: {'There'} {'Thee'}
 
 962
-{'some', 'board', 'has', 'will', 'ties', 'a', 'and', 'feature', 'clothing', 'shirts', 'on', 'apparel', 'tailored', 'said', 'women', 'continues', 'the', 'Hartmarx', 'to', 'Briar', 'which', 'He', "'s", 'drawing', 'store', ',', 'concept', 'company', '.', 'grow'}
-{'some', 'board', 'continuous', 'aartmHrx', 'has', 'will', 'ties', 'a', 'and', 'feature', 'clothing', 'shirts', 'on', 'apparel', 'tailored', 'said', 'women', 'actors', 'the', 'to', 'Briar', 'which', 'He', "'s", 'drawing', ',', 'concept', 'company', '.', 'grow'}
-DIFF: {'Hartmarx', 'continues', 'store'} {'continuous', 'actors', 'aartmHrx'}
-
-963
-{'Ghanaian', 'Asamoah', 'Iranian', 'reached', 'Aqazadeh', 'in', 'between', 'a', 'and', 'by', 'Obed', 'received', 'The', 'accord', 'Minister', 'the', 'visiting', 'Foreign', 'delegation', 'was', 'agency', 'London', ',', 'headed', 'said', '.', 'Gholamreza', 'Oil'}
-{'Ghanaian', 'Asamoah', 'reached', 'Aqazadeh', 'in', 'between', 'a', 'and', 'by', 'Obed', 'received', 'The', 'accord', 'Minister', 'the', 'visiting', 'Foreign', 'delegation', 'was', 'iranIan', 'agency', 'London', ',', 'headed', 'said', '.', 'Gholamreza', 'Oil'}
-DIFF: {'Iranian'} {'iranIan'}
+{'grow', '.', 'store', 'which', 'shirts', ',', 'continues', 'apparel', 'Briar', 'concept', 'He', 'clothing', 'drawing', 'board', 'and', 'will', 'the', "'s", 'has', 'women', 'feature', 'a', 'company', 'ties', 'some', 'to', 'on', 'tailored', 'said', 'Hartmarx'}
+{'grow', '.', 'which', 'shirts', ',', 'continues', 'apparel', 'Briar', 'concept', 'He', 'clothing', 'drawing', 'stores', 'board', 'and', 'will', 'the', "'s", 'has', 'women', 'feature', 'a', 'company', 'ties', 'some', 'to', 'on', 'tailored', 'said', 'Hartmarx'}
+DIFF: {'store'} {'stores'}
 
 968
-{'growth', 'He', 'noted', 'slowed', 'mid-January', 'the', 'after', '.', 'money', 'in', 'supply'}
-{'growth', 'He', 'note', 'slowed', 'fer', 'mid-January', 'the', '.', 'money', 'in', 'supply'}
-DIFF: {'after', 'noted'} {'fer', 'note'}
-
-969
-{'not', 'during', 'surprised', 'rather', 'of', 'slowly', 'would', 'balance', 'be', 'well', 'he', 'year', 'if', 'I', 'the', 'aggregates', 'to', 'as', 'at', ',', 'all', 'monetary', 'were', 'added', '.', 'grow'}
-{'not', 'of', 'surprised', 'rather', 'slowly', 'would', 'balance', 'be', 'well', 'he', 'year', 'if', 'I', 'the', 'aggregates', 'to', 'curing', 'as', 'at', ',', 'all', 'monetary', 'were', 'added', '.', 'grow'}
-DIFF: {'during'} {'curing'}
-
-970
-{'was', 'Heller', 'of', 'inflation', 'there', 'price', 'renewed', 'said', '.', 'danger', 'a'}
-{'was', 'of', 'inflation', 'there', 'price', 'renewed', 'said', '.', 'Holley', 'danger', 'a'}
-DIFF: {'Heller'} {'Holley'}
-
-977
-{'during', 'Canada', '1987', 'U.S.', 'higher', 'economy', 'and', 'expand', 'by', 'said', 'three', 'exports', 'the', 'to', 'He', 'nearly', 'Europe', 'should', ',', 'pct', 'aided', '.'}
-{'during', 'Canada', '1987', 'U.S.', 'higher', 'economy', 'and', 'expand', 'by', 'three', 'exports', 'the', 'to', 'He', 'nearly', 'Europe', 'should', ',', 'idea', 'pct', 'said', '.'}
-DIFF: {'aided'} {'idea'}
+{'in', 'growth', 'mid-January', 'the', 'slowed', '.', 'after', 'He', 'money', 'noted', 'supply'}
+{'in', 'note', 'growth', 'the', 'mid-January', 'slowed', '.', 'after', 'He', 'money', 'supply'}
+DIFF: {'noted'} {'note'}
 
 979
-{'of', 'it', 'quarter', 'per', 'taken', 'in', '43.9', 'a', 'and', 'share', '7.21', 'said', 'or', 'But', 'properties', 'mln', 'the', 'net', 'loss', 'non-cash', 'writeoff', '41.5', 'first', 'dlrs', 'oil', ',', 'resulted', 'gas', 'dlr', '.'}
-{'of', 'it', 'quarter', 'per', 'taken', 'in', '43.9', 'a', 'and', '7.21', 'said', 'or', 'But', 'properties', 'mln', 'the', 'net', 'loss', 'non-cash', 'writeoff', '41.5', 'first', 'dlrs', 'oil', ',', 'resulted', 'shore', 'gas', 'dlr', '.'}
+{'mln', 'dlr', 'dlrs', 'properties', '.', '41.5', '7.21', 'it', 'share', 'oil', ',', 'writeoff', 'of', 'gas', 'loss', 'and', 'taken', 'the', 'non-cash', 'net', 'quarter', 'a', 'resulted', 'or', 'in', 'But', 'first', 'said', 'per', '43.9'}
+{'mln', 'dlr', 'dlrs', 'properties', '.', '41.5', '7.21', 'shore', 'it', 'oil', ',', 'writeoff', 'of', 'gas', 'loss', 'and', 'taken', 'the', 'non-cash', 'net', 'quarter', 'a', 'resulted', 'or', 'in', 'But', 'first', 'said', 'per', '43.9'}
 DIFF: {'share'} {'shore'}
 
 982
-{'barrels', 'of', 'natural', 'It', 'and', 'reserves', 'totaled', 'proved', 'December', 'cubic', '31', 'mln', '.', '4.8', 'at', 'feet', 'oil', 'gas', 'said', '88'}
-{'of', 'natural', 'It', 'and', 'reserves', 'totaled', 'proved', 'December', 'cubic', '31', 'mln', '.', '4.8', 'barely', 'at', 'feet', 'oil', 'gas', 'said', '88'}
-DIFF: {'barrels'} {'barely'}
-
-983
-{'Finance', 'meeting', 'agreement', 'Michael', 'ministers', 'review', 'Minister', 'on', 'the', 'entering', 'Paris', 'would', 'said', '.', 'Wilson', 'Canadian'}
-{'Finance', 'meeting', 'agreement', 'Michael', 'ministers', 'review', 'Minister', 'on', 'erecting', 'the', 'Paris', 'would', 'said', '.', 'Wilson', 'Canadian'}
-DIFF: {'entering'} {'erecting'}
-
-985
-{'meeting', 'of', 'would', 'a', 'be', 'there', 'end', 'Edouard', 'French', 'Minister', 'the', 'Balladur', 'meanwhile', 'confirmed', 'communique', 'Finance', 'at', ',', '.'}
-{'of', 'would', 'metier', 'a', 'be', 'there', 'end', 'Edouard', 'French', 'Minister', 'the', 'Balladur', 'meanwhile', 'confirmed', 'communique', 'Finance', 'at', ',', '.'}
-DIFF: {'meeting'} {'metier'}
+{'mln', 'proved', '.', 'feet', 'at', 'oil', 'natural', 'of', 'gas', 'December', 'barrels', '88', 'and', 'totaled', 'It', 'reserves', 'cubic', '4.8', 'said', '31'}
+{'mln', '.', 'feet', 'at', 'oil', 'natural', 'of', 'gas', 'December', 'barrels', '88', 'and', 'totaled', 'It', 'reserves', 'pored', 'cubic', '4.8', 'said', '31'}
+DIFF: {'proved'} {'pored'}
 
 987
-{'earlier', 'Karl', 'around', 'not', 'of', 'gmt', 'local', 'Japanese', 'and', 'Bundesbank', 'appear', 'up', 'end', 'left', 'p.m.', 'President', '2', 'broke', 'did', 'Group', 'the', 'to', 'time', 'which', 'Poehl', 'Otto', 'have', 'at', 'talks', '1800', 'officials', 'building', '.', 'Five'}
-{'earlier', 'Karl', 'around', 'not', 'of', 'gmt', 'local', 'Japanese', 'and', 'Bundesbank', 'appear', 'up', 'end', 'left', 'p.m.', 'President', '2', 'did', 'Group', 'the', 'to', 'time', 'which', 'Poehl', 'Otto', 'have', 'at', 'talks', 'brok', '1800', 'officials', 'building', '.', 'Five'}
+{'Five', 'earlier', 'President', 'broke', 'around', 'left', 'time', 'Poehl', '.', 'Japanese', 'at', 'which', 'appear', 'gmt', 'p.m.', 'officials', 'Bundesbank', 'local', 'of', 'end', 'building', 'and', 'the', '1800', 'Group', 'have', 'up', 'did', 'to', '2', 'Karl', 'Otto', 'talks', 'not'}
+{'Five', 'earlier', 'President', 'around', 'left', 'time', 'Poehl', '.', 'Japanese', 'at', 'which', 'appear', 'gmt', 'p.m.', 'officials', 'Bundesbank', 'local', 'of', 'end', 'brok', 'building', 'and', 'the', '1800', 'Group', 'have', 'up', 'did', 'to', '2', 'Karl', 'Otto', 'talks', 'not'}
 DIFF: {'broke'} {'brok'}
 
-988
-{'government', 'Christian', 'of', 'however', 'whose', 'no', 'position', 'resignation', 'Italy', 'Socialist-led', 'by', 'Italian', 'morning', 'Democratic', 'question', 'the', '.', 'into', 'There', 'delegation', 'was', 'sign', "'s", 'wing', ',', 'this', 'thrown'}
-{'government', 'Christian', 'of', 'however', 'whose', 'no', 'position', 'resignation', 'Italy', 'Socialist-led', 'hare', 'Italian', 'by', 'morning', 'Democratic', 'question', 'the', '.', 'into', 'delegation', 'was', 'sign', "'s", 'wing', ',', 'this', 'thrown'}
-DIFF: {'There'} {'hare'}
+999
+{'contain', 'could', 'he', 'time', '.', 'also', 'eventually', 'much', 'money', 'it', 'problem', ',', 'salmonella', 'confident', 'eradicated', 'although', 'He', 'was', 'and', 'the', 'take', 'bacterium', 'to', 'be', 'said', 'that', 'growing', 'would'}
+{'contain', 'could', 'he', 'time', '.', 'also', 'much', 'money', 'it', 'problem', ',', 'salmonella', 'confident', 'eradicated', 'although', 'He', 'was', 'eventual', 'and', 'the', 'take', 'bacterium', 'to', 'be', 'said', 'that', 'growing', 'would'}
+DIFF: {'eventually'} {'eventual'}
 
-990
-{'meeting', 'Seven', 'was', 'of', 'progress', 'This', 'Group', 'the', '.', 'full', 'in', 'meant', 'blown', 'that', 'a'}
-{'meeting', 'Seven', 'was', 'of', 'ogress', 'This', 'Group', 'the', '.', 'full', 'in', 'meant', 'blown', 'that', 'a'}
-DIFF: {'progress'} {'ogress'}
-
-997
-{'and', 'turkeys', 'chicken', 'cattle', 'an', 'mln', 'head', 'of', 'billion', 'estimated', 'inspects', 'every', '4.5', '.', 'year', 'FSIS', '127'}
-{'and', 'turkeys', 'chicken', 'cattle', 'an', 'mln', 'head', 'of', 'billion', 'every', 'inspects', 'estimates', '4.5', '.', 'year', 'FSIS', '127'}
-DIFF: {'estimated'} {'estimates'}
-
-Accuracy is : 82.30%
+Accuracy is : 86.90%
