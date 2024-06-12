@@ -148,30 +148,30 @@ def correct_sentence(sentence, error_count, trigram_freq, bigram_freq, unigram_f
                 corrected_sentence.append(word)
 
     real_word_count = error_count - count
-    for i, word in enumerate(corrected_sentence):
-        if word == "'s":
-            corrected_sentence[i] = 'is'
-    print(corrected_sentence + [real_word_count])
+    # print(corrected_sentence + [real_word_count])
     if real_word_count > 0:
         prob = []
         for i, word in enumerate(corrected_sentence):
             if check_if_skip(word, non_word_errors):
                 continue  # Skip words that were already corrected as non-word errors
-            if i == 0:
-                probability = unigram_probability(unigram_freq, word)
-            elif i == 1:
-                previous_word = corrected_sentence[0]
-                probability = bigram_probability(bigram_freq, previous_word, word)
-            else:
-                previous_two_words = corrected_sentence[i - 2:i]
-                probability = trigram_probability(trigram_freq, bigram_freq, previous_two_words[0],
-                                                  previous_two_words[1], word)
+            probability = unigram_probability(unigram_freq, word)
+            # if i == 0:
+            #     probability = unigram_probability(unigram_freq, word)
+            # elif i == 1:
+            #     previous_word = corrected_sentence[0]
+            #     probability = bigram_probability(bigram_freq, previous_word, word)
+            # else:
+            #     previous_two_words = corrected_sentence[i - 2:i]
+            #     probability = trigram_probability(trigram_freq, bigram_freq, previous_two_words[0],
+            #                                       previous_two_words[1], word)
             prob.append((probability, i, word))
 
         prob.sort()
-        print(prob)
+        # print(prob)
         # Correct the real-word errors with the lowest probabilities
-        for _, i, word in prob[:real_word_count]:
+        for _, i, word in prob:
+            if real_word_count == 0:
+                break
             candidate_list = generate_candidates(word, vocab)
             if candidate_list:
                 if i > 1:
@@ -185,7 +185,11 @@ def correct_sentence(sentence, error_count, trigram_freq, bigram_freq, unigram_f
                                          key=lambda w: bigram_probability(bigram_freq, previous_word, w))
                 else:
                     best_candidate = max(candidate_list, key=lambda w: unigram_probability(unigram_freq, w))
-                corrected_sentence[i] = best_candidate
+                if corrected_sentence[i] == best_candidate:
+                    continue
+                else:
+                    corrected_sentence[i] = best_candidate
+                    real_word_count = real_word_count - 1
 
     return ' '.join(corrected_sentence)
 
@@ -207,6 +211,5 @@ sentences = load_data(file_path)
 trigram_freq, bigram_freq, unigram_freq = build_language_model()
 
 # 纠正并写入文件
-#correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, output_path)
-print(trigram_probability(trigram_freq, bigram_freq, 'what', 'is', 'interesting'))
+correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, output_path)
 # print(generate_candidates("ther", vocab))
