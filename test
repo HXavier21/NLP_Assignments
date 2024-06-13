@@ -1,3 +1,0 @@
-rm result.txt
-python $1
-python eval.py
