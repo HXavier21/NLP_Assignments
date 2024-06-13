@@ -3,8 +3,7 @@ import nltk
 from nltk.corpus import reuters
 from nltk.util import ngrams
 from tqdm import tqdm
-
-num = 0
+from language_model import build_language_model
 
 
 # 加载词汇表
@@ -29,6 +28,19 @@ def check(candidate_list, vocab):
     return [word for word in candidate_list if word in vocab]
 
 
+def exchange_letters(word):
+    return_set = []
+    word_list = list(word)
+
+    for i in range(len(word)):
+        for j in range(i + 1, len(word)):
+            # 创建一个新单词，交换第i和j个字母
+            new_word_list = word_list[:]
+            new_word_list[i], new_word_list[j] = new_word_list[j], new_word_list[i]
+            return_set.append(''.join(new_word_list))
+    return return_set
+
+
 # 信道模型：常见编辑操作
 def edits1(word):
     letters = 'abcdefghijklmnopqrstuvwxyz'
@@ -37,10 +49,8 @@ def edits1(word):
     transposes = [L + R[1] + R[0] + R[2:] for L, R in splits if len(R) > 1]
     replaces = [L + c + R[1:] for L, R in splits if R for c in letters]
     inserts = [L + c + R for L, R in splits for c in letters]
-    return_set = set(deletes + transposes + replaces + inserts)
-    for letter in word:
-        if letter.isupper() and letter == word[0].upper():
-            return [item[0].upper() + item[1:] for item in return_set]
+    exchange = exchange_letters(word)
+    return_set = set(deletes + transposes + replaces + inserts + exchange)
     return return_set
 
 
@@ -51,26 +61,53 @@ def edits1_with_upper_letter(word):
     transposes = [L + R[1] + R[0] + R[2:] for L, R in splits if len(R) > 1]
     replaces = [L + c + R[1:] for L, R in splits if R for c in letters]
     inserts = [L + c + R for L, R in splits for c in letters]
-    return_set = set(deletes + transposes + replaces + inserts)
+    exchange = exchange_letters(word)
+    return_set = set(deletes + transposes + replaces + inserts + exchange)
     return return_set
 
 
-def build_language_model():
-    words = reuters.words()
-    trigrams = ngrams(words, 3)
-    bigrams = ngrams(words, 2)
-    unigrams = words
+# def build_language_model():
+#     words = reuters.words()
+#     trigrams = ngrams(words, 3)
+#     bigrams = ngrams(words, 2)
+#     unigrams = words
+#
+#     trigram_freq = collections.Counter(trigrams)
+#     bigram_freq = collections.Counter(bigrams)
+#     unigram_freq = collections.Counter(unigrams)
+#
+#     return trigram_freq, bigram_freq, unigram_freq
 
-    trigram_freq = collections.Counter(trigrams)
-    bigram_freq = collections.Counter(bigrams)
-    unigram_freq = collections.Counter(unigrams)
 
-    return trigram_freq, bigram_freq, unigram_freq
-
-
-def trigram_probability(trigram_freq, bigram_freq, w1, w2, w3):
+def trigram_last_probability(trigram_freq, bigram_freq, w1, w2, w3):
     w1_w2_freq = bigram_freq[(w1, w2)]
-    return trigram_freq[(w1, w2, w3)] / w1_w2_freq if w1_w2_freq > 0 else 0
+    result = trigram_freq[(w1, w2, w3)] / w1_w2_freq if w1_w2_freq > 0 else 0
+    if result == 0:
+        result = bigram_probability(bigram_freq, w2, w3)
+    return result
+
+
+def trigram_middle_probability(bigram_freq, w1, w2, w3):
+    w1_w2_freq = bigram_probability(bigram_freq, w1, w2)
+    w2_w3_freq = bigram_probability(bigram_freq, w2, w3)
+    result = w1_w2_freq * w2_w3_freq
+    if result == 0:
+        result = max(w1_w2_freq, w2_w3_freq)
+    return result
+
+
+def trigram_first_probability(trigram_freq, bigram_freq, w1, w2, w3):
+    w2_w3_freq = bigram_freq[(w2, w3)]
+    result = trigram_freq[(w1, w2, w3)] / w2_w3_freq if w2_w3_freq > 0 else 0
+    if result == 0:
+        result = bigram_probability(bigram_freq, w1, w2)
+    return result
+
+
+def max_trigram_probability(trigram_freq, bigram_freq, w1, w2, w, w4, w5):
+    return max(trigram_first_probability(trigram_freq, bigram_freq, w, w4, w5),
+               trigram_middle_probability(bigram_freq, w2, w, w4),
+               trigram_last_probability(trigram_freq, bigram_freq, w1, w2, w))
 
 
 def bigram_probability(bigram_freq, w1, w2):
@@ -94,6 +131,7 @@ def generate_upper_candidates(word, vocab):
             further_edits = edits1_with_upper_letter(candidate)
             further_upper_candidates.extend(further_edits)
         checked_further_upper_candidates = check(further_upper_candidates, vocab)
+        print(checked_further_upper_candidates)
         if checked_further_upper_candidates:
             return checked_further_upper_candidates
         # 如果两轮都没有找到，返回空列表
@@ -127,14 +165,64 @@ def generate_candidates(word, vocab):
         if checked_further_candidates:
             return checked_further_candidates
         else:
-            generate_upper_candidates(word, vocab)
+            return generate_upper_candidates(word, vocab)
 
 
 def check_if_skip(word, check_set):
-    if word in check_set or not word.isalpha() or word == "'s":
+    if word in check_set or check_if_special_alpha(word):
         return True
     else:
         return False
+
+
+def check_if_special_alpha(word):
+    if not word.isalpha() or word == "'s":
+        return True
+    else:
+        return False
+
+
+def transform_special_alpha(word):
+    if check_if_special_alpha(word):
+        if word == "'s":
+            return 'is'
+        elif word.isnumeric():
+            return 'one'
+        else:
+            return word
+    else:
+        return word
+
+
+def get_best_candidate(candidate_list, corrected_sentence, i):
+    if candidate_list:
+        if i == len(corrected_sentence) - 1:
+            previous_two_words = corrected_sentence[i - 2:]
+            best_candidate = max(candidate_list, key=lambda w: trigram_last_probability(trigram_freq, bigram_freq,
+                                                                                        transform_special_alpha(
+                                                                                            previous_two_words[0]),
+                                                                                        transform_special_alpha(
+                                                                                            previous_two_words[1]),
+                                                                                        w))
+        elif i >= 1:
+            previous_words = corrected_sentence[i - 1:]
+            best_candidate = max(candidate_list, key=lambda w: trigram_middle_probability(bigram_freq,
+                                                                                          transform_special_alpha(
+                                                                                              previous_words[0]),
+                                                                                          w,
+                                                                                          transform_special_alpha(
+                                                                                              previous_words[2])))
+        else:
+            best_candidate = max(candidate_list,
+                                 key=lambda w: trigram_first_probability(trigram_freq, bigram_freq,
+                                                                         w,
+                                                                         transform_special_alpha(
+                                                                             corrected_sentence[1]),
+                                                                         transform_special_alpha(
+                                                                             corrected_sentence[2])))
+        return best_candidate
+    else:
+        return corrected_sentence[i]
 
 
 # 这里假设 edits1 和 check 函数已经被定义
@@ -144,34 +232,20 @@ def check_if_skip(word, check_set):
 
 def correct_sentence(sentence, error_count, trigram_freq, bigram_freq, unigram_freq, vocab):
     words = nltk.word_tokenize(sentence)  # 使用NLTK的word_tokenize分词，可以处理标点符号
-    corrected_sentence = []
+    corrected_sentence = [item for item in words]
     non_word_errors = set()
     count = 0
 
     # First pass: correct non-word errors
     for i, word in enumerate(words):
         if check_if_skip(word, vocab):  # 保留标点符号或非字母字符
-            corrected_sentence.append(word)
+            continue
         else:
             count += 1
             non_word_errors.add(word)
             candidate_list = generate_candidates(word, vocab)
 
-            if candidate_list:
-                if i > 1:
-                    previous_two_words = corrected_sentence[-2:]
-                    best_candidate = max(candidate_list, key=lambda w: trigram_probability(trigram_freq, bigram_freq,
-                                                                                           previous_two_words[0],
-                                                                                           previous_two_words[1], w))
-                elif i == 1:
-                    previous_word = corrected_sentence[-1]
-                    best_candidate = max(candidate_list,
-                                         key=lambda w: bigram_probability(bigram_freq, previous_word, w))
-                else:
-                    best_candidate = max(candidate_list, key=lambda w: unigram_probability(unigram_freq, w))
-                corrected_sentence.append(best_candidate)
-            else:
-                corrected_sentence.append(word)
+            corrected_sentence[i] = get_best_candidate(candidate_list, corrected_sentence, i)
 
     real_word_count = error_count - count
     # print(corrected_sentence + [real_word_count])
@@ -199,23 +273,13 @@ def correct_sentence(sentence, error_count, trigram_freq, bigram_freq, unigram_f
             if real_word_count == 0:
                 break
             candidate_list = generate_candidates(word, vocab)
-            if candidate_list:
-                if i > 1:
-                    previous_two_words = corrected_sentence[i - 2:i]
-                    best_candidate = max(candidate_list, key=lambda w: trigram_probability(trigram_freq, bigram_freq,
-                                                                                           previous_two_words[0],
-                                                                                           previous_two_words[1], w))
-                elif i == 1:
-                    previous_word = corrected_sentence[0]
-                    best_candidate = max(candidate_list,
-                                         key=lambda w: bigram_probability(bigram_freq, previous_word, w))
-                else:
-                    best_candidate = max(candidate_list, key=lambda w: unigram_probability(unigram_freq, w))
-                if corrected_sentence[i] == best_candidate:
-                    continue
-                else:
-                    corrected_sentence[i] = best_candidate
-                    real_word_count = real_word_count - 1
+            best_candidate = get_best_candidate(candidate_list, corrected_sentence, i)
+
+            if corrected_sentence[i] == best_candidate:
+                continue
+            else:
+                corrected_sentence[i] = best_candidate
+                real_word_count = real_word_count - 1
 
     return ' '.join(corrected_sentence)
 
@@ -231,12 +295,11 @@ def correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, 
 
 # 加载数据和词汇表，构建模型
 vocab_path = 'vocab.txt'
+vocab = load_vocab(vocab_path)
+trigram_freq, bigram_freq, unigram_freq = build_language_model('ngram_frequencies.txt')
 file_path = input('testData:')
 output_path = 'result.txt'
-vocab = load_vocab(vocab_path)
 sentences = load_data(file_path)
-trigram_freq, bigram_freq, unigram_freq = build_language_model()
 
 with tqdm(total=1000) as pbar:
     correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, output_path, pbar)
-# print(generate_candidates("lnWPM", vocab))
