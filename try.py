@@ -46,11 +46,10 @@ def edits1(word):
     letters = 'abcdefghijklmnopqrstuvwxyz'
     splits = [(word[:i], word[i:]) for i in range(len(word) + 1)]
     deletes = [L + R[1:] for L, R in splits if R]
-    transposes = [L + R[1] + R[0] + R[2:] for L, R in splits if len(R) > 1]
     replaces = [L + c + R[1:] for L, R in splits if R for c in letters]
     inserts = [L + c + R for L, R in splits for c in letters]
     exchange = exchange_letters(word)
-    return_set = set(deletes + transposes + replaces + inserts + exchange)
+    return_set = set(deletes + replaces + inserts + exchange)
     return return_set
 
 
@@ -58,25 +57,24 @@ def edits1_with_upper_letter(word):
     letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     splits = [(word[:i], word[i:]) for i in range(len(word) + 1)]
     deletes = [L + R[1:] for L, R in splits if R]
-    transposes = [L + R[1] + R[0] + R[2:] for L, R in splits if len(R) > 1]
     replaces = [L + c + R[1:] for L, R in splits if R for c in letters]
     inserts = [L + c + R for L, R in splits for c in letters]
     exchange = exchange_letters(word)
-    return_set = set(deletes + transposes + replaces + inserts + exchange)
+    return_set = set(deletes + replaces + inserts + exchange)
     return return_set
 
 
-# def build_language_model():
-#     words = reuters.words()
-#     trigrams = ngrams(words, 3)
-#     bigrams = ngrams(words, 2)
-#     unigrams = words
-#
-#     trigram_freq = collections.Counter(trigrams)
-#     bigram_freq = collections.Counter(bigrams)
-#     unigram_freq = collections.Counter(unigrams)
-#
-#     return trigram_freq, bigram_freq, unigram_freq
+def build_reuters_language_model():
+    words = reuters.words()
+    trigrams = ngrams(words, 3)
+    bigrams = ngrams(words, 2)
+    unigrams = words
+
+    trigram_freq = collections.Counter(trigrams)
+    bigram_freq = collections.Counter(bigrams)
+    unigram_freq = collections.Counter(unigrams)
+
+    return trigram_freq, bigram_freq, unigram_freq
 
 
 def trigram_last_probability(trigram_freq, bigram_freq, w1, w2, w3):
@@ -90,9 +88,9 @@ def trigram_last_probability(trigram_freq, bigram_freq, w1, w2, w3):
 def trigram_middle_probability(bigram_freq, w1, w2, w3):
     w1_w2_freq = bigram_probability(bigram_freq, w1, w2)
     w2_w3_freq = bigram_probability(bigram_freq, w2, w3)
-    result = w1_w2_freq * w2_w3_freq
-    if result == 0:
-        result = max(w1_w2_freq, w2_w3_freq)
+    # result = w1_w2_freq * w2_w3_freq
+    # if result == 0:
+    result = max(w1_w2_freq, w2_w3_freq)
     return result
 
 
@@ -112,7 +110,9 @@ def max_trigram_probability(trigram_freq, bigram_freq, w1, w2, w, w4, w5):
 
 def bigram_probability(bigram_freq, w1, w2):
     w1_freq = sum(freq for (first_word, _), freq in bigram_freq.items() if first_word == w1)
-    return bigram_freq[(w1, w2)] / w1_freq if w1_freq > 0 else 0
+    w2_freq = sum(freq for (_, second_word), freq in bigram_freq.items() if second_word == w2)
+    w1_w2_freq = bigram_freq[(w1, w2)]
+    return w1_w2_freq / (w1_freq + w2_freq - w1_w2_freq) if w1_freq > 0 and w2_freq > 0 else 0
 
 
 def unigram_probability(unigram_freq, word):
@@ -196,23 +196,7 @@ def transform_special_alpha(word):
 
 def get_best_candidate(candidate_list, corrected_sentence, i):
     if candidate_list:
-        if i == len(corrected_sentence) - 1:
-            previous_two_words = corrected_sentence[i - 2:]
-            best_candidate = max(candidate_list, key=lambda w: trigram_last_probability(trigram_freq, bigram_freq,
-                                                                                        transform_special_alpha(
-                                                                                            previous_two_words[0]),
-                                                                                        transform_special_alpha(
-                                                                                            previous_two_words[1]),
-                                                                                        w))
-        elif i >= 1:
-            previous_words = corrected_sentence[i - 1:]
-            best_candidate = max(candidate_list, key=lambda w: trigram_middle_probability(bigram_freq,
-                                                                                          transform_special_alpha(
-                                                                                              previous_words[0]),
-                                                                                          w,
-                                                                                          transform_special_alpha(
-                                                                                              previous_words[2])))
-        else:
+        if i == 0:
             best_candidate = max(candidate_list,
                                  key=lambda w: trigram_first_probability(trigram_freq, bigram_freq,
                                                                          w,
@@ -220,6 +204,31 @@ def get_best_candidate(candidate_list, corrected_sentence, i):
                                                                              corrected_sentence[1]),
                                                                          transform_special_alpha(
                                                                              corrected_sentence[2])))
+        elif i < len(corrected_sentence) - 2:
+            best_candidate = max(candidate_list,
+                                 key=lambda w: trigram_middle_probability(bigram_freq,
+                                                                          transform_special_alpha(
+                                                                              corrected_sentence[i - 1]),
+                                                                          w,
+                                                                          transform_special_alpha(
+                                                                              corrected_sentence[i + 1])))
+        else:
+            if i <= 1:
+                best_candidate = max(candidate_list,
+                                     key=lambda w: trigram_middle_probability(bigram_freq,
+                                                                              transform_special_alpha(
+                                                                                  corrected_sentence[i - 1]),
+                                                                              w,
+                                                                              transform_special_alpha(
+                                                                                  corrected_sentence[i + 1])))
+            else:
+                previous_two_words = corrected_sentence[i - 2:i]
+                best_candidate = max(candidate_list, key=lambda w: trigram_last_probability(trigram_freq, bigram_freq,
+                                                                                            transform_special_alpha(
+                                                                                                previous_two_words[0]),
+                                                                                            transform_special_alpha(
+                                                                                                previous_two_words[1]),
+                                                                                            w))
         return best_candidate
     else:
         return corrected_sentence[i]
@@ -296,10 +305,14 @@ def correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, 
 # 加载数据和词汇表，构建模型
 vocab_path = 'vocab.txt'
 vocab = load_vocab(vocab_path)
-trigram_freq, bigram_freq, unigram_freq = build_language_model('ngram_frequencies.txt')
+# trigram_freq, bigram_freq, unigram_freq = build_reuters_language_model()
+trigram_freq, bigram_freq, unigram_freq = build_language_model('combined_ngram_frequencies.txt')
 file_path = input('testData:')
 output_path = 'result.txt'
 sentences = load_data(file_path)
 
 with tqdm(total=1000) as pbar:
     correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, output_path, pbar)
+print(trigram_middle_probability(bigram_freq, 'amount', 'dent', 'in'))
+print(trigram_middle_probability(bigram_freq, 'amount', 'spent', 'in'))
+print(trigram_middle_probability(bigram_freq, 'amount', 'sent', 'in'))
