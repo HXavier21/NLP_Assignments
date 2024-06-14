@@ -1,5 +1,5 @@
-from nltk.util import ngrams
 from collections import Counter
+from itertools import chain
 
 # 定义输入文件名和输出文件名
 input_file_name = 'reuters_sentences.txt'
@@ -14,6 +14,27 @@ corpus = ' '.join(sentences)
 
 # 分词
 words = corpus.split()
+
+# 定义ngrams函数
+def ngrams(sequence, n, pad_left=False, pad_right=False, left_pad_symbol=None, right_pad_symbol=None):
+    sequence = iter(sequence)
+    if pad_left:
+        sequence = chain((left_pad_symbol,) * (n - 1), sequence)
+    if pad_right:
+        sequence = chain(sequence, (right_pad_symbol,) * (n - 1))
+    history = []
+    while n > 1:
+        try:
+            next_item = next(sequence)
+        except StopIteration:
+            return
+        history.append(next_item)
+        n -= 1
+    for item in sequence:
+        history.append(item)
+        yield tuple(history)
+        history.pop(0)
+
 
 # 生成各阶n-gram
 uni_grams = list(ngrams(words, 1))
