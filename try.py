@@ -109,10 +109,16 @@ def max_trigram_probability(trigram_freq, bigram_freq, w1, w2, w, w4, w5):
 
 
 def bigram_probability(bigram_freq, w1, w2):
-    w1_freq = sum(freq for (first_word, _), freq in bigram_freq.items() if first_word == w1)
-    w2_freq = sum(freq for (_, second_word), freq in bigram_freq.items() if second_word == w2)
+    # w1_freq = sum(freq for (first_word, _), freq in bigram_freq.items() if first_word == w1)
+    # w2_freq = sum(freq for (_, second_word), freq in bigram_freq.items() if second_word == w2)
+    # w1_w2_freq = bigram_freq[(w1, w2)]
+    # return w1_w2_freq / (w1_freq + w2_freq - w1_w2_freq) if w1_freq > 0 and w2_freq > 0 else 0
     w1_w2_freq = bigram_freq[(w1, w2)]
-    return w1_w2_freq / (w1_freq + w2_freq - w1_w2_freq) if w1_freq > 0 and w2_freq > 0 else 0
+    whole_freq = 0
+    for (first_word, second_word), freq in bigram_freq.items():
+        if first_word == w1 or second_word == w2:
+            whole_freq += 1
+    return w1_w2_freq / whole_freq if whole_freq > 0 else 0
 
 
 def unigram_probability(unigram_freq, word):
@@ -305,7 +311,7 @@ def correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, 
 # 加载数据和词汇表，构建模型
 vocab_path = 'vocab.txt'
 vocab = load_vocab(vocab_path)
-# trigram_freq, bigram_freq, unigram_freq = build_reuters_language_model()
+#trigram_freq, bigram_freq, unigram_freq = build_reuters_language_model()
 trigram_freq, bigram_freq, unigram_freq = build_language_model('combined_ngram_frequencies.txt')
 file_path = input('testData:')
 output_path = 'result.txt'
