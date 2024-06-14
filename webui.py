@@ -1,4 +1,7 @@
-# 命令行 streamlit run webui.py运行
+# If you want to run the demo in your local environment
+# Please pip install the package
+# And run the following command:
+# streamlit run webui.py
 
 import streamlit as st
 from annotated_text import annotated_text
