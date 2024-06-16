@@ -308,17 +308,19 @@ def correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, 
             pbar.update(1)
 
 
-# 加载数据和词汇表，构建模型
-vocab_path = 'vocab.txt'
-vocab = load_vocab(vocab_path)
-#trigram_freq, bigram_freq, unigram_freq = build_reuters_language_model()
-trigram_freq, bigram_freq, unigram_freq = build_language_model('combined_ngram_frequencies.txt')
-file_path = input('testData:')
-output_path = 'result.txt'
-sentences = load_data(file_path)
+if __name__ == '__main__':
+    # 加载数据和词汇表，构建模型
+    vocab_path = 'vocab.txt'
+    vocab = load_vocab(vocab_path)
+    trigram_freq, bigram_freq, unigram_freq = build_reuters_language_model()
+    # trigram_freq, bigram_freq, unigram_freq = build_language_model('combined_ngram_frequencies.txt')
+    file_path = input('testData:')
+    output_path = 'result.txt'
+    sentences = load_data(file_path)
 
-with tqdm(total=1000) as pbar:
-    correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, output_path, pbar)
-print(trigram_middle_probability(bigram_freq, 'amount', 'dent', 'in'))
-print(trigram_middle_probability(bigram_freq, 'amount', 'spent', 'in'))
-print(trigram_middle_probability(bigram_freq, 'amount', 'sent', 'in'))
+    with tqdm(total=1000) as pbar:
+        correct_and_save(sentences, trigram_freq, bigram_freq, unigram_freq, vocab, output_path, pbar)
+
+    # print(trigram_middle_probability(bigram_freq, 'amount', 'dent', 'in'))
+    # print(trigram_middle_probability(bigram_freq, 'amount', 'spent', 'in'))
+    # print(trigram_middle_probability(bigram_freq, 'amount', 'sent', 'in'))
